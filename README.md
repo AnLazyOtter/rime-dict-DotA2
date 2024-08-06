@@ -8,13 +8,14 @@
 
 ## 使用方法
 ### 首次使用：
-1. 将本项目的词库文件下载到「用户文件夹」下的`custom-dicts`文件夹中（例如`%appdata%\Rime\RIMEDotA2.dict.yaml`）；
-2. 打开输入方案词库设置文件（例如`%appdata%\Rime\rime_ice.dict.yaml`）；
-3. 在`import_tables:`下添加本词库`  - custom-dicts/RIMEDotA2`。
+1. 下载本项目制作的词库文件`RIMEDotA2.dict.yaml`；
+2. 将下载的文件放置到「用户文件夹」下的`custom-dicts`文件夹中（例如`%appdata%\Rime\custom-dicts\RIMEDotA2.dict.yaml`）；
+3. 打开输入方案词库设置文件（例如`%appdata%\Rime\rime_ice.dict.yaml`）；
+4. 在`import_tables:`下添加本词库`  - custom-dicts/RIMEDotA2`。
 
 ![引入词库示例图片](https://github.com/user-attachments/assets/876844bc-1541-4bcf-9dec-f276632ac2eb)
 
-> 上图中，将词库文件放置在了单独的文件夹中；实际使用时，也可以不放在二级目录中，但也需要同步修改词库设置文件中的词库路径。
+> 上图中，将词库文件放置在了单独的文件夹`custom-dicts`中；实际使用时，也可以不放在二级目录中，但也需要同步修改词库设置文件`{方案名称}.dict.yaml`中的词库路径。
 
 ### 后续更新
 下载更新后的词库文件，覆盖原文件`RIMEDotA2.dict.yaml`即可。
