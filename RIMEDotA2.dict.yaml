@@ -13,2470 +13,2735 @@
 ## 阵营与活动
 ---
 name: RIMEDotA2 # 词库名
-version: "V7.37"  # 词库版本，2024-10-06
+version: "V7.38"  # 词库版本，2025-03-20
 sort: original # 排序依据：按照权重
 ...
-属性	shu xing
-定位	ding wei
-核心	he xin
-复制	fu zhi
-爆发	bao fa
-控制	kong zhi
-打野	da ye
-耐久	nai jiu
-推进	tui jin
-先手	xian shou
-逃生	tao sheng
-后期	hou qi
-前期	qian qi
-前中期	qian zhong qi
-拿后期	na hou qi
-要大哥	yao da ge
-来辅助	lai fu zhu
-上路	shang lu
-中路	zhong lu
-下路	xia lu
-劣势路	lie shi lu
-优势路	you shi lu
-野区	ye qu
-野点	ye dian
-拉野	la ye
-拉双野	la shuang ye
-拉三野	la san ye
-堆野	dui ye
-基础属性	ji chu shu xing
-攻击力	gong ji li
-基础攻击间隔	ji chu gong ji jian ge
-攻击间隔	gong ji jian ge
-近战	jin zhan
-远程	yuan cheng
-攻击距离	gong ji ju li
-弹道速度	dan dao su du
-攻击速度	gong ji su du
-攻速	gong su
-护甲	hu jia
-生命上限	sheng ming shang xian
-生命值	sheng ming zhi
-血量	xue liang
-生命恢复	sheng ming hui fu
-魔法上限	mo fa shang xian
-魔法值	mo fa zhi
-蓝量	lan liang
-魔法恢复	mo fa hui fu
-力量	li liang
-敏捷	min jie
-智力	zhi li
-全才	quan cai
-主属性	zhu shu xing
-次属性	ci shu xing
-属性附加	shu xing fu jia
-血条护盾	xue tiao hu dun
-特制血条	te zhi xue tiao
-机动性	ji dong xing
-移动速度	yi dong su du
-移速	yi su
-转身速率	zhuan shen su lv
-视野距离	shi ye ju li
-视野范围	shi ye fan wei
-机制	ji zhi
-观战系统	guan zhan xi tong
-监管系统	jian guan xi tong
-交流封禁	jiao liu feng jin
-即时攻击	ji shi gong ji
-充能时间	chong neng shi jian
-冷却时间	leng que shi jian
-自动施法	zi dong shi fa
-技能征召	ji neng zheng zhao
-神杖升级	shen zhang sheng ji
-魔晶升级	mo jing sheng ji
-游戏模式	you xi mo shi
-大角斗场	da jue dou chang
-普通匹配	pu tong pi pei
-加速模式	jia su mo shi
-单一征召	dan yi zheng zhao
-随机征召	sui ji zheng zhao
-全英雄随机	quan ying xiong sui ji
-技能征召	ji neng zheng zhao
-全英雄随机死亡竞赛	quan ying xiong sui ji si wang jing sai
-新手模式	xin shou mo shi
-攻击	gong ji
-攻击弹道	gong ji dan dao
-远程弹道	yuan cheng dan dao
-绵力	mian li
-穿刺	chuan ci
-坚锐	jian rui
-先天技能	xian tian ji neng
-命石	ming shi
-	
-技能	ji neng
-魔法抗性	mo fa kang xing
-魔抗	mo kang
-技能增强	ji neng zeng qiang
-技能抗性	ji neng kang xing
-技能免疫	ji neng mian yi
-减益免疫	jian yi mian yi
-技能施加	ji neng shi jia
-减益保护	jian yi bao hu
-伤害减少	shang hai jian shao
-主动技能	zhu dong ji neng
-被动技能	bei dong ji neng
-终极技能	zhong ji ji neng
-普通技能	pu tong ji neng
-基础技能	ji chu ji neng
-其他术语	qi ta shu yu
-大招流	da zhao liu
-全球流	quan qiu liu
-召唤流	zhao huan liu
-锁闭	suo bi
-破坏	po huai
-神符	shen fu
-幻象神符	huan xiang shen fu
-幻象符	huan xiang fu
-幻象	huan xiang
-极速神符	ji su shen fu
-极速符	ji su fu
-极速	ji su
-赏金神符	shang jin shen fu
-赏金符	shang jin fu
-赏金	shang jin
-回复神符	hui fu shen fu
-回复符	hui fu fu
-回复	hui fu
-隐身神符	yin shen shen fu
-隐身符	yin shen fu
-隐身	yin shen
-双倍神符	shuang bei shen fu
-双倍符	shuang bei fu
-双倍	shuang bei
-奥术神符	ao shu shen fu
-奥术符	ao shu fu
-奥术	ao shu
-圣水神符	sheng shui shen fu
-圣水符	sheng shui fu
-圣水	sheng shui
-吃符	chi fu
-抢符	qiang fu
-符点	fu dian
-控符	kong fu
-前哨站	qian shao zhan
-前哨符	qian shao fu
-上路符	shang lu fu
-下路符	xia lu fu
-智慧神符	zhi hui shen fu
-智慧符	zhi hui fu
-经验神符	jing yan shen fu
-经验符	jing yan fu
-护盾神符	hu dun shen fu
-护盾符	hu dun fu
-地图建筑	di tu jian zhu
-防御塔	fang yu ta
-前哨	qian shao
-前哨站	qian shao zhan
-圣坛	sheng tan
-开锅	kai guo
-火锅	huo guo
-上外塔	shang wai ta
-上二塔	shang er ta
-上高地塔	shang gao di ta
-中外塔	zhong wai ta
-中二塔	zhong er ta
-中高地塔	zhong gao di ta
-下外塔	xia wai ta
-下二塔	xia er ta
-下高地塔	xia gao di ta
-外塔	wai ta
-二塔	er ta
-高地塔	gao di ta
-近战兵营	jin zhan bing ying
-远程兵营	yuan cheng bing ying
-莲花池	lian hua chi
-观察者	guan cha zhe
-痛苦魔方	tong ku mo fang
-双生之门	shuang sheng zhi men
-水井	shui jing
-矿山	kuang shan
-雕像	diao xiang
-墓地	mu di
-物品	wu pin
-基础分类	ji chu fen lei
-消耗品	xiao hao pin
-回城卷轴	hui cheng juan zhou
-净化药水	jing hua yao shui
-蓝瓶	lan ping
-仙灵之火	xian ling zhi huo
-仙灵火	xian ling huo
-诡计之雾	gui ji zhi wu
-开雾	kai wu
-侦查守卫	zhen cha shou wei
-假眼	jia yan
-带眼	dai yan
-做视野	zuo shi ye
-岗哨守卫	gang shao shou wei
-真眼	zhen yan
-魔法芒果	mo fa mang guo
-治疗药膏	zhi liao yao gao
-大药	da yao
-血瓶	xue ping
-血腥榴弹	xue xing liu dan
-投掷榴弹	tou zhi liu dan
-树之祭祀	shu zhi ji si
-知识之书	zhi shi zhi shu
-经验书	jing yan shu
-淬毒之珠	cui du zhi zhu
-毒球	du qiu
-枯萎之石	ku wei zhi shi
-减甲球	jian jia qiu
-减甲石	jian jia shi
-小暗灭	xiao an mie
-次级腐蚀	ci ji fu shi
-迷你圣剑	mi ni sheng jian
-显影之尘	xian ying zhi chen
-撒粉	sa fen
-带粉	dai fen
-动物信使	dong wu xin shi
-飞行信使	fei xing xin shi
-找鸟	zhao niao
-杀鸡	sha ji
-杀鸟	sha niao
-魔瓶	mo ping
-阿哈利姆魔晶	a ha li mu mo jing
-属性	shu xing
-铁树枝干	tie shu zhi gan
-树枝	shu zhi
-力量手套	li liang shou tao
-敏捷便靴	min jie bian xue
-敏捷便鞋	min jie bian xie
-智力斗篷	zhi li dou peng
-宝冕	bao mian
-圆环	yuan huan
-贵族圆环	gui zu yuan huan
-贵族头环	gui zu tou huan
-力量腰带	li liang yao dai
-精灵布带	jing ling bu dai
-法师长袍	fa shi chang pao
-王冠	wang guan
-食人魔之斧	shi ren mo zhi fu
-欢欣之刃	huan xin zhi ren
-魔力法杖	mo li fa zhang
-军备	jun bei
-守护指环	shou hu zhi huan
-压制之刃	ya zhi zhi ren
-凝魂之露	ning hun zhi lu
-凝魂之泪	ning hun zhi lei
-宙斯之泪	zhou si zhi lei
-魂泪	hun lei
-淬毒之珠	cui du zhi zhu
-毒球	du qiu
-圆盾	yuan dun
-攻击之爪	gong ji zhi zhao
-锁子甲	suo zi jia
-铁意头盔	tie yi tou kui
-阔剑	kuo jian
-短棍	duan gun
-大剑	da jian
-标枪	biao qiang
-秘银锤	mi yin chui
-奥术	ao shu
-魔棒	mo bang
-风灵之纹	feng ling zhi wen
-回复戒指	hui fu jie zhi
-贤者面罩	xian zhe mian zhao
-速度之靴	su du zhi xue
-草鞋	cao xie
-加速手套	jia su shou tao
-抗魔斗篷	kang mo dou peng
-真视宝石	zhen shi bao shi
-真视	zhen shi
-带宝石	dai bao shi
-吸血面具	xi xue mian ju
-暗影护符	an ying hu fu
-幽魂权杖	you hun quan zhang
-绿杖	lv zhang
-出绿	chu lv
-闪烁匕首	shan shuo bi shou
-跳刀	tiao dao
-毛毛帽	mao mao mao
-神秘商店	shen mi shang dian
-丰饶之环	feng rao zhi huan
-治疗指环	zhi liao zhi huan
-虚无宝石	xu wu bao shi
-能量之球	neng liang zhi qiu
-能量球	neng liang qiu
-活力之球	huo li zhi qiu
-活力球	huo li qiu
-精气之球	jing qi zhi qiu
-精气球	jing qi qiu
-板甲	ban jia
-闪避护符	shan bi hu fu
-振奋宝石	zhen fen bao shi
-极限法球	ji xian fa qiu
-恶魔刀锋	e mo dao feng
-神秘法杖	shen mi fa zhang
-掠夺者之斧	lue duo zhe zhi fu
-鹰歌弓	ying ge gong
-鹰角弓	ying jiao gong
-圣者遗物	sheng zhe yi wu
-合成卷轴	he cheng juan zhou
-常用	chang yong
-魔杖	mo zhang
-空灵挂件	kong ling gua jian
-怨灵系带	yuan ling ji dai
-护腕	hu wan
-灵魂之戒	ling hun zhi jie
-魂戒	hun jie
-献身	xian shen
-动力鞋	dong li xie
-假腿	jia tui
-相位鞋	xiang wei xie
-相位	xiang wei
-相位移动	xiang wei yi dong
-空明杖	kong ming zhang
-坚韧球	jian ren qiu
-疯狂面具	feng kuang mian ju
-狂热	kuang re
-支配头盔	zhi pei tou kui
-迈达斯之手	mai da si zhi shou
-远行鞋	yuan xing xie
-飞鞋	fei xie
-银月之晶	yin yue zhi jing
-月夜之视	yue ye zhi shi
-腐蚀之球	fu shi zhi qiu
-猎鹰战刃	lie ying zhan ren
-统御头盔	tong yu tou kui
-辅助道具	fu zhu dao ju
-王者之戒	wang zhe zhi jie
-圣殿	sheng dian
-圣殿指环	sheng dian zhi huan
-圣殿光环	sheng dian guang huan
-王者光环	wang zhe guang huan
-恢复头巾	hui fu tou jin
-玄冥盾牌	xuan ming dun pai
-影之灵龛	ying zhi ling kan
-灵龛	ling kan
-骨灰	gu hui
-静谧之鞋	jing mi zhi xie
-绿鞋	lv xie
-勇气勋章	yong qi xun zhang
-奥术鞋	ao shu xie
-秘法鞋	mi fa xie
-韧鼓	ren gu
-战鼓	zhan gu
-祭品	ji pin
-弗拉迪米尔的祭品	fu la di mi er de ji pin
-弗拉迪米尔光环	fu la di mi er guang huan
-梅肯斯姆	mei ken si mu
-圣洁吊坠	sheng jie diao zhui
-魂之灵瓮	hun zhi ling weng
-灵魂释放	ling hun shi fang
-洞察烟斗	dong cha yan dou
-笛子	di zi
-卫士胫甲	wei shi jing jia
-大鞋	da xie
-宽容之靴	kuan rong zhi xue
-坚韧	jian ren
-迅捷光环	xun jie guang huan
-怨灵之契	yuan ling zhi qi
-怨灵报复	yuan ling bao fu
-法器	fa qi
-微光披风	wei guang pi feng
-纷争面纱	fen zheng mian sha
-魔法虚弱	mo fa xu ruo
-原力法杖	yuan li fa zhang
-弹射法杖	tan she fa zhang
-推推棒	tui tui bang
-推推	tui tui
-以太透镜	yi tai tou jing
-以太之镜	yi tai zhi jing
-以太焦点	yi tai jiao dian
-死灵书	si ling shu
-小人书	xiao ren shu
-神圣法杖	shen sheng fa zhang
-风杖	feng zhang
-达贡之神力	da gong zhi shen li
-红杖	hong zhang
-能量冲击	neng liang chong ji
-神圣法杖	shen sheng fa zhang
-阿托斯之棍	a tuo si zhi gun
-阿托斯	a tuo si
-炎阳纹章	yan yang wen zhang
-炎阳之冠	yan yang zhi guan
-大勋章	da xun zhang
-日耀	ri yao
-紫苑	zi yuan
-灵魂燃烧	ling hun ran shao
-阿哈利姆神杖	a ha li mu shen zhang
-神杖	shen zhang
-蓝杖	lan zhang
-神杖升级	shen zhang sheng ji
-否决坠饰	fou jue zhui shi
-否决挂饰	fou jue gua shi
-刷新球	shua xin qiu
-邪恶镰刀	xie e lian dao
-羊刀	yang dao
-玲珑心	ling long xin
-缚灵锁	fu ling suo
-永恒锁链	yong heng suo lian
-风之杖	feng zhi zhang
-巫师之刃	wu shi zhi ren
-防具	fang ju
-挑战头巾	tiao zhan tou jin
-先锋盾	xian feng dun
-伤害格挡	shang hai ge dang
-长盾	chang dun
-刃甲	ren jia
-伤害反弹	shang hai fan tan
-镇魂石	zhen hun shi
-永恒之盘	yong heng zhi pan
-赤红甲	chi hong jia
-清莲宝珠	qing lian bao zhu
-红莲	hong lian
-莲花球	lian hua qiu
-回音护盾	hui yin hu dun
-黑皇杖	hei huang zhang
-天神下凡	tian shen xia fan
-飓风长戟	ju feng chang ji
-大推推	da tui tui
-飓风之力	ju feng zhi li
-魔龙之能	mo long zhi neng
-希瓦的守护	xi wa de shou hu
-希瓦	xi wa
-冰甲	bing jia
-极寒冲击	ji han chong ji
-霜冷守护	shuang leng shou hu
-幻影斧	huan ying fu
-分身斧	fen shen fu
-血精石	xue jing shi
-血精	xue jing
-血之契约	xue zhi qi yue
-林肯法球	lin ken fa qiu
-法术抵抗	fa shu di kang
-抵抗转移	di kang zhuan yi
-恐鳌之心	kong ao zhi xin
-龙心	long xin
-强袭胸甲	qiang xi xiong jia
-强袭	qiang xi
-强袭盔甲	qiang xi kui jia
-永世法衣	yong shi fa yi
-法衣	fa yi
-技能护盾	ji neng hu dun
-兵刃	bing ren
-水晶剑	shui jing jian
-莫尔迪基安的臂章	mo er di ji an de bi zhang
-臂章	bi zhang
-邪恶之力	xie e zhi li
-陨星锤	yun xing chui
-影刃	ying ren
-隐刀	yin dao
-碎颅锤	sui lu chui
-碎骨锤	sui gu chui
-晕锤	yun chui
-小晕锤	xiao yun chui
-金箍棒	jin gu bang
-克敌机先	ke di ji xian
-狂战斧	kuang zhan fu
-虚灵之刃	xu ling zhi ren
-虚灵刀	xu ling dao
-辉耀	hui yao
-代达罗斯之殇	dai da luo si zhi shang
-大炮	da pao
-蝴蝶	hu die
-白银之锋	bai yin zhi feng
-圣剑	sheng jian
-深渊之刃	shen yuan zhi ren
-击晕	ji yun
-大晕锤	da yun chui
-血棘	xue ji
-亡魂胸针	wang hun xiong zhen
-幻影之域	huan ying zhi yu
-散魂剑	san hun jian
-大净化	da jing hua
-破法	po fa
-抑制	yi zhi
-宝物	bao wu
-圣物	sheng wu
-魔龙枪	mo long qiang
-散华	san hua
-夜叉	ye cha
-慧光	hui guang
-回音战刃	hui yin zhan ren
-回音刀	hui yin dao
-回音一击	hui yin yi ji
-漩涡	xuan wo
-小雷锤	xiao lei chui
-小电锤	xiao dian chui
-净魂之刃	jing hun zhi ren
-散失	san shi
-灵匣	ling xia
-法术强化	fa shu qiang hua
-天堂之戟	tian tang zhi ji
-缴械	jiao xie
-黯灭	an mie
-小圣剑	xiao sheng jian
-散慧对剑	san hui dui jian
-散夜对剑	san ye dui jian
-双刀	shuang dao
-慧夜对剑	hui ye dui jian
-撒旦之邪力	sa dan zhi xie li
-大吸血	da xi xue
-大吸	da xi
-不洁狂热	bu jie kuang re
-斯嘉蒂之眼	si jia di zhi yan
-冰眼	bing yan
-雷神之锤	lei shen zhi chui
-大雷锤	da lei chui
-大电锤	da dian chui
-法师克星	fa shi ke xing
-鱼叉	yu cha
-钩捕	gou bu
-迅疾闪光	xun ji shan guang
-敏捷跳刀	min jie tiao dao
-秘奥闪光	mi ao shan guang
-智力跳刀	zhi li tiao dao
-盛世闪光	sheng shi shan guang
-力量跳刀	li liang tiao dao
-中立生物	zhong li sheng wu
-中立代币	zhong li dai bi
-中立生物物品	zhong li sheng wu wu pin
-第一级	di yi ji
-万灵药水	wan ling yao shui
-基恩镜片	ji en jing pian
-穷鬼盾	qiong gui dun
-寒铁钢爪	han tie gang zhao
-铁树之木	tie shu zhi mu
-蜂王浆	feng wang jiang
-芒果树	mang guo shu
-海洋之心	hai yang zhi xin
-扫帚柄	sao zhou bing
-可靠铁铲	ke kao tie chan
-挖掘	wa jue
-暗淡胸针	an dan xiong zhen
-奥术指环	ao shu zhi huan
-仙灵饰品	xian ling shi pin
-碎裂背心	sui lie bei xin
-附魂面具	fu hun mian ju
-豚杆	tun gan
-小猪出动	xiao zhu chu dong
-杂技玩具	za ji wan ju
-宁静种籽	ning jing zhong zi
-盎然生机	ang ran sheng ji
-追击之矛	zhui ji zhi mao
-追逼	zhui bi
-玄奥手镯	xuan ao shou zhuo
-埃罗莎仪式	ai luo sha yi shi
-决斗家手套	jue dou jia shou tao
-英勇	ying yong
-勇气之光	yong qi zhi guang
-第二级	di er ji
-林野长弓	lin ye chang gong
-吸血鬼獠牙	xi xue gui liao ya
-天鹰之戒	tian ying zhi jie
-天鹰戒	tian ying jie
-学徒之礼	xue tu zhi li
-魔童之爪	mo tong zhi zhao
-魔童爪	mo tong zhao
-贤者石	xian zhe shi
-贤者之石	xian zhe zhi shi
-幽冥披肩	you ming pi jian
-炎龙之鳞	yan long zhi lin
-精华指环	jing hua zhi huan
-臂甲	bi jia
-笨拙渔网	ben zhuo yu wang
-银闪护符	yin shan hu fu
-凌厉长鞭	ling li chang bian
-飞贼之刃	fei zei zhi ren
-仙灵榴弹	xian ling liu dan
-维奇尔之眼	wei qi er zhi yan
-行家阵列	hang jia zhen lie
-瑞斯图尔尖匕	rui si tu er jian bi
-毁灭灵球	hui mie ling qiu
-腐蚀阻碍	fu shi zu ai
-蛛丝斗篷	zhu si dou peng
-第三级	di san ji
-不朽尸王的头盔	bu xiu shi wang de tou kui
-维修器具	wei xiu qi ju
-崎岖外衣	qi qu wai yi
-情趣外衣	qing qu wai yi
-高级仙灵之火	gao ji xian ling zhi huo
-加速护符	jia su hu fu
-智灭	zhi mie
-网虫腿	wang chong tui
-魔力箭袋	mo li jian dai
-骑士剑	qi shi jian
-第三只眼	di san zhi yan
-巨神残铁	ju shen can tie
-精灵外衣	jing ling wai yi
-火焰斗篷	huo yan dou peng
-祭礼长袍	ji li chang pao
-通灵头带	tong ling tou dai
-炸雷服	zha lei fu
-雷火弹	lei huo dan
-食人魔海豹图腾	shi ren mo hai bao tu teng
-蒲公英护符	pu gong ying hu fu
-魔法伤害抵挡	mo fa shang hai di dang
-不羁甲壳	bu ji jia qiao
-互换	hu huan
-正义之斧	zheng yi zhi fu
-复仇	fu chou
-第四级	di si ji
-无知小帽	wu zhi xiao mao
-永恒遗物	yong heng yi wu
-法术棱镜	fa shu leng jing
-亲王短刀	qin wang duan dao
-闪灵	shan ling
-望远镜	wang yuan jing
-忍者用具	ren zhe yong ju
-幻术师披风	huan shu shi pi feng
-浩劫巨锤	hao jie ju chui
-魔力明灯	mo li ming deng
-平世剑	ping shi jian
-灵犀角	ling xi jiao
-五锋长剑	wu feng chang jian
-风暴宝器	feng bao bao qi
-欺诈师斗篷	qi zha shi dou peng
-简朴短帽	jian pu duan mao
-行巫之祸	xing wu zhi huo
-烈士鳞甲	lie shi lin jia
-殉道	xun dao
-第五级	di wu ji
-原力鞋	yuan li xie
-凤凰余烬	feng huang yu jin
-先哲之石	xian zhe zhi shi
-神镜盾	shen jing dun
-聚合神符	ju he shen fu
-弩炮	nu pao
-林地神行靴	lin di shen xing xue
-三叉戟	san cha ji
-三元重戟	san yuan zhong ji
-冥灵书	ming ling shu
-王者之书	wang zhe zhi shu
-堕天斧	duo tian fu
-天崩	tian beng
-海盗帽	hai dao mao
-机械之心	ji xie zhi xin
-巨人之戒	ju ren zhi jie
-暗影邪典	an ying xie dian
-秘术师铠甲	mi shu shi kai jia
-中立生物名称	zhong li sheng wu ming cheng
-魔抗光环	mo kang guang huan
-狗头人阵营	gou tou ren zhen ying
-狗头人士兵	gou tou ren shi bing
-狗头人长官	gou tou ren zhang guan
-速度光环	su du guang huan
-淘金光环	tao jin guang huan
-偷窃武器	tou qie wu qi
-丘陵巨魔阵营	qiu ling ju mo zhen ying
-丘陵巨魔狂战士	qiu ling ju mo kuang zhan shi
-丘陵巨魔牧师	qiu ling ju mo mu shi
-黑暗巨魔召唤法师	hei an ju mo zhao huan fa shi
-诱捕	you bu
-亡灵复生	wang ling fu sheng
-骷髅战士	ku lou zhan shi
-治疗	zhi liao
-魔法光环	mo fa guang huan
-豺狼人阵营	chai lang ren zhen ying
-豺狼人刺客	chai lang ren ci ke
-淬毒武器	cui du wu qi
-鬼魂阵营	gui hun zhen ying
-魔能之魂	mo neng zhi hun
-鬼魂	gui hun
-烦扰	fan rao
-寒霜攻击	han shuang gong ji
-鹰身女妖阵营	ying shen nv yao zhen ying
-鹰身女妖风暴巫师	ying shen nv yao feng bao wu shi
-风暴巫师	feng bao wu shi
-鹰身女妖侦查者	ying shen nv yao zhen cha zhe
-连锁闪电	lian suo shan dian
-半人马阵营	ban ren ma zhen ying
-半人马猎手	ban ren ma lie shou
-半人马征服者	ban ren ma zheng fu zhe
-战争践踏	zhan zheng jian ta
-狼阵营	lang zhen ying
-巨狼	ju lang
-恫吓	dong he
-头狼	tou lang
-致命一击	zhi ming yi ji
-萨特阵营	sa te zhen ying
-萨特苦难使者	sa te ku nan shi zhe
-冲击波	chong ji bo
-邪恶光环	xie e guang huan
-萨特放逐者	sa te fang zhu zhe
-净化	jing hua
-萨特窃神者	sa te qie shen zhe
-法力燃烧	fa li ran shao
-食人魔阵营	shi ren mo zhen ying
-食人魔拳手	shi ren mo quan shou
-食人魔重击	shi ren mo zhong ji
-食人魔冰霜法师	shi ren mo bing shuang fa shi
-寒冰盔甲	han bing kui jia
-傀儡阵营	kui lei zhen ying
-泥土傀儡	ni tu kui lei
-破碎	po sui
-碎土傀儡	sui tu kui lei
-投石	tou shi
-远古岩石傀儡	yuan gu yan shi kui lei
-虚弱光环	xu ruo guang huan
-远古花岗岩傀儡	yuan gu hua gang yan kui lei
-磐石光环	pan shi guang huan
-磐石光环	pan shi guang huan
-熊怪阵营	xiong guai zhen ying
-夺命双熊	duo ming shuang xiong
-雷霆一击	lei ting yi ji
-迅捷光环	xun jie guang huan
-地狱熊怪	di yu xiong guai
-临死之痛	lin si zhi tong
-地狱熊怪粉碎者	di yu xiong guai fen sui zhe
-枭兽阵营	xiao shou zhen ying
-枭兽	xiao shou
-风飑	feng biao
-枭兽撕裂者	xiao shou si lie zhe
-飓风	ju feng
-黑龙阵营	hei long zhen ying
-远古黑蜉蝣	yuan gu hei fu you
-魔法加深光环	mo fa jia shen guang huan
-远古黑龙	yuan gu hei long
-大黑龙	da hei long
-火球	huo qiu
-溅射攻击	jian she gong ji
-龙肤光环	long fu guang huan
-雷肤兽阵营	lei fu shou zhen ying
-远古岚肤兽	yuan gu lan fu shou
-战鼓光环	zhan gu guang huan
-远古雷肤兽	yuan gu lei fu shou
-猛击	meng ji
-暴怒	bao nu
-远古萨满潜行者	yuan gu sa man qian xing zhe
-大萨特	da sa te
-亵渎	xie du
-停滞	ting zhi
-远古侍僧潜行者	yuan gu shi seng qian xing zhe
-潜行光环	qian xing guang huan
-斗松掠夺者	dou song lue duo zhe
-松果出击	song guo chu ji
-远古寒冰萨满	yuan gu han bing sa man
-冰火炸弹	bing huo zha dan
-远古霜害傀儡	yuan gu shuang hai kui lei
-时间扭曲光环	shi jian niu qu guang huan
-肉山	rou shan
-奶酪	nai lao
-不朽之守护	bu xiu zhi shou hu
-打盾	da dun
-肉山盾	rou shan dun
-盾刷了	dun shua le
-刷盾了	shua dun le
-肉山团	rou shan tuan
-刷新球碎片	shua xin qiu sui pian
-阿哈利姆福佑	a ha li mu fu you
-法术抵挡	fa shu di dang
-重击	zhong ji
-震击	zhen ji
-不朽之力	bu xiu zhi li
-肉山的战旗	rou shan de zhan qi
-	
-英雄	ying xiong
-力量英雄	li liang ying xiong
-上古巨神	shang gu ju shen
-牛头人酋长	niu tou ren qiu zhang
-大牛	da niu
-回音重踏	hui yin zhong ta
-先祖之魂	xian zu zhi hun
-星体游魂	xing ti you hun
-灵体游魂	ling ti you hun
-自然秩序	zi ran zhi xu
-裂地沟壑	lie di gou he
-解构	jie gou
-动量	dong liang
-不朽尸王	bu xiu shi wang
-尸王	shi wang
-吟葬者德兹	yin zang zhe de zi
-腐朽	fu xiu
-噬魂	shi hun
-墓碑	mu bei
-血肉傀儡	xue rou kui lei
-僵尸	jiang shi
-挽歌犹唱	wan ge you chang
-腐朽之拳	fu xiu zhi quan
-共噬	gong shi
-地狱领主	di yu ling zhu
-亚巴顿	ya ba dun
-死亡骑士	si wang qi shi
-魔霭家族	mo ai jia zu
-死亡缠绕	si wang chan rao
-迷雾缠绕	mi wu chan rao
-无光之盾	wu guang zhi dun
-霜之哀伤	shuang zhi ai shang
-魔霭诅咒	mo ai zu zhou
-回光返照	hui guang fan zhao
-魔霭	mo ai
-魔霭圣池	mo ai sheng chi
-毒雾护罩	du wu hu zhao
-地精撕裂者	di jing si lie zhe
-瑞兹拉克	rui zi la ke
-伐木机	fa mu ji
-花母鸡	hua mu ji
-死亡旋风	si wang xuan feng
-伐木锯链	fa mu ju lian
-活性护甲	huo xing hu jia
-锯齿飞轮	ju chi fei lun
-锯齿飞轮二	ju chi fei lun er
-喷火装置	pen huo zhuang zhi
-暴露疗法	bao lu liao fa
-碎木机	sui mu ji
-锯齿轮旋	ju chi lun xuan
-全能骑士	quan neng qi shi
-全能	quan neng
-普利斯特雷霆	pu li si te lei ting
-洗礼	xi li
-驱逐	qu zhu
-天国恩赐	tian guo en ci
-退化光环	tui hua guang huan
-守护天使	shou hu tian shi
-纯洁之锤	chun jie zhi chui
-疗伤之锤	liao shang zhi chui
-全能之存在	quan neng zhi cun zai
-兽王	shou wang
-卡洛克	ka luo ke
-斯洛姆	si luo mu
-野性之斧	ye xing zhi fu
-野性呼唤	ye xing hu huan
-豪猪	hao zhu
-战鹰	zhan ying
-野性之心	ye xing zhi xin
-原始咆哮	yuan shi pao xiao
-俯冲炸弹	fu chong zha dan
-斯洛姆战鼓	si luo mu zhan gu
-狂猎	kuang lie
-军团指挥官	jun tuan zhi hui guan
-军团	jun tuan
-特蕾斯汀	te lei si ting
-压倒性优势	ya dao xing you shi
-强攻	qiang gong
-勇气之霎	yong qi zhi sha
-决斗	jue dou
-石堂城	shi tang cheng
-石堂城甲胄	shi tang cheng jia zhou
-战争恩赐	zhan zheng en ci
-冥魂大帝	ming hun da di
-骷髅王	ku lou wang
-奥斯塔里昂大帝	ao si ta li ang da di
-冥火爆击	ming huo bao ji
-吸血光环	xi xue guang huan
-白骨护卫	bai gu hu wei
-殊死一搏	shu si yi bo
-致命一击	zhi ming yi ji
-本命一击	ben ming yi ji
-幽魂之剑	you hun zhi jian
-重生	chong sheng
-吸血之魂	xi xue zhi hun
-冥魂	ming hun
-绝冥再生	jue ming zai sheng
-凤凰	feng huang
-伊卡洛斯	yi ka luo si
-凤凰冲击	feng huang chong ji
-烈焰精灵	lie yan jing ling
-烈火炙烤	lie huo zhi kao
-烈日炙烤	lie ri zhi kao
-切换移动状态	qie huan yi dong zhuang tai
-超新星	chao xin xing
-变蛋	bian dan
-阳光猛烈	yang guang meng lie
-消逝之光	xiao shi zhi guang
-热点	re dian
-半人马战行者	ban ren ma zhan xing zhe
-人马	ren ma
-半人马酋长	ban ren ma qiu zhang
-布兰德瓦登	bu lan de wa deng
-马蹄践踏	ma ti jian ta
-双刃剑	shuang ren jian
-反击	fan ji
-反伤	fan shang
-反伤光环	fan shang guang huan
-奔袭冲撞	ben xi chong zhuang
-便车	bian che
-反击精英	fan ji jing ying
-开足马力	kai zu ma li
-发条技师	fa tiao ji shi
-发条	fa tiao
-瑞托崔普	rui tuo cui pu
-发条地精	fa tiao di jing
-弹幕冲击	dan mu chong ji
-能量齿轮	neng liang chi lun
-照明火箭	zhao ming huo jian
-超速运转	chao su yun zhuan
-发射钩爪	fa she gou zhao
-喷气背包	pen qi bei bao
-装甲力量	zhuang jia li liang
-钩结	gou jie
-电枢扩展	dian shu kuo zhan
-神灵武士	shen ling wu shi
-哈斯卡	ha si ka
-单车武士	dan che wu shi
-活血术	huo xue shu
-心炎	xin yan
-沸血之矛	fei xue zhi mao
-狂战士之血	kuang zhan shi zhi xue
-牺牲	xi sheng
-血魔法	xue mo fa
-血洗	xue xi
-虚无输血	xu wu shu xue
-噬魂鬼	shi hun gui
-食尸鬼	shi shi gui
-噬尸鬼	shi shi gui
-奈克斯	nai ke si
-狂暴	kuang bao
-肆意狂怒	si yi kuang nu
-盛宴	sheng yan
-撕裂伤口	si lie shang kou
-感染	gan ran
-吞噬	tun shi
-尸鬼狂怒	shi gui kuang nu
-大地之灵	da di zhi ling
-考林	kao lin
-土猫	tu mao
-残石	can shi
-残岩	can yan
-巨石冲击	ju shi chong ji
-巨石翻滚	ju shi fan gun
-地磁之握	di ci zhi wo
-磁化	ci hua
-共振	gong zhen
-垫脚石	dian jiao shi
-深渊领主	shen yuan ling zhu
-阿兹加洛	a zi jia luo
-孽主	nie zhu
-火焰风暴	huo yan feng bao
-怨念深渊	yuan nian shen yuan
-衰退光环	shuai tui guang huan
-黑暗之门	hei an zhi men
-恶魔之扉	e mo zhi fei
-恶魔之势	e mo zhi shi
-深渊大军	shen yuan da jun
-山岭巨人	shan ling ju ren
-小小	xiao xiao
-山岭	shan ling
-山崩	shan beng
-投掷	tou zhi
-抓树	zhua shu
-扔树	reng shu
-树木连掷	shu mu lian zhi
-崎岖外表	qi qu wai biao
-长大	zhang da
-紧急着陆	jin ji zhuo lu
-不可逾越	bu ke yu yue
-巨牙海民	ju ya hai min
-尤弥尔	you mi er
-海民	hai min
-巨牙	ju ya
-寒冰碎片	han bing sui pian
-雪球	xue qiu
-冰封魔印	bing feng mo yin
-摔角行家	shuai jiao hang jia
-海象飞踢	hai xiang fei ti
-海象挥击	hai xiang hui ji
-海象神拳	hai xiang shen quan
-酒友	jiu you
-屠夫	tu fu
-帕吉	pa ji
-肉钩	rou gou
-挡钩	dang gou
-别挡钩	bie dang gou
-钩一个	gou yi ge
-腐烂	fu lan
-腐肉堆积	fu rou dui ji
-肢解	zhi jie
-小鲜肉	xiao xian rou
-剥皮长钩	bo pi chang gou
-肉盾	rou dun
-撼地神牛	han di shen niu
-撼地者	han di zhe
-雷格石蹄	lei ge shi ti
-神牛	shen niu
-小牛	xiao niu
-沟壑	gou he
-板他	ban ta
-强化图腾	qiang hua tu teng
-余震	yu zhen
-回音击	hui yin ji
-地壳积累	di qiao ji lei
-强击图腾	qiang ji tu teng
-斧王	fu wang
-蒙哥可汗	meng ge ke han
-斧子	fu zi
-斧头	fu tou
-狂战士之吼	kuang zhan shi zhi hou
-狂战士的怒吼	kuang zhan shi de nu hou
-战斗饥渴	zhan dou ji ke
-反击螺旋	fan ji luo xuan
-淘汰之刃	tao tai zhi ren
-血色外衣	xue se wai yi
-一人之军	yi ren zhi jun
-吼声震天	hou sheng zhen tian
-	
-鱼人守卫	yu ren shou wei
-斯拉达	si la da
-大鱼	da yu
-大鱼人	da yu ren
-守卫冲刺	shou wei chong ci
-鱼人碎击	yu ren sui ji
-重击	zhong ji
-深海重击	shen hai zhong ji
-侵蚀雾霭	qin shi wu ai
-汪洋前哨	wang yang qian shao
-腿部力量	tui bu li liang
-苍洋守卫	cang yang shou wei
-流浪剑客	liu lang jian ke
-流浪	liu lang
-斯温	si wen
-风暴之锤	feng bao zhi chui
-风暴之拳	feng bao zhi quan
-巨力挥舞	ju li hui wu
-战吼	zhan hou
-神之力量	shen zhi li liang
-强势征服	qiang shi zheng fu
-重甲	zhong jia
-神之愤怒	shen zhi fen nu
-海军上将	hai jun shang jiang
-舰队统帅	jian dui tong shuai
-船长	chuan zhang
-昆卡	kun ka
-洪流	hong liu
-潮汐使者	chao xi shi zhe
-水刀	shui dao
-标记	biao ji
-幽灵船	you ling chuan
-洪流浪潮	hong liu lang chao
-潮汐波	chao xi bo
-高潮涨起	gao chao zhang qi
-喷洒烈酒	pen sa lie jiu
-暗夜魔王	an ye mo wang
-夜魔	ye mo
-巴拉那	ba la na
-虚空	xu kong
-伤残恐惧	shang can kong ju
-夜晚中的狩猎者	ye wan zhong de shou lie zhe
-暗夜猎影	an ye lie ying
-黑暗飞升	hei an fei sheng
-黑暗时间	hei an shi jian
-黑暗之心	hei an zhi xin
-失明虚空	shi ming xu kong
-长夜之治	chang ye zhi zhi
-末日使者	mo ri shi zhe
-路西法	lu xi fa
-末日爸爸	mo ri ba ba
-爸爸	ba ba
-吞噬	tun shi
-焦土	jiao tu
-死亡	si wang
-阎刃	yan ren
-末日	mo ri
-痛苦	tong ku
-暴食	bao shi
-恶魔的交易	e mo de jiao yi
-树精卫士	shu jing wei shi
-大树	da shu
-老树	lao shu
-树人	shu ren
-鲁夫特仑	lu fu te lun
-大自然的掩护	da zi ran de yan hu
-自然庇护	zi ran bi hu
-丛林斥候	cong lin chi hou
-自然卷握	zi ran juan wo
-寄生种子	ji sheng zhong zi
-活体护甲	huo ti hu jia
-疯狂生长	feng kuang sheng zhang
-原生力量	yuan sheng li liang
-树苗	shu miao
-沙王	sha wang
-克里瑟历斯	ke li se li si
-掘地穿刺	jue di chuan ci
-沙尘暴	sha chen bao
-腐尸毒	fu shi du
-地震	di zhen
-黄沙漫天	huang sha man tian
-尘卷旋风	chen juan xuan feng
-尾刺	wei ci
-混沌骑士	hun dun qi shi
-耐萨基	nai sa ji
-混沌	hun dun
-混乱之箭	hun luan zhi jian
-实相裂隙	shi xiang lie xi
-混沌一击	hun dun yi ji
-混沌之军	hun dun zhi jun
-混沌称霸	hun dun cheng ba
-千变幻景	qian bian huan jing
-无理	wu li
-潮汐猎人	chao xi lie ren
-潮汐	chao xi
-利维坦	li wei tan
-巨浪	ju lang
-海妖外壳	hai yao wai ke
-海妖坚壳	hai yao jian ke
-锚击	mao ji
-毁灭	hui mie
-深海触须	shen hai chu xu
-炼金术士	lian jin shu shi
-炼金	lian jin
-拉泽尔黑酿	la ze er hei niang
-酸性喷雾	suan xing pen wu
-酸雾	suan wu
-不稳定化合物	bu wen ding hua he wu
-炸弹	zha dan
-摇摇乐	yao yao le
-地精的贪婪	di jing de tan lan
-贪魔的贪婪	tan mo de tan lan
-化学狂暴	hua xue kuang bao
-狂暴药剂	kuang bao yao ji
-腐蚀兵械	fu shi bing xie
-本钱	ben qian
-调酒师	tiao jiu shi
-狼人	lang ren
-贝恩霍勒	bei en huo le
-召狼	zhao lang
-嗥叫	hao jiao
-野性驱使	ye xing qu shi
-恶狼撕咬	e lang si yao
-变形	bian xing
-顶级掠食者	ding ji lüe shi zhe
-狼群头领	lang qun tou ling
-幽灵狼	you ling lang
-精灵狼	jing ling lang
-玛尔斯	ma er si
-战神迅矛	zhan shen xun mao
-神之谴戒	shen zhi qian jie
-护身甲盾	hu shen jia dun
-热血竞技场	re xue jing ji chang
-无畏	wu wei
-庆功宴	qing gong yan
-热血运动	re xue yun dong
-电炎绝手	dian yan jue shou
-碧翠丝	bi cui si
-莫迪	mo di
-电光石火	dian guang shi huo
-龙炎饼干	long yan bing gan
-霹雳铁手	pi li tie shou
-蜥蜴绝吻	xi yi jue wen
-炎洼	yan wa
-血盆大口	xue pen da kou
-铅弹	qian dan
-跳弹	tiao dan
-全口径	quan kou jing
-精灵守卫	jing ling shou wei
-小精灵	xiao jing ling
-埃欧	ai ou
-艾欧	ai ou
-闪电之链	shan dian zhi lian
-羁绊	ji ban
-幽魂	you hun
-幽光之魂	you guang zhi hun
-过载	guo zai
-守卫降临	shou wei jiang lin
-拉近	la jin
-拉远	la yuan
-视野先知	shi ye xian zhi
-医疗枪	yi liao qiang
-裂魂人	lie hun ren
-巴拉森	ba la sen
-幽冥行者	you ming xing zhe
-白牛	bai niu
-暗影冲刺	an ying chong ci
-神行太保	shen xing tai bao
-威吓	wei he
-巨力重击	ju li zhong ji
-幽冥一击	you ming yi ji
-位面空洞	wei mian kong dong
-从众心理	cong zhong xin li
-酒仙	jiu xian
-熊猫酒仙	xiong mao jiu xian
-酒仙熊猫	jiu xian xiong mao
-曼吉克斯	man ji ke si
-雷霆一击	lei ting yi ji
-醉酒云雾	zui jiu yun wu
-余烬佳酿	yu jin jia niang
-醉拳	zui quan
-元素分离	yuan su fen li
-元素伙伴	yuan su huo ban
-大地拳法	da di quan fa
-狂风拳法	kuang feng quan fa
-烈酒拳法	lie jiu quan fa
-太虚拳法	tai xu quan fa
-大放异桶	da fang yi tong
-醉拳大师	zui quan da shi
-醉酒大师	zui jiu da shi
-大地	da di
-投掷巨石	tou zhi ju shi
-粉碎击	fen sui ji
-烈火	lie huo
-永久献祭	yong jiu xian ji
-狂风	kuang feng
-驱散魔法	qu san mo fa
-龙卷风	long juan feng
-疾风步	ji feng bu
-虚无	xu wu
-虚无战士	xu wu zhan shi
-灵体脉冲	ling ti mai chong
-灵体牵引	ling ti qian yin
-钢背兽	gang bei shou
-黎格沃	li ge wo
-钢背猪	gang bei zhu
-钢背	gang bei
-刚被兽	gang bei shou
-粘稠鼻涕	nian chou bi ti
-针刺扫射	zhen ci sao she
-刚毛后背	gang mao hou bei
-战意	zhan yi
-毛团	mao tuan
-鼻涕火箭	bi ti huo jian
-半人猛犸	ban ren meng ma
-半人犀牛	ban ren xi niu
-马格纳斯	ma ge na si
-震荡波	zhen dang bo
-授予力量	shou yu li liang
-巨角冲撞	ju jiao chong zhuang
-獠牙冲刺	liao ya chong ci
-两级反转	liang ji fan zhuan
-长角抛物	zhang jiao pao wu
-坚固核心	jian gu he xin
-略高一筹	lue gao yi chou
-龙骑士	long qi shi
-龙骑	long qi
-戴维安	dai wei an
-达维安	da wei an
-火焰气息	huo yan qi xi
-神龙摆尾	shen long bai wei
-龙族血统	long zu xue tong
-真龙形态	zhen long xing tai
-古龙形态	gu long xing tai
-火球	huo qiu
-碧龙	bi long
-赤龙	chi long
-火龙	huo long
-腐蚀吐息	fu shi tu xi
-苍龙	cang long
-霜龙	shuang long
-冰霜吐息	bing shuang tu xi
-黑龙	hei long
-神龙之血	shen long zhi xue
-飞龙之怒	fei long zhi nu
-破晓辰星	po xiao chen xing
-维罗拉	wei luo la
-星破天惊	xing po tian jing
-熠熠生辉	yi yi sheng hui
-上界重锤	shang jie zhong chui
-天光现世	tian guang xian shi
-太阳能充电	tai yang neng chong dian
-闪光重锤	shan guang zhong chui
-玛西	ma xi
-过肩摔	guo jian shuai
-回身踢	hui shen ti
-健体术	jian ti shu
-怒拳破	nu quan po
-狂怒连技	kuang nu lian ji
-特快专递	te kuai zhuan di
-护卫术	hu wei shu
-	
-食人魔魔法师	shi ren mo mo fa shi
-蓝胖子	lan pang zi
-蓝胖	lan pang
-火焰爆轰	huo yan bao hong
-引燃	yin ran
-嗜血术	shi xue shu
-多重施法	duo chong shi fa
-未精通的火焰爆轰	wei jing tong de huo yan bao hong
-烈火护盾	lie huo hu dun
-狗屎运	gou shi yun
-傻福	sha fu
-大有希望	da you xi wanag
-曲线学习	qu xian xue xi
-	
-敏捷英雄	min jie ying xiong
-恐怖利刃	kong bu li ren
-灵魂守卫	ling hun shou wei
-魂守	hun shou
-倒影	dao ying
-惑幻	huo huan
-魔法镜像	mo fa jing xiang
-魔化	mo hua
-魂断	hun duan
-灵魂隔断	ling hun ge duan
-恐怖心潮	kong bu xin chao
-恶魔狂热	e mo kuang re
-暗黑团结	an hei tuan jie
-万劫不复	wan jie bu fu
-灵魂碎片	ling hun sui pian
-天穹守望者	tian qiong shou wang zhe
-弧光守望者	hu guang shou wang zhe
-泽特	ze te
-乱流	luan liu
-电流	dian liu
-磁场	ci chang
-闪光幽魂	shan guang you hun
-风暴双雄	feng bao shuang xiong
-神符灌注	shen fu guan zhu
-	
-灰烬之灵	hui jin zhi ling
-火猫	huo mao
-火熊猫	huo xiong mao
-炎阳索	yan yang suo
-无影拳	wu ying quan
-烈火罩	lie huo zhao
-残焰	can yan
-激活残焰	ji huo can yan
-祸不单行	huo bu dan xing
-上下求索	shang xia qiu suo
-巨魔战将	ju mo zhan jiang
-巨魔	ju mo
-巨馍蘸酱	ju mo zhan jiang
-狂战士之怒	kuang zhan shi zhi nu
-旋风飞斧	xuan feng fei fu
-热血战魂	re xue zhan hun
-战斗专注	zhan dou zhuan zhu
-横行无忌	heng xing wu ji
-麻木不仁	ma mu bu ren
-不良影响	bu liang ying xiang
-蛇发女妖	she fa nv yao
-美杜莎	mei du sha
-大娜迦	da na jia
-一姐	yi jie
-分裂箭	fen lie jian
-秘术异蛇	mi shu yi she
-魔法护盾	mo fa hu dun
-石化凝视	shi hua ning shi
-冷血动物	leng xue dong wu
-魔力充盈	mo li chong ying
-魔法之契	mo fa zhi qi
-赏金猎人	shang jin lie ren
-刚铎	gang duo
-投掷飞镖	tou zhi fei biao
-忍术	ren shu
-暗影步	an ying bu
-追踪术	zhui zong shu
-职业猎人	zhi ye lie ren
-穿针引线	chuan zhen yin xian
-妙手空空	miao shou kong kong
-暗影情谊	an ying qing yi
-复仇之魂	fu chou zhi hun
-仙德尔莎	xian de er sha
-魔法箭	mo fa jian
-恐怖波动	kong bu bo dong
-复仇光环	fu chou guang huan
-移形换位	yi xing huan wei
-恶有恶报	e you e bao
-复仇之箭	fu chou zhi jian
-灵魂打击	ling hun da ji
-熊战士	xiong zhan shi
-拍拍熊	pai pai xiong
-拍拍	pai pai
-乌尔萨	wu er sa
-震撼大地	zhen han da di
-超强力量	chao qiang li liang
-怒意狂击	nu yi kuang ji
-激怒	ji nu
-熊心勃勃	xiong xin bo bo
-熊心豹胆	xiong xin bao dan
-暴烈之爪	bao lie zhi zhao
-圣堂刺客	sheng tang ci ke
-圣堂	sheng tang
-拉娜娅	la na ya
-折光	zhe guang
-隐匿	yin ni
-灵能之刃	ling neng zhi ren
-灵能陷阱	ling neng xian jing
-触发陷阱	chu fa xian jing
-太虚之刃	tai xu zhi ren
-折光镜	zhe guang jing
-灵能投射	ling neng tou she
-卓尔游侠	zhuo er you xia
-黑暗游侠	hei an you xia
-小黑	xiao hei
-崔希丝	cui xi si
-霜冻之箭	shuang dong zhi jian
-冰箭	bing jian
-狂风	kuang feng
-强击光环	qiang ji guang huan
-射手天赋	she shou tian fu
-冰川	bing chuan
-精准光环	jing zhun guang huan
-数箭齐发	shu jian qi fa
-侧身回避	ce shen hui bi
-矮人直升机	ai ren zhi sheng ji
-飞机	fei ji
-火箭弹幕	huo jian dan mu
-追踪导弹	zhui zong dao dan
-高射火炮	gao she huo pao
-召唤飞弹	zhao huan fei dan
-拆东补西	chai dong bu xi
-二次打击	er ci da ji
-加力燃烧器	jia li ran shao qi
-隐形刺客	yin xing ci ke
-力丸	li wan
-隐刺	yin ci
-烟幕	yan mu
-永久隐身	yong jiu yin shen
-背刺	bei ci
-闪烁突袭	shan shuo tu xi
-绝杀秘技	jue sha mi ji
-刀光谍影	dao guang die ying
-昏睡飞镖	hun shui fei biao
-契约杀手	qi yue sha shou
-月之女祭司	yue zhi nv ji si
-月之公主	yue zhi gong zhu
-米拉娜	mi la na
-白虎	bai hu
-虎妞	hu niu
-月女	yue nv
-群星陨落	qun xing yun luo
-流星	liu xing
-群星风暴	qun xing feng bao
-月神之箭	yue shen zhi jian
-神箭	shen jian
-跳跃	tiao yue
-月之暗面	yue zhi an mian
-太阳金辉	tai yang jin hui
-赛莉蒙妮的信使	sai li meng ni de xin shi
-幻影长矛手	huan ying chang mao shou
-猴子	hou zi
-阿兹瑞斯	a zi rui si
-灵魂之矛	ling hun zhi mao
-神行百变	shen xing bai bian
-幻影冲锋	huan ying chong feng
-并列	bing lie
-汇聚	hui ju
-离散	li san
-石鳞剑士	shi lin jian shi
-虚张声势	xu zhang sheng shi
-甲盾冲击	jia dun chong ji
-幸运一击	xing yun yi ji
-地雷滚滚	di lei gun gun
-停止滚动	ting zhi gun dong
-卷土重来	juan tu chong lai
-天佑勇者	tian you yong zhe
-雷霆万钧	lei ting wan jun
-二段跳	er duan tiao
-娜迦海妖	na jia hai yao
-小娜迦	xiao na jia
-镜像	jing xiang
-诱捕	you bu
-激流	ji liu
-海妖之歌	hai yao zhi ge
-捕捞	bu lao
-鳗鱼皮	man yu pi
-激流	ji liu
-洪水	hong shui
-变体精灵	bian ti jing ling
-水人	shui ren
-波浪形态	bo lang xing tai
-变体攻击	bian ti gong ji
-变体打击	bian ti da ji
-获取属性	huo qu shu xing
-复制	fu zhi
-替换复制品	ti huan fu zhi pin
-替换复制体	ti huan fu zhi ti
-混源	hun yuan
-积少成多	ji shao cheng duo
-潮涨	chao zhang
-潮落	chao luo
-德鲁伊	de lu yi
-熊德	xiong de
-熊灵伙伴	xiong ling huo ban
-粉碎击	fen sui ji
-回归	hui gui
-缠扰之爪	chan rao zhi zhao
-灵魂链接	ling hun lian jie
-野蛮咆哮	ye man pao xiao
-狂猛	kuang meng
-协同	xie tong
-战斗嚎叫	zhan dou hao jiao
-变形术	bian xing shu
-人形态	ren xing tai
-真熊形态	zhen xiong xing tai
-熊姿英发	xiong zi ying fa
-一世之熊	yi shi zhi xiong
-主宰	zhu zai
-尤涅若	you nie ruo
-剑圣	jian sheng
-剑刃风暴	jian ren feng bao
-治疗守卫	zhi liao shou wei
-剑舞	jian wu
-无敌斩	wu di zhan
-决斗达人	jue dou da ren
-刀剑风暴	dao jian feng bao
-剑心犹在	jian xin you zai
-虚空假面	xu kong jia mian
-时间漫游	shi jian man you
-回到过去	hui dao guo qu
-时间锁定	shi jian suo ding
-时间结界	shi jian jie jie
-时间膨胀	shi jian peng zhang
-逆转时空	ni zhuan shi kong
-一时之秀	yi shi zhi xiu
-扭曲力场	niu qu li chang
-鱼人夜行者	yu ren ye xing zhe
-斯拉克	si la ke
-小鱼人	xiao yu ren
-小鱼	xiao yu
-黑暗契约	hei an qi yue
-突袭	tu xi
-能量转移	neng liang zhuan yi
-暗影之舞	an ying zhi wu
-鱼饵	yu er
-深海护罩	shen hai hu zhao
-抽吸突袭	chou xi tu xi
-暗黑之礁	an hei zhi jiao
-暗黑之礁叛徒	an hei zhi jiao pan tu
-冥界亚龙	ming jie ya long
-蝮蛇	fu she
-毒龙	du long
-毒性攻击	du xing gong ji
-幽冥剧毒	you ming ju du
-腐蚀皮肤	fu shi pi fu
-蝮蛇突袭	fu she tu xi
-极恶俯冲	ji e fu chong
-毒爆	du bao
-腐蚀之浴	fu shi zhi yu
-闪电幽魂	shan dian you hun
-剃刀	ti dao
-雷泽	lei ze
-电棍	dian gun
-等离子场	deng li zi chang
-静电连接	jing dian lian jie
-不稳定电流	bu wen ding dian liu
-风暴涌动	feng bao yong dong
-风暴之眼	feng bao zhi yan
-雷暴云	lei bao yun
-雷电交加	lei dian jiao jia
-地卜师	di bu shi
-米波	mi bo
-地卜	di bu
-地之束缚	di zhi shu fu
-忽悠	hu you
-地之突袭	di zhi tu xi
-分则能成	fen ze neng cheng
-掘地	jue di
-囤积狂鼠	tun ji kuang shu
-超大米波	chao da mi bo
-三只手	san zhi shou
-更多米波	geng duo mi bo
-囤积狂鼠	tun ji kuang shu
-剧毒术士	ju du shu shi
-剧毒	ju du
-瘴气	zhang qi
-毒刺	du ci
-瘟疫守卫	wen yi shou wei
-蛇棒	she bang
-剧毒新星	ju du xin xing
-蛰毒	zhe du
-恶性瘟疫	e xing wen yi
-零号病人	ling hao bing ren
-恶疫傍身	e yi bang shen
-幽鬼	you gui
-墨丘利	mo qiu li
-幽鬼之刃	you gui zhi ren
-荒芜	huang wu
-折射	zhe she
-降临	jiang lin
-鬼影重重	gui ying chong chong
-独来独往	du lai du wang
-趁人之危	chen ren zhi wei
-空降	kong jiang
-影魔	ying mo
-奈文摩尔	nai wen mo er
-毁灭阴影	hui mie yin ying
-支配死灵	zhi pei si ling
-灵魂盛宴	ling hun sheng yan
-魔王降临	mo wang jiang lin
-魂之挽歌	hun zhi wan ge
-经久不衰	jing jiu bu shuai
-阴影泥沼	yin ying ni zhao
-	
-幻影刺客	huan ying ci ke
-幻刺	huan ci
-茉崔蒂	mo cui di
-窒息之刃	zhi xi zhi ren
-幻影突袭	huan ying tu xi
-模糊	mo hu
-魅影无形	mei ying wu xing
-恩赐解脱	en ci jie tuo
-刀阵旋风	dao zhen xuan feng
-魅影之纱	mei ying zhi sha
-飘忽不定	piao hu bu ding
-有条不紊	you tiao bu wen
-编织者	bian zhi zhe
-斯吉茨格尔	si ji ci ge er
-虫群	chong qun
-蝗虫	huang chong
-缩地	suo di
-连击	lian ji
-时光倒流	shi guang dao liu
-虫巢思维	chong chao si wei
-司夜刺客	si ye ci ke
-小强	xiao qiang
-穿刺	chuan ci
-法力燃烧	fa li ran shao
-神智爆裂	shen zhi bao lie
-尖刺外壳	jian ci wai ke
-复仇	fu chou
-钻地	zuan di
-地堡	di bao
-夜之感知	ye zhi gan zhi
-疾行	ji xing
-育母蜘蛛	yu mu zhi zhu
-孵化蜘蛛	fu hua zhi zhu
-织网	zhi wang
-麻痹之咬	ma bi zhi yao
-丝质重器	si zhi zhong qi
-极度饥渴	ji du ji ke
-蛛纱陷阱	zhu sha xian jing
-蜘蛛奶	zhi zhu nai
-坏死之网	huai si zhi wang
-疯狂喂食	feng kuang wei shi
-骷髅射手	ku lou she shou
-骷髅弓箭手	ku lou gong jian shou
-克林克兹	ke lin ke zi
-霍文林地	huo wen lin di
-小骷髅	xiao ku lou
-骨弓	gu gong
-扫射	sao she
-灼热之箭	zhuo re zhi jian
-火箭	huo jian
-骨隐步	gu yin bu
-死亡契约	si wang qi yue
-吞噬骷髅	tun shi ku lou
-炽烈火雨	chi lie huo yu
-燃烧之军	ran shao zhi jun
-焦油炸弹	jiao you zha dan
-骨头和箭头	gu tou he jian tou
-吞灭之步	tun mie zhi bu
-嗜血狂魔	shi xue kuang mo
-血魔	xue mo
-史德利古尔	shi de li gu er
-血之狂暴	xue zhi kuang bao
-血怒	xue nu
-血之祭祀	xue zhi ji si
-血祭	xue ji
-嗜血渴望	shi xue ke wang
-焦渴	jiao ke
-割裂	ge lie
-食血动物	shi xue dong wu
-动脉偾张	dong mai fen zhang
-血色冲锋	xue se chong feng
-血雾	xue wu
-齐天大圣	qi tian da sheng
-棒击大地	bang ji da di
-丛林之舞	cong lin zhi wu
-乾坤之跃	qian kun zhi yue
-如意棒法	ru yi bang fa
-七十二变	qi shi er bian
-猴子猴孙	hou zi hou sun
-大圣坚阵	da sheng jian zhen
-猿猴步法	yuan hou bu fa
-月之骑士	yue zhi qi shi
-月骑	yue qi
-露娜	lu na
-月光	yue guang
-月刃	yue ren
-月之祝福	yue zhi zhu fu
-月蚀	yue shi
-环月	huan yue
-月盾	yue dun
-狙击手	ju ji shou
-火枪	huo qiang
-矮人火枪手	ai ren huo qiang shou
-矮人狙击手	ai ren ju ji shou
-传说哥	chuan shuo ge
-卡德尔鹰眼	ka de er ying yan
-榴霰弹	liu xian dan
-爆头	bao tou
-瞄准	miao zhun
-暗杀	an sha
-震荡手雷	zhen dang shou lei
-基恩	ji en
-基恩瞄准镜	ji en miao zhun jing
-散弹	san dan
-敌法师	di fa shi
-玛吉纳	ma ji na
-法力损毁	fa li sun hui
-闪烁	shan shuo
-法术护盾	fa shu hu dun
-法力虚空	fa li xu kong
-闪烁碎片	shan shuo sui pian
-法术反制	fa shu fan zhi
-友军法术反制	you jun fa shu fan zhi
-灭发之镜	mie fa zhi jing
-法力渴望	fa li ke wang
-森海飞霞	sen hai fei xia
-爆栗出击	bao li chu ji
-野地奇袭	ye di qi xi
-密林奔走	mi lin ben zou
-一箭穿心	yi jian chuan xin
-伪装迷彩	wei zhuang mi cai
-诱敌奇术	you di qi shu
-猎手旋镖	lie shou xuan biao
-林渊旅人	lin yuan lü ren
-大显身手	da xian shen shou
-弹木特效	dan mu te xiao
-鸟骑士	niao qi shi
-英佩瑞雅女王	ying pei rui ya nv wang
-陆行族英雄	lu xing zu ying xiong
-回音重斩	hui yin zhong zhan
-制敌爪钩	zhi di zhua gou
-影武长刀	ying wu chang dao
-猛禽之舞	meng qin zhi wu
-天隼冲击	tian sun chong ji
-利爪飞掷	li zhua fei zhi
-翔影之钗	xiang ying zhi chai
-渡鸦之纱	du ya zhi sha
-影武长刀	ying wu chang dao
-流派变换	liu pai bian huan
+属性	shu xing	1
+定位	ding wei	1
+核心	he xin	1
+复制	fu zhi	1
+爆发	bao fa	1
+控制	kong zhi	1
+打野	da ye	1
+耐久	nai jiu	1
+推进	tui jin	1
+先手	xian shou	1
+逃生	tao sheng	1
+后期	hou qi	1
+前期	qian qi	1
+前中期	qian zhong qi	1
+拿后期	na hou qi	1
+要大哥	yao da ge	1
+来辅助	lai fu zhu	1
+上路	shang lu	1
+中路	zhong lu	1
+下路	xia lu	1
+劣势路	lie shi lu	1
+优势路	you shi lu	1
+野区	ye qu	1
+野点	ye dian	1
+拉野	la ye	1
+拉双野	la shuang ye	1
+拉三野	la san ye	1
+堆野	dui ye	1
+基础属性	ji chu shu xing	1
+攻击力	gong ji li	1
+基础攻击间隔	ji chu gong ji jian ge	1
+攻击间隔	gong ji jian ge	1
+近战	jin zhan	1
+远程	yuan cheng	1
+攻击距离	gong ji ju li	1
+弹道速度	dan dao su du	1
+攻击速度	gong ji su du	1
+攻速	gong su	1
+护甲	hu jia	1
+生命上限	sheng ming shang xian	1
+生命值	sheng ming zhi	1
+血量	xue liang	1
+生命恢复	sheng ming hui fu	1
+魔法上限	mo fa shang xian	1
+魔法值	mo fa zhi	1
+蓝量	lan liang	1
+魔法恢复	mo fa hui fu	1
+力量	li liang	1
+敏捷	min jie	1
+智力	zhi li	1
+全才	quan cai	1
+主属性	zhu shu xing	1
+次属性	ci shu xing	1
+属性附加	shu xing fu jia	1
+血条护盾	xue tiao hu dun	1
+特制血条	te zhi xue tiao	1
+机动性	ji dong xing	1
+移动速度	yi dong su du	1
+移速	yi su	1
+转身速率	zhuan shen su lv	1
+视野距离	shi ye ju li	1
+视野范围	shi ye fan wei	1
+机制	ji zhi	1
+观战系统	guan zhan xi tong	1
+监管系统	jian guan xi tong	1
+交流封禁	jiao liu feng jin	1
+即时攻击	ji shi gong ji	1
+充能时间	chong neng shi jian	1
+冷却时间	leng que shi jian	1
+自动施法	zi dong shi fa	1
+技能征召	ji neng zheng zhao	1
+神杖升级	shen zhang sheng ji	1
+魔晶升级	mo jing sheng ji	1
+游戏模式	you xi mo shi	1
+大角斗场	da jue dou chang	1
+普通匹配	pu tong pi pei	1
+加速模式	jia su mo shi	1
+单一征召	dan yi zheng zhao	1
+随机征召	sui ji zheng zhao	1
+全英雄随机	quan ying xiong sui ji	1
+技能征召	ji neng zheng zhao	1
+全英雄随机死亡竞赛	quan ying xiong sui ji si wang jing sai	1
+新手模式	xin shou mo shi	1
+攻击	gong ji	1
+攻击弹道	gong ji dan dao	1
+远程弹道	yuan cheng dan dao	1
+绵力	mian li	1
+穿刺	chuan ci	1
+坚锐	jian rui	1
+先天技能	xian tian ji neng	1
+命石	ming shi	1
+狂石	kuang shi	1
 
-智力英雄	zhi li ying xiong
-神谕者	shen yu zhe
-气运之末	qi yun zhi mo
-命运敕令	ming yun chi ling
-涤罪之焰	di zui zhi yan
-虚妄之诺	xu wang zhi nuo
-天命之雨	tian ming zhi yu
-预言家诅咒	yu yan jia zu zhou
-预言家疗伤	yu yan jia liao shang
-寒冬飞龙	han dong fei long
-冰龙	bing long
-严寒烧灼	yan han shao zhuo
-碎裂冲击	sui lie chong ji
-极寒之拥	ji han zhi yong
-寒冬诅咒	han dong zu zhou
-古龙学者	gu long xue zhe
-蓝心精华	lan xin jing hua
-飞龙视野	fei long shi ye
-工程师	gong cheng shi
-地精工程师	di jing gong cheng shi
-团队工程师	tuan dui gong cheng shi
-炸弹人	zha dan ren
-拉登	la deng
-斯奎	si kui
-斯奎的瞄准镜	si kui de miao zhun jing
-斯布林	si bu lin
-斯布林的秘密武器	si bu lin de mi mi wu qi
-斯布恩	si bu en
-斯布恩的藏品	si bu en de cang pin
-埋布地雷	mai bu di lei
-感应地雷	gan ying di lei
-麻痹陷阱	ma bi xian jing
-静止陷阱	jing zhi xian jing
-静滞陷阱	jing zhi xian jing
-爆破起飞	bao po qi fei
-自杀攻击	zi sha gong ji
-集中引爆	ji zhong yin bao
-雷区标识	lei qu biao zhi
-遥控炸弹	yao kong zha dan
-粘性炸弹	nian xing zha dan
-活性电击	huo xing dian ji
-天怒法师	tian nu fa shi
-扎贡纳斯	zha gong na si
-龙鹰	long ying
-秘法箭	mi fa jian
-震荡光弹	zhen dang guang dan
-上古封印	shang gu feng yin
-神秘之耀	shen mi zhi yao
-天裔之盾	tian yi zhi dun
-天裔之杖	tian yi zhi zhang
-拨乱反正	bo luan fan zheng
-双头龙	shuang tou long
-杰奇洛	jie qi luo
-冰火交加	bing huo jiao jia
-冰封路径	bing feng lu jing
-液态火	ye tai huo
-烈焰焚身	lie yan fen shen
-液态冰	ye tai bing
-天生一对	tian sheng yi dui
-魅惑魔女	mei huo mo nv
-小鹿	xiao lu
-不可侵犯	bu ke qin fan
-魅惑	mei huo
-自然之助	zi ran zhi zhu
-推进	tui jin
-彩虹镖	cai hong biao
-跃动	yue dong
-密友	mi you
-过度保护的小精灵	guo du bao hu de xiao jing ling
-着迷	zhao mi
-煽动野怪	shan dong ye guai
-先知	xian zhi
-自然先知	zi ran xian zhi
-发芽	fa ya
-传送	chuan song
-自然的呼唤	zi ran de hu huan
-召唤树人	zhao huan shu ren
-自然之怒	zi ran zhi nu
-小树人	xiao shu ren
-青森诅咒	qing sen zu zhou
-丛林之魂	cong lin zhi hun
-铁树树人	tie shu shu ren
-舒缓之苗	shu huan zhi miao
-死灵飞龙	si ling fei long
-维萨吉	wei sa ji
-灰鸟	hui niao
-黄泉颤抖	huang quan chan dou
-灵魂超度	ling hun chao du
-陵卫斗篷	ling wei dou peng
-召唤佣兽	zhao huan yong shou
-石像鬼	shi xiang gui
-静如古墓	jing ru gu mu
-圣龛	sheng kan
-忠实部下	zhong shi bu xia
-修补匠	xiu bu jiang
-地精修补匠	di jing xiu bu jiang
-激光	ji guang
-热导飞弹	re dao fei dan
-机器人的进军	ji qi ren de jin jun
-机械行军	ji xie xing jun
-再装填	zai zhuang tian
-缩小射线	suo xiao she xian
-防御矩阵	fang yu ju zhen
-折跃耀光	zhe yue yao guang
-暗影恶魔	an ying e mo
-艾瑞达	ai rui da
-毒狗	du gou
-崩裂禁锢	beng lie jin gu
-散播	san bo
-灵魂猎手	ling hun lie shou
-暗影剧毒	an ying ju du
-释放暗影毒	shi fang an ying du
-邪恶净化	xie e jing hua
-传播	chuan bo
-暗影仆从	an ying pu cong
-暗影萨满	an ying sa man
-小歪	xiao wai
-苍穹震击	cang qiong zhen ji
-妖术	yao shu
-枷锁	jia suo
-群蛇守卫	qun she shou wei
-禽戏	qin xi
-咕咕鸡群	gu gu ji qun
-巨蛇守卫	ju she shou wei
-沉默术士	chen mo shu shi
-诺崇	nuo chong
-静默诅咒	jing mo zu zhou
-智慧之刃	zhi hui zhi ren
-最后遗言	zui hou yi yan
-全领域沉默	quan ling yu chen mo
-智力外流	zhi li wai liu
-无法抑制	wu fa yi zhi
-寂静回荡	ji jing hui dang
-祈求者	qi qiu zhe
-卡尔	ka er
-召唤	zhao huan
-急速冷却	ji su leng que
-幽灵漫步	you ling man bu
-强袭飓风	qiang xi ju feng
-吹风	chui feng
-电磁脉冲	dian ci mai chong
-磁暴	ci bao
-灵动迅捷	ling dong xun jie
-混沌陨石	hun dun yun shi
-砸陨石	za yun shi
-阳炎冲击	yang yan chong ji
-熔炉精灵	rong lu jing ling
-小火人	xiao huo ren
-寒冰之墙	han bing zhi qiang
-冰墙	bing qiang
-超震声波	chao zhen sheng bo
-刀片	dao pian
-帮帮我	bang bang wo
-不可知论	bu ke zhi lun
-精英主义	jing ying zhu yi
-圣骑士	sheng qi shi
-赎罪	shu zui
-忠诚考验	zhong cheng kao yan
-神圣劝化	shen sheng quan hua
-神力恩泽	shen li en ze
-上帝之手	shang di zhi shou
-殉道	xun dao
-召唤信徒	zhao huan xin tu
-光之守卫	guang zhi shou wei
-光法	guang fa
-冲击波	chong ji bo
-光波	guang bo
-法力流失	fa li liu shi
-查克拉魔法	cha ke la mo fa
-灵魂形态	ling hun xing tai
-召回	zhao hui
-致盲之光	zhi mang zhi guang
-释放冲击波	shi fang chong ji bo
-灵光	ling guang
-炎阳之缚	yan yang zhi fu
-预兆象征	yu zhao xiang zheng
-干扰者	gan rao zhe
-萨尔	sa er
-雷霆之击	lei ting zhi ji
-风雷之击	feng lei zhi ji
-恶念瞥视	e nian pie shi
-动能立场	dong neng li chang
-静态风暴	jing tai feng bao
-电磁排斥	dian ci pai chi
-动能栅栏	dong neng zha lan
-大魔导师	da mo dao shi
-拉比克	la bi ke
-隔空取物	ge kong qu wu
-隔空取物着陆	ge kong qu wu zhuo lu
-弱化能流	ruo hua neng liu
-失效立场	shi xiao li chang
-技能窃取	ji neng qie qu
-力量与魔法	li liang yu mo fa
-节俭窃贼	jie jian qie zei
-奥术积累	ao shu ji lei
-黑暗贤者	hei an xian zhe
-兔子	tu zi
-黑贤	hei xian
-依什卡菲尔	yi shen ka fei er
-真空	zhen kong
-离子外壳	li zi wai ke
-离子盾	li zi dun
-奔腾	ben teng
-复制之墙	fu zhi zhi qiang
-普通一拳	pu tong yi quan
-神志刚毅	shen zhi gang yi
-才思敏捷	cai si min jie
-战斗之心	zhan dou zhi xin
-殁境神蚀者	mo jing shen shi zhe
-黑鸟	hei niao
-黑曜毁灭者	hei yao hui mie zhe
-奥术天球	ao shu tian qiu
-星体禁锢	xing ti jin gu
-精华变迁	jing hua bian qian
-精气光环	jing qi guang huan
-衡势	heng shi
-神智之蚀	shen zhi zhi shi
-殁境	mo jing
-殁境神力	mo jing shen li
-殁世神灭	mo shi shen mie
-殁势神蚀	mo shi shen shi
-受折磨的灵魂	shou zhe mo de ling hun
-拉席克	la xi ke
-老鹿	lao lu
-光鹿	guang lu
-撕裂大地	si lie da di
-恶魔赦令	e mo she ling
-闪电风暴	shan dian feng bao
-脉冲新星	mai chong xin xing
-虚无主义	xu wu zhu yi
-大肆污染	da si wu ran
-时光滋养	shi guang zi yang
-厌世	yan shi
-蝙蝠骑士	bian fu qi shi
-粘性燃油	nian xing ran you
-烈焰破击	lie yan po ji
-火焰飞行	huo yan fei xing
-燃烧枷锁	ran shao jia suo
-闷烧树脂	men shao shu zhi
-极寒幽魂	ji han you hun
-远古冰魂	yuan gu bing hun
-冰魂	bing hun
-寒霜之足	han shuang zhi zu
-冰霜漩涡	bing shuang xuan wo
-极寒之触	ji han zhi chu
-冰晶爆轰	bing jing bao hong
-死亡霜雾	si wang shuang wu
-刺骨严寒	ci gu yan han
-暗影牧师	an ying mu shi
-戴泽	dai ze
-暗牧	an mu
-剧毒之触	ju du zhi chu
-薄葬	bo zang
-暗影波	an ying bo
-逆暗影波	ni an ying bo
-编织	bian zhi
-邪能	xie neng
-虚无之恩	xu wu zhi en
-剧毒之花	ju du zhi hua
-秀逗魔导士	xiu dou mo dao shi
-莉娜	li na
-火女	huo nv
-龙破斩	long po zhan
-光击阵	guang ji zhen
-炽魂	chi hun
-神灭斩	shen mie zhan
-腾焰斗篷	teng yan dou peng
-热力失控	re li shi kong
-顶峰状态	ding feng zhuang tai
-众神之王	zhong shen zhi wang
-宙斯	zhou si
-神王	shen wang
-弧形闪电	hu xing shan dian
-雷击	lei ji
-静电场	jing dian chang
-雷神之怒	lei shen zhi nu
-神圣一跳	shen sheng yi tiao
-欢声雷动	huan sheng lei dong
-神圣之怒	shen sheng zhi nu
-霹雳之手	pi li zhi shou
-风行者	feng xing zhe
-束缚击	shu fu ji
-双捆	shuang kun
-强力击	qiang li ji
-风行	feng xing
-风步	feng bu
-集中火力	ji zhong huo li
-举步生风	ju bu sheng feng
-一路顺风	yi lu shun feng
-风暴之灵	feng bao zhi ling
-蓝猫	lan mao
-残影	can ying
-电子涡流	dian zi wo liu
-超负荷	chao fu he
-球状闪电	qiu zhuang shan dian
-电击项圈	dian ji xiang quan
-滑行之影	hua xing zhi ying
-仙女龙	xian nv long
-帕克	pa ke
-精灵龙	jing ling long
-幻象法球	huan xiang fa qiu
-新月之痕	xin yue zhi hen
-相位转移	xiang wei zhuan yi
-灵动之翼	ling dong zhi yi
-梦境缠绕	meng jing chan rao
-顽皮克敌	wan pi ke di
-推撞之痕	tui zhuang zhi hen
-曲线法球	qu xian fa qiu
-湮灭法师	yan mie fa shi
-遗忘法师	yi wang fa shi
-帕格纳	pa ge na
-骨法	gu fa
-幽冥爆轰	you ming bao hong
-衰老	shuai lao
-幽冥守卫	you ming shou wei
-生命汲取	sheng ming ji qu
-湮灭专家	yan mie zhuan jia
-虹吸守卫	hong xi shou wei
-毁灭之赏	hui mie zhi shang
-水晶室女	shui jing shi nv
-冰女	bing nv
-小冰冰	xiao bing bing
-冰霜新星	bing shuang xin xing
-冰封禁制	bing feng jin zhi
-奥术光环	ao shu guang huan
-蓝心浮冰	lan xin fu bing
-雪中送冰	xue zhong song bing
-冰晶克隆	bing jing ke long
-极寒领域	ji han ling yu
-死亡先知	si wang xian zhi
-地穴虫群	di xue chong qun
-沉默魔法	chen mo mo fa
-巫术精研	wu shu jing yan
-吸魂巫术	xi hun wu shu
-驱使恶灵	qu shi e ling
-封锁	feng suo
-灵魂收集	ling hun shou ji
-痛苦女王	tong ku nv wang
-暗影突袭	an ying tu xi
-痛苦尖叫	tong ku jian jiao
-超声冲击波	chao sheng chong ji bo
-超声音爆	chao sheng yin bao
-魅魔	mei mo
-受虐成狂	shou nüe cheng kuang
-术士	shu shi
-致命连接	zhi ming lian jie
-暗言术	an yan shu
-剧变	ju bian
-魔童	mo tong
-魔异爆炸	mo yi bao zha
-混乱之祭	hun luan zhi ji
-邪术召唤	xie shu zhao huan
-格罗斯	ge luo si
-格罗斯勇士	ge luo si yong shi
-黑暗魔典	hei an mo dian
-瘟疫法师	wen yi fa shi
-死灵法	si ling fa
-死灵法师	si ling fa shi
-死亡脉冲	si wang mai chong
-竭心光环	jie xin guang huan
-施虐之心	shi nue zhi xin
-死神镰刀	si shen lian dao
-幽魂护罩	you hun hu zhao
-死亡搜寻	si wang sou xun
-快速腐朽	kuai su fu xiu
-亵渎之力	xie du zhi li
-虚无之灵	xu wu zhi ling
-紫猫	zi mao
-无玄	wu xuan
-残阴	can yin
-异化	yi hua
-共鸣脉冲	gong ming mai chong
-太虚之径	tai xu zhi jing
-太虚印记	tai xu yin ji
-内在优势	nei zai you shi
-谜团	mi tuan
-憎恶	zeng wu
-恶魔转化	e mo zhuan hua
-午夜凋零	wu ye diao ling
-黑洞	hei dong
-小谜团	xiao mi tuan
-次级精神体	ci ji jing shen ti
-虚灵体	xu ling ti
-重力井	zhong li jing
-事件视界	shi jian shi jie
-分割图像	fen ge tu xiang
-巫医	wu yi
-麻痹药剂	ma bi yao ji
-巫毒回复术	wu du hui fu shu
-诅咒	zu zhou
-巫蛊咒术	wu gu zhou shu
-死亡守卫	si wang shou wei
-巫毒变身术	wu du bian shen shu
-驱邪护符	qu xie hu fu
-赶尽杀绝	gan jin sha jue
-巫毒咒法	wu du zhou fa
-巫毒疗法	wu du liao fa
-死亡分裂	si wang fen lie
-恶魔巫师	e mo wu shi
-莱恩	lai en
-裂地尖刺	lie di jian ci
-巫术	wu shu
-法力吸取	fa li xi qu
-死亡之指	si wang zhi zhi
-下地狱再上来	xia di yu zai shang lai
-吞食精华	tun shi jing hua
-死亡之拳	si wang zhi quan
-巫妖	wu yao
-寒霜暴发	han shuang bao fa
-霜冻护甲	shuang dong hu jia
-阴邪凝视	yin xie ning shi
-连环霜冻	lian huan shuang dong
-寒冰尖柱	han bing jian zhu
-死亡充能	si wang chong neng
-冰霜之缚	bing shuang zhi fu
-寒意渐增	han yi jian zeng
-祸乱之源	huo luan zhi yuan
-痛苦之源	tong ku zhi yuan
-祸乱	huo luan
-虚弱	xu ruo
-蚀脑	shi nao
-噩梦	e meng
-魔爪	mo zhao
-噩梦终止	e meng zhong zhi
-妮塔莎	ni ta sha
-妮塔莎脓血	ni ta sha nong xue
-梦中潜行者	meng zhong qian xing zhe
-邪影芳灵	xie ying fang ling
-米瑞斯嘉	mi rui si jia
-米瑞斯嘉晴风	mi rui si jia qing feng
-瑞文特尔	rui wen te er
-杰克斯	jie ke si
-荆棘迷宫	jing ji mi gong
-暗影之境	an ying zhi jing
-诅咒王冠	zu zhou wang guan
-作祟	zuo sui
-恐吓	kong he
-仙灵粉尘	xian ling fen chen
-切肤之影	qie fu zhi ying
-荆棘丛生	jing ji cong sheng
-天涯墨客	tian ya mo ke
-命运之笔	ming yun zhi bi
-幻影之拥	huan ying zhi yong
-墨涌	mo yong
-暗绘	an hui
-浓墨重彩	nong mo zhong cai
-缚魂	fu hun
-磋磨之纪	cuo mo zhi ji
-望尘墨及	wang chen mo ji
-绝美艺术	jue mei yi shu
-琼英碧灵	qiong ying bi ling
-琼碧	qiong bi
-奶绿	nai lv
-仁慈与恩泽	ren ci yu en ze
-弹无虚发	dan wu xu fa
-唤魂	huan hun
-神枪在手	shen qiang zai shou
-越界	yue jie
-临别一枪	lin bie yi qiang
-超自然	chao zi ran
-亡灵之舞	wang ling zhi wu
-祭台	ji tai
-百戏大王	bai xi da wang
-科里奥斯特罗	ke li ao si luo te
-卡特尔	ka te er
-驯兽术	xun shou shu
-逃生技	tao sheng ji
-尖刀戏	jian dao xi
-奇观轮	qi guan lun
-哈哈镜	ha ha jing
-比例失真	bi li shi zhen
-强力水	qiang li shui
-强力吸收	qiang li xi shou
-整蛊垫	zheng gu dian
-聚光灯	ju guang deng
-	
-全才英雄	quan cai ying xiong
-	
-聊天轮盘	liao tian lun pan
-官方轮盘	guan fang lun pan
-DotA2	dota
-DotAPlus	dotaplus
-刀塔Plus	dotaplus
-悲伤长号	bei shang chang hao
-笑翠鸟笑声	xiao cui niao xiao sheng
-肥猩猩飞吻	fei xing xing fei wen
-蚊子嗡嗡声	wen zi weng weng sheng
-人群叹息	ren qun tan xi
-头部撞击	tou bu zhuang ji
-唱片刮擦	chang pian gua ca
-打团	da tuan
-抓人	zhua ren
-拆塔	chai ta
-守塔	shou ta
-守高地	shou gao di
-守高	shou gao
-二塔放了	er ta fang le
-打野	da ye
-正补	zheng bu
-补兵	bu bing
-反补	fan bu
-反补我	fan bu wo
-一拳超人	yi quan chao ren
-神之一钩	shen zhi yi gou
-梦魇噪声	meng yan zao sheng
-小提琴尖声	xiao ti qin jian sheng
-喷绘	pen hui
-小小航空	xiao xiao hang kong
-明确的疯狂	ming que de feng kuang
-爪爪鬼	zhua zhua gui
-原始盛宴	yuan shi sheng yan
-大哥吃咖喱	da ge chi ga li
-小鸡猛击	xiao ji meng ji
-神行帮	shen xing bang
-迪斯科轰隆	di si ke hong long
-肉酱	rou jiang
-朋友那是你的	peng you na shi ni de
-常用语音	chang yong yu yin
-上路英雄失踪	shang lu ying xiong shi zong
-上路失踪	shang lu shi zong
-上路不见了	shang lu bu jian le
-上路没人了	shang lu mei ren le
-上路没了	shang lu mei le
-中路英雄失踪	zhong lu ying xiong shi zong
-中路失踪	zhong lu shi zong
-中路不见了	zhong lu bu jian le
-中路没人了	zhong lu mei ren le
-中路没了	zhong lu mei le
-下路英雄失踪	xia lu ying xiong shi zong
-下路失踪	xia lu shi zong
-下路不见了	xia lu bu jian le
-下路没人了	xia lu mei ren le
-下路没了	xia lu mei le
-加固	jia gu
-塔防	ta fang
-开塔防	kai ta fang
-天辉建筑	tian hui jian zhu
-夜魇建筑	ye yan jian zhu
-全面加固	quan mian jia gu
-	
-常见梗	chang jian geng
-拿头打呀	na tou da ya
-主一副二	zhu yi fu er
-主一副三	zhu yi fu san
-主三副一	zhu san fu yi
-主二副一	zhu er fu yi
-主二副三	zhu er fu san
-主二副一	zhu er fu yi
-有大学大	you da xue da
-有大点大	you da dian da
-帮忙暂停	bang mang zan ting
-灌瓶	guan ping
-帮我灌瓶	bang wo guan ping
-两个吃树谢谢	liang ge chi shu xie xie
-吹跳绿隐推	chui tiao lv yin tui
-浪逼五件套	lang bi wu jian tao
-	
-阵营与活动	zhen ying yu huo dong
-阵营	zhen ying
-天辉	tian hui
-夜魇	ye yan
-版本更新	ban ben geng xin
-神杖二	shen zhang er
-勇士联赛	yong shi lian sai
-世外之争	shi wai zhi zheng
-边路商店	bian lu shang dian
-西泽尔	xi ze er
-柯特	ke te
-刀塔霸业	dao ta ba ye
-神圣纹章	shen sheng wen zhang
-永雾林渊	yong wu lin yuan
-阿哈利姆天地迷宫	a ha li mu tian di mi gong
-夜魇暗潮	ye yan an chao
-小贪魔太妃糖	xiao tan mo tai fei tang
-夜魇暗潮的神圣宝藏	ye yan an chao de shen sheng bao zang
-夜魇暗潮的珍贵衣箱	ye yan an chao de zhen gui yi xiang
-好事多贪魔	hao shi duo tan mo
-糖果厂	tang guo chang
-糖果井	tang guo jing
-贪魔	tan mo
-肉山巢穴	rou shan chao xue
-魔法纸杯蛋糕	mo fa zhi bei dan gao
-太妃糖卫士	tai fei tang wei shi
-灵异击掌	ling yi ji zhang
-夜魇暗潮的珍贵衣箱	ye yan an chao de zhen gui yi xiang
-小布团	xiao bu tuan
-鸟鸟和泡泡	niao niao he pao pao
-凶喵	xiong miao
-小幽灵	xiao you ling
-大脑子	da nao zi
-饥饿肉山	ji e rou shan
-幸运喵咪	xing yun miao mi
-末日小子	mo ri xiao zi
-胜券在握	sheng quan zai wo
-愤怒小怪	fen nu xiao guai
-不详喵咪	bu xiang miao mi
-糖苹果	tang ping guo
-帕格纳抿嘴	pa ge na min zui
-育母蜘蛛毛衣	yu mu zhi zhu mao yi
-萌喵	meng miao
-不朽尸王维生素	bu xiu shi wang wei sheng su
-肉山宝宝	rou shan bao bao
-狼人和朋友	lang ren he peng you
-湮灭之缘	yan mie zhi yuan
-渊海绝影	yuan hai jue ying
-荒漠灼印	huang mo zhuo yin
-亚特兰封锁舰传说	ya te lan feng suo jian chuan shuo
-毁灭之源	hui mie zhi yuan
-飞升残迹	fei sheng can ji
-全能桎梏	quan neng zhi gu
-神之仁善	shen zhi ren shan
-魅影宣告	mei ying xuan gao
-逆转协律	ni zhuan xie lv
-蜥蜴束系	xi yi shu xi
-神圣之心捆绑包	shen sheng zhi xin kun bang bao
-国际邀请赛	guo ji yao qing sai
-勇士令状纹章	yong shi ling zhuang wen zhang
-求圣之路	qiu sheng zhi lu
-神之圣地	shen zhi sheng di
-勇士试炼场	yong shi shi lian chang
-真王	zhen wang
-魔廷新尊	mo ting xin zun
-清风环佩	qing feng huan pei
-灵界回音	ling jie hui yin
-天地擅闯者	tian di shan chuang zhe
-金辉崇拜时代	jin hui chong bai shi dai
-秘奥共振光束	mi ao gong zhen guang shu
-暗黑世纪夜影	an hei shi ji ye ying
-魔裔守望者	mo yi shou wang zhe
-邪喉之抑	xie hou zhi yi
-通天	tong tian
-海蟒之命	hai mang zhi ming
-漫游嬉戏之华	man you xi xi zhi hua
-千劫神钩	qian jie shen gou
-忠实属下	zhong shi shu xia
-晴儿	qing er
-小仓	xiao cang
-圣光宣言防御塔	sheng guang xuan yan fang yu ta
-圣光宣言天辉防御塔	sheng guang xuan yan tian hui fang yu ta
-圣光宣言夜魇防御塔	sheng guang xuan yan ye yan fang yu ta
-石爪清道夫防御塔	shi zhua qing dao fu fang yu ta
-石爪清道夫天辉防御塔	shi zhua qing dao fu tian hui fang yu ta
-石爪清道夫夜魇防御塔	shi zhua qing dao fu ye yan fang yu ta
-战队应援团	zhan dui ying yuan tuan
-梦幻挑战	meng huan tiao zhan
-选手卡包	xuan shou ka bao
-康加舞	kang jia wu
-永恒异宝	yong heng yi bao
-赛季物品	sai ji wu pin
-决斗手套	jue dou shou tao
-信使气球	xin shi qi qiu
-康加舞	kang jia wu
-独角兽球	du jiao shou qiu
-岩洞探险	yan dong tan xian
-朔风战斗法师	shuo feng zhan dou fa shi
-石鱼变节者	shi yu bian jie zhe
-伏龙岛	fu long dao
-火墙	huo qiang
-熔岩河	rong yan he
-神秘挑战	shen mi tiao zhan
-带翼战靴	dai yi zhan xue
-元素符文	yuan su fu wen
-换位魔杖	huan wei mo zhang
-淘汰之刃	tao tai zhi ren
-积分小宝箱	ji fen xiao bao xiang
-积分大宝箱	ji fen da bao xiang
-款式解锁碎片	kuan shi jie suo sui pian
-嘲讽动作	chao feng dong zuo
-血腥之刃	xue xing zhi ren
-快起来着迷	kuai qi lai zhao mi
-甜瓜大屠杀	tian gua da tu sha
-不快乐的愉悦	bu kuai le de yu yue
-巨神奔放游	ju shen ben fang you
-怨念深饼	yuan nian shen bing
-不快乐的愉悦	bu kuai le de yu yue
-不只是一团心智	bu zhi shi yi tuan xin zhi
-矮子双人组	ai zi shuang ren zu
-心中的黑暗	xin zhong de hei an
-每周任务	mei zhou ren wu
-点击开玩	dian ji kai wan
-别人不用知道	bie ren bu yong zhi dao
-两面三刀	liang mian san dao
-组队巡逻	zu dui xun luo
-尘缘已了	chen yuan yi le
-祝你攻城愉快	zhu ni gong cheng yu kuai
-打得一直不错	da de yi zhi bu cuo
-胜人一筹	sheng ren yi chou
-距离只是个数字	ju li zhi shi ge shu zi
-最难的部分	zui nan de bu fen
-我们还没结束	wo men hai mei jie shu
-优游自若	you you zi ruo
-一石三鸟	yi shi san niao
-医者真英雄	yi zhe zhen ying xiong
-真不容易	zhen bu rong yi
-迎接极限	ying jie ji xian
-吓人战术	xia ren zhan shu
-巅峰表演	dian feng biao yan
-聪明人上分	cong ming ren shang fen
-壮汉上分	zhuang han shang fen
-猛男上分	meng nan shang fen
-安全巡逻	an quan xun luo
-大人在说话	da ren zai shuo hua
-玩出风采	wan chu feng cai
-伐木狂魔	fa mu kuang mo
-身处秘术团伙	shen chu mi shu tuan huo
-让他们静静	rang ta men jing jing
-前哨站长	qian shao zhan chang
-仁心仁树	ren xin ren shu
-	
-身心	shen xin
-蓝心来使	lan xin lai shi
-漂泊绝影	piao bo jue ying
-太虚风暴玄宇	tai xu feng bao xuan yu
-超维逆族	chao wei ni zu
-高徒正道	gao tu zheng dao
-失落奇艺侍祭	shi luo qi yi shi ji
-重温旧日	chong wen jiu ri
-昔日暗黑奇艺	xi ri an hei qi yi
-魔星后裔	mo xing hou yi
-心嗔天使	xin chen tian shi
-至宝	zhi bao
-剑心之遗	jian xin zhi yi
-银影天仇	yin ying tian chou
-坚冰之心	jian bing zhi xin
-疯魔之境	feng mo zhi jing
-沉舰豚炮	chen jian tun pao
-无双鬼魅	wu shuang gui mei
-鬼幽现世	gui you xian shi
-鬼幽丹辉	gui you dan hui
-噬魔之王	shi mo zhi wang
-心渊魔角	xin yuan mo jiao
-魔导师密钥	mo dao shi mi yao
-天外飞星	tian wai fei xing
-魔导师炽魂	mo dao shi chi hun
-战鬼双刃	zhan gui shuang ren
-坍塌雪裘	tan ta xue qiu
-雷霆神盔	lei ting shen kui
-擎天大圣	qing tian da sheng
-仁爱之友	ren ai zhi you
-千劫神屠	qian jie shen tu
-金鹏之幸	jin peng zhi xing
-真王降临	zhen wang jiang lin
-魔延新尊	mo yan xin zun
-清风环佩	qing feng huan pei
-游戏赛事	you xi sai shi
-冬季职业巡回赛	dong ji zhi ye xun hui sai
-英特尔世界公开赛	ying te er shi jie gong kai sai
-游戏公会	you xi gong hui
-公会旗帜	gong hui qi zhi
-契约栏位	qi yue lan wei
-暴世骑士的战盔	bao shi qi shi de zhan kui
-天命无常武器	tian ming wu chang wu qi
-黑门哨卫背部	hei men shao wei bei bu
+技能	ji neng	1
+魔法抗性	mo fa kang xing	1
+魔抗	mo kang	1
+技能增强	ji neng zeng qiang	1
+技能抗性	ji neng kang xing	1
+技能免疫	ji neng mian yi	1
+减益免疫	jian yi mian yi	1
+技能施加	ji neng shi jia	1
+减益保护	jian yi bao hu	1
+伤害减少	shang hai jian shao	1
+主动技能	zhu dong ji neng	1
+被动技能	bei dong ji neng	1
+终极技能	zhong ji ji neng	1
+普通技能	pu tong ji neng	1
+基础技能	ji chu ji neng	1
+其他术语	qi ta shu yu	1
+大招流	da zhao liu	1
+全球流	quan qiu liu	1
+召唤流	zhao huan liu	1
+锁闭	suo bi	1
+破坏	po huai	1
+
+神符	shen fu	1
+幻象神符	huan xiang shen fu	1
+幻象符	huan xiang fu	1
+幻象	huan xiang	1
+极速神符	ji su shen fu	1
+极速符	ji su fu	1
+极速	ji su	1
+赏金神符	shang jin shen fu	1
+赏金符	shang jin fu	1
+赏金	shang jin	1
+回复神符	hui fu shen fu	1
+回复符	hui fu fu	1
+回复	hui fu	1
+隐身神符	yin shen shen fu	1
+隐身符	yin shen fu	1
+隐身	yin shen	1
+双倍神符	shuang bei shen fu	1
+双倍符	shuang bei fu	1
+双倍	shuang bei	1
+奥术神符	ao shu shen fu	1
+奥术符	ao shu fu	1
+奥术	ao shu	1
+圣水神符	sheng shui shen fu	1
+圣水符	sheng shui fu	1
+圣水	sheng shui	1
+吃符	chi fu	1
+抢符	qiang fu	1
+符点	fu dian	1
+控符	kong fu	1
+前哨站	qian shao zhan	1
+前哨符	qian shao fu	1
+上路符	shang lu fu	1
+下路符	xia lu fu	1
+智慧神符	zhi hui shen fu	1
+智慧符	zhi hui fu	1
+经验神符	jing yan shen fu	1
+经验符	jing yan fu	1
+护盾神符	hu dun shen fu	1
+护盾符	hu dun fu	1
+
+地图建筑	di tu jian zhu	1
+防御塔	fang yu ta	1
+前哨	qian shao	1
+前哨站	qian shao zhan	1
+圣坛	sheng tan	1
+开锅	kai guo	1
+火锅	huo guo	1
+上外塔	shang wai ta	1
+上二塔	shang er ta	1
+上高地塔	shang gao di ta	1
+中外塔	zhong wai ta	1
+中二塔	zhong er ta	1
+中高地塔	zhong gao di ta	1
+下外塔	xia wai ta	1
+下二塔	xia er ta	1
+下高地塔	xia gao di ta	1
+外塔	wai ta	1
+二塔	er ta	1
+高地塔	gao di ta	1
+近战兵营	jin zhan bing ying	1
+远程兵营	yuan cheng bing ying	1
+莲花池	lian hua chi	1
+疗伤莲花	liao shang lian hua	1
+观察者	guan cha zhe	1
+痛苦魔方	tong ku mo fang	1
+刚强巨盾	gang qiang ju dun	1
+双生之门	shuang sheng zhi men	1
+水井	shui jing	1
+矿山	kuang shan	1
+雕像	diao xiang	1
+墓地	mu di	1
+智慧神龛	zhi hui shen kan	1
+
+物品	wu pin	1
+基础分类	ji chu fen lei	1
+消耗品	xiao hao pin	1
+回城卷轴	hui cheng juan zhou	1
+净化药水	jing hua yao shui	1
+蓝瓶	lan ping	1
+仙灵之火	xian ling zhi huo	1
+仙灵火	xian ling huo	1
+诡计之雾	gui ji zhi wu	1
+开雾	kai wu	1
+侦查守卫	zhen cha shou wei	1
+假眼	jia yan	1
+带眼	dai yan	1
+做视野	zuo shi ye	1
+岗哨守卫	gang shao shou wei	1
+真眼	zhen yan	1
+魔法芒果	mo fa mang guo	1
+治疗药膏	zhi liao yao gao	1
+大药	da yao	1
+血瓶	xue ping	1
+血腥榴弹	xue xing liu dan	1
+投掷榴弹	tou zhi liu dan	1
+树之祭祀	shu zhi ji si	1
+知识之书	zhi shi zhi shu	1
+经验书	jing yan shu	1
+淬毒之珠	cui du zhi zhu	1
+毒球	du qiu	1
+枯萎之石	ku wei zhi shi	1
+枯萎之珠	ku wei zhi zhu	1
+冰霜之珠	bing shuang zhi zhu	1
+减甲球	jian jia qiu	1
+减甲石	jian jia shi	1
+小暗灭	xiao an mie	1
+次级腐蚀	ci ji fu shi	1
+迷你圣剑	mi ni sheng jian	1
+显影之尘	xian ying zhi chen	1
+撒粉	sa fen	1
+带粉	dai fen	1
+动物信使	dong wu xin shi	1
+飞行信使	fei xing xin shi	1
+找鸟	zhao niao	1
+杀鸡	sha ji	1
+杀鸟	sha niao	1
+魔瓶	mo ping	1
+阿哈利姆魔晶	a ha li mu mo jing	1
+
+属性	shu xing	1
+铁树枝干	tie shu zhi gan	1
+树枝	shu zhi	1
+力量手套	li liang shou tao	1
+敏捷便靴	min jie bian xue	1
+敏捷便鞋	min jie bian xie	1
+智力斗篷	zhi li dou peng	1
+宝冕	bao mian	1
+圆环	yuan huan	1
+贵族圆环	gui zu yuan huan	1
+贵族头环	gui zu tou huan	1
+力量腰带	li liang yao dai	1
+精灵布带	jing ling bu dai	1
+法师长袍	fa shi chang pao	1
+王冠	wang guan	1
+食人魔之斧	shi ren mo zhi fu	1
+欢欣之刃	huan xin zhi ren	1
+魔力法杖	mo li fa zhang	1
+
+军备	jun bei	1
+守护指环	shou hu zhi huan	1
+压制之刃	ya zhi zhi ren	1
+凝魂之露	ning hun zhi lu	1
+凝魂之泪	ning hun zhi lei	1
+宙斯之泪	zhou si zhi lei	1
+魂泪	hun lei	1
+淬毒之珠	cui du zhi zhu	1
+毒球	du qiu	1
+圆盾	yuan dun	1
+攻击之爪	gong ji zhi zhao	1
+锁子甲	suo zi jia	1
+铁意头盔	tie yi tou kui	1
+阔剑	kuo jian	1
+短棍	duan gun	1
+大剑	da jian	1
+标枪	biao qiang	1
+秘银锤	mi yin chui	1
+
+奥术	ao shu	1
+	ao shu	1
+魔棒	mo bang	1
+风灵之纹	feng ling zhi wen	1
+回复戒指	hui fu jie zhi	1
+贤者面罩	xian zhe mian zhao	1
+速度之靴	su du zhi xue	1
+草鞋	cao xie	1
+加速手套	jia su shou tao	1
+抗魔斗篷	kang mo dou peng	1
+真视宝石	zhen shi bao shi	1
+真视	zhen shi	1
+带宝石	dai bao shi	1
+吸血面具	xi xue mian ju	1
+暗影护符	an ying hu fu	1
+幽魂权杖	you hun quan zhang	1
+绿杖	lv zhang	1
+出绿	chu lv	1
+闪烁匕首	shan shuo bi shou	1
+跳刀	tiao dao	1
+毛毛帽	mao mao mao	1
+
+神秘商店	shen mi shang dian	1
+丰饶之环	feng rao zhi huan	1
+治疗指环	zhi liao zhi huan	1
+虚无宝石	xu wu bao shi	1
+能量之球	neng liang zhi qiu	1
+能量球	neng liang qiu	1
+活力之球	huo li zhi qiu	1
+活力球	huo li qiu	1
+精气之球	jing qi zhi qiu	1
+精气球	jing qi qiu	1
+板甲	ban jia	1
+闪避护符	shan bi hu fu	1
+振奋宝石	zhen fen bao shi	1
+极限法球	ji xian fa qiu	1
+恶魔刀锋	e mo dao feng	1
+神秘法杖	shen mi fa zhang	1
+掠夺者之斧	lue duo zhe zhi fu	1
+鹰歌弓	ying ge gong	1
+鹰角弓	ying jiao gong	1
+圣者遗物	sheng zhe yi wu	1
+
+合成卷轴	he cheng juan zhou	1
+常用	chang yong	1
+魔杖	mo zhang	1
+空灵挂件	kong ling gua jian	1
+怨灵系带	yuan ling ji dai	1
+护腕	hu wan	1
+灵魂之戒	ling hun zhi jie	1
+魂戒	hun jie	1
+献身	xian shen	1
+动力鞋	dong li xie	1
+假腿	jia tui	1
+相位鞋	xiang wei xie	1
+相位	xiang wei	1
+相位移动	xiang wei yi dong	1
+空明杖	kong ming zhang	1
+坚韧球	jian ren qiu	1
+疯狂面具	feng kuang mian ju	1
+狂热	kuang re	1
+支配头盔	zhi pei tou kui	1
+迈达斯之手	mai da si zhi shou	1
+远行鞋	yuan xing xie	1
+飞鞋	fei xie	1
+银月之晶	yin yue zhi jing	1
+月夜之视	yue ye zhi shi	1
+腐蚀之球	fu shi zhi qiu	1
+猎鹰战刃	lie ying zhan ren	1
+统御头盔	tong yu tou kui	1
+
+辅助道具	fu zhu dao ju	1
+王者之戒	wang zhe zhi jie	1
+圣殿	sheng dian	1
+圣殿指环	sheng dian zhi huan	1
+圣殿光环	sheng dian guang huan	1
+王者光环	wang zhe guang huan	1
+恢复头巾	hui fu tou jin	1
+玄冥盾牌	xuan ming dun pai	1
+影之灵龛	ying zhi ling kan	1
+灵龛	ling kan	1
+骨灰	gu hui	1
+静谧之鞋	jing mi zhi xie	1
+绿鞋	lv xie	1
+勇气勋章	yong qi xun zhang	1
+奥术鞋	ao shu xie	1
+秘法鞋	mi fa xie	1
+韧鼓	ren gu	1
+战鼓	zhan gu	1
+祭品	ji pin	1
+弗拉迪米尔的祭品	fu la di mi er de ji pin	1
+弗拉迪米尔光环	fu la di mi er guang huan	1
+梅肯斯姆	mei ken si mu	1
+圣洁吊坠	sheng jie diao zhui	1
+魂之灵瓮	hun zhi ling weng	1
+灵魂释放	ling hun shi fang	1
+洞察烟斗	dong cha yan dou	1
+笛子	di zi	1
+卫士胫甲	wei shi jing jia	1
+大鞋	da xie	1
+宽容之靴	kuan rong zhi xue	1
+坚韧	jian ren	1
+迅捷光环	xun jie guang huan	1
+怨灵之契	yuan ling zhi qi	1
+怨灵报复	yuan ling bao fu	1
+
+法器	fa qi	1
+微光披风	wei guang pi feng	1
+纷争面纱	fen zheng mian sha	1
+魔法虚弱	mo fa xu ruo	1
+原力法杖	yuan li fa zhang	1
+弹射法杖	tan she fa zhang	1
+推推棒	tui tui bang	1
+推推	tui tui	1
+以太透镜	yi tai tou jing	1
+以太之镜	yi tai zhi jing	1
+以太焦点	yi tai jiao dian	1
+死灵书	si ling shu	1
+小人书	xiao ren shu	1
+神圣法杖	shen sheng fa zhang	1
+风杖	feng zhang	1
+达贡之神力	da gong zhi shen li	1
+红杖	hong zhang	1
+能量冲击	neng liang chong ji	1
+神圣法杖	shen sheng fa zhang	1
+阿托斯之棍	a tuo si zhi gun	1
+阿托斯	a tuo si	1
+炎阳纹章	yan yang wen zhang	1
+炎阳之冠	yan yang zhi guan	1
+大勋章	da xun zhang	1
+日耀	ri yao	1
+紫苑	zi yuan	1
+灵魂燃烧	ling hun ran shao	1
+阿哈利姆神杖	a ha li mu shen zhang	1
+神杖	shen zhang	1
+蓝杖	lan zhang	1
+神杖升级	shen zhang sheng ji	1
+否决坠饰	fou jue zhui shi	1
+否决挂饰	fou jue gua shi	1
+刷新球	shua xin qiu	1
+邪恶镰刀	xie e lian dao	1
+羊刀	yang dao	1
+玲珑心	ling long xin	1
+缚灵锁	fu ling suo	1
+永恒锁链	yong heng suo lian	1
+风之杖	feng zhi zhang	1
+巫师之刃	wu shi zhi ren	1
+
+防具	fang ju	1
+挑战头巾	tiao zhan tou jin	1
+先锋盾	xian feng dun	1
+伤害格挡	shang hai ge dang	1
+长盾	chang dun	1
+刃甲	ren jia	1
+伤害反弹	shang hai fan tan	1
+镇魂石	zhen hun shi	1
+永恒之盘	yong heng zhi pan	1
+赤红甲	chi hong jia	1
+清莲宝珠	qing lian bao zhu	1
+红莲	hong lian	1
+莲花球	lian hua qiu	1
+回音护盾	hui yin hu dun	1
+黑皇杖	hei huang zhang	1
+天神下凡	tian shen xia fan	1
+飓风长戟	ju feng chang ji	1
+大推推	da tui tui	1
+飓风之力	ju feng zhi li	1
+魔龙之能	mo long zhi neng	1
+希瓦的守护	xi wa de shou hu	1
+希瓦	xi wa	1
+冰甲	bing jia	1
+极寒冲击	ji han chong ji	1
+霜冷守护	shuang leng shou hu	1
+幻影斧	huan ying fu	1
+分身斧	fen shen fu	1
+血精石	xue jing shi	1
+血精	xue jing	1
+血之契约	xue zhi qi yue	1
+林肯法球	lin ken fa qiu	1
+法术抵抗	fa shu di kang	1
+抵抗转移	di kang zhuan yi	1
+恐鳌之心	kong ao zhi xin	1
+龙心	long xin	1
+强袭胸甲	qiang xi xiong jia	1
+强袭	qiang xi	1
+强袭盔甲	qiang xi kui jia	1
+永世法衣	yong shi fa yi	1
+法衣	fa yi	1
+技能护盾	ji neng hu dun	1
+
+兵刃	bing ren	1
+水晶剑	shui jing jian	1
+莫尔迪基安的臂章	mo er di ji an de bi zhang	1
+臂章	bi zhang	1
+邪恶之力	xie e zhi li	1
+陨星锤	yun xing chui	1
+影刃	ying ren	1
+隐刀	yin dao	1
+碎颅锤	sui lu chui	1
+碎骨锤	sui gu chui	1
+晕锤	yun chui	1
+小晕锤	xiao yun chui	1
+金箍棒	jin gu bang	1
+克敌机先	ke di ji xian	1
+狂战斧	kuang zhan fu	1
+虚灵之刃	xu ling zhi ren	1
+虚灵刀	xu ling dao	1
+辉耀	hui yao	1
+代达罗斯之殇	dai da luo si zhi shang	1
+大炮	da pao	1
+蝴蝶	hu die	1
+白银之锋	bai yin zhi feng	1
+圣剑	sheng jian	1
+深渊之刃	shen yuan zhi ren	1
+击晕	ji yun	1
+大晕锤	da yun chui	1
+血棘	xue ji	1
+亡魂胸针	wang hun xiong zhen	1
+幻影之域	huan ying zhi yu	1
+散魂剑	san hun jian	1
+大净化	da jing hua	1
+破法	po fa	1
+抑制	yi zhi	1
+
+宝物	bao wu	1
+圣物	sheng wu	1
+魔龙枪	mo long qiang	1
+散华	san hua	1
+夜叉	ye cha	1
+慧光	hui guang	1
+回音战刃	hui yin zhan ren	1
+回音刀	hui yin dao	1
+回音一击	hui yin yi ji	1
+漩涡	xuan wo	1
+小雷锤	xiao lei chui	1
+小电锤	xiao dian chui	1
+净魂之刃	jing hun zhi ren	1
+散失	san shi	1
+灵匣	ling xia	1
+法术强化	fa shu qiang hua	1
+天堂之戟	tian tang zhi ji	1
+缴械	jiao xie	1
+黯灭	an mie	1
+小圣剑	xiao sheng jian	1
+散慧对剑	san hui dui jian	1
+散夜对剑	san ye dui jian	1
+双刀	shuang dao	1
+慧夜对剑	hui ye dui jian	1
+撒旦之邪力	sa dan zhi xie li	1
+大吸血	da xi xue	1
+大吸	da xi	1
+不洁狂热	bu jie kuang re	1
+斯嘉蒂之眼	si jia di zhi yan	1
+冰眼	bing yan	1
+雷神之锤	lei shen zhi chui	1
+大雷锤	da lei chui	1
+大电锤	da dian chui	1
+法师克星	fa shi ke xing	1
+鱼叉	yu cha	1
+钩捕	gou bu	1
+迅疾闪光	xun ji shan guang	1
+敏捷跳刀	min jie tiao dao	1
+秘奥闪光	mi ao shan guang	1
+智力跳刀	zhi li tiao dao	1
+盛世闪光	sheng shi shan guang	1
+力量跳刀	li liang tiao dao	1
+
+中立生物	zhong li sheng wu	1
+中立代币	zhong li dai bi	1
+中立生物物品	zhong li sheng wu wu pin	1
+中立物品	zhong li wu pin	1
+第一级	di yi ji	1
+万灵药水	wan ling yao shui	1
+基恩镜片	ji en jing pian	1
+穷鬼盾	qiong gui dun	1
+寒铁钢爪	han tie gang zhao	1
+铁树之木	tie shu zhi mu	1
+蜂王浆	feng wang jiang	1
+芒果树	mang guo shu	1
+海洋之心	hai yang zhi xin	1
+扫帚柄	sao zhou bing	1
+可靠铁铲	ke kao tie chan	1
+挖掘	wa jue	1
+暗淡胸针	an dan xiong zhen	1
+奥术指环	ao shu zhi huan	1
+仙灵饰品	xian ling shi pin	1
+碎裂背心	sui lie bei xin	1
+附魂面具	fu hun mian ju	1
+豚杆	tun gan	1
+小猪出动	xiao zhu chu dong	1
+杂技玩具	za ji wan ju	1
+宁静种籽	ning jing zhong zi	1
+盎然生机	ang ran sheng ji	1
+追击之矛	zhui ji zhi mao	1
+追逼	zhui bi	1
+魔力药水	mo li yao shui	1
+玄奥手镯	xuan ao shou zhuo	1
+埃罗莎仪式	ai luo sha yi shi	1
+决斗家手套	jue dou jia shou tao	1
+英勇	ying yong	1
+勇气之光	yong qi zhi guang	1
+蝌蚪护符	ke dou hu fu	1
+撕裂之鞭	si lie zhi bian	1
+可靠铁铲	ke kao tie chan	1
+第二级	di er ji	1
+林野长弓	lin ye chang gong	1
+吸血鬼獠牙	xi xue gui liao ya	1
+天鹰之戒	tian ying zhi jie	1
+天鹰戒	tian ying jie	1
+学徒之礼	xue tu zhi li	1
+魔童之爪	mo tong zhi zhao	1
+魔童爪	mo tong zhao	1
+贤者石	xian zhe shi	1
+贤者之石	xian zhe zhi shi	1
+幽冥披肩	you ming pi jian	1
+炎龙之鳞	yan long zhi lin	1
+精华指环	jing hua zhi huan	1
+臂甲	bi jia	1
+笨拙渔网	ben zhuo yu wang	1
+银闪护符	yin shan hu fu	1
+凌厉长鞭	ling li chang bian	1
+飞贼之刃	fei zei zhi ren	1
+仙灵榴弹	xian ling liu dan	1
+维奇尔之眼	wei qi er zhi yan	1
+行家阵列	hang jia zhen lie	1
+瑞斯图尔尖匕	rui si tu er jian bi	1
+毁灭灵球	hui mie ling qiu	1
+腐蚀阻碍	fu shi zu ai	1
+蛛丝斗篷	zhu si dou peng	1
+炽热纹章	chi re wen zhang	1
+烧蚀	shao shi	1
+烈风护体	lie feng hu ti	1
+飓风护盾	ju feng hu dun	1
+火药手套	huo yao shou tao	1
+殴击人群	ou ji ren qun	1
+第三级	di san ji	1
+不朽尸王的头盔	bu xiu shi wang de tou kui	1
+维修器具	wei xiu qi ju	1
+崎岖外衣	qi qu wai yi	1
+情趣外衣	qing qu wai yi	1
+高级仙灵之火	gao ji xian ling zhi huo	1
+加速护符	jia su hu fu	1
+智灭	zhi mie	1
+网虫腿	wang chong tui	1
+魔力箭袋	mo li jian dai	1
+骑士剑	qi shi jian	1
+第三只眼	di san zhi yan	1
+巨神残铁	ju shen can tie	1
+精灵外衣	jing ling wai yi	1
+火焰斗篷	huo yan dou peng	1
+祭礼长袍	ji li chang pao	1
+通灵头带	tong ling tou dai	1
+炸雷服	zha lei fu	1
+雷火弹	lei huo dan	1
+食人魔海豹图腾	shi ren mo hai bao tu teng	1
+蒲公英护符	pu gong ying hu fu	1
+魔法伤害抵挡	mo fa shang hai di dang	1
+不羁甲壳	bu ji jia qiao	1
+互换	hu huan	1
+正义之斧	zheng yi zhi fu	1
+复仇	fu chou	1
+锯齿短刀	ju chi duan dao	1
+锯齿刀	ju chi dao	1
+悍劲	han jin	1
+致残之弩	zhi can zhi nu	1
+
+第四级	di si ji	1
+无知小帽	wu zhi xiao mao	1
+永恒遗物	yong heng yi wu	1
+法术棱镜	fa shu leng jing	1
+亲王短刀	qin wang duan dao	1
+闪灵	shan ling	1
+望远镜	wang yuan jing	1
+忍者用具	ren zhe yong ju	1
+幻术师披风	huan shu shi pi feng	1
+浩劫巨锤	hao jie ju chui	1
+魔力明灯	mo li ming deng	1
+平世剑	ping shi jian	1
+灵犀角	ling xi jiao	1
+五锋长剑	wu feng chang jian	1
+风暴宝器	feng bao bao qi	1
+欺诈师斗篷	qi zha shi dou peng	1
+简朴短帽	jian pu duan mao	1
+行巫之祸	xing wu zhi huo	1
+烈士鳞甲	lie shi lin jia	1
+殉道	xun dao	1
+皮洛士斗篷	pi luo shi dou peng	1
+第五级	di wu ji	1
+原力鞋	yuan li xie	1
+凤凰余烬	feng huang yu jin	1
+先哲之石	xian zhe zhi shi	1
+神镜盾	shen jing dun	1
+聚合神符	ju he shen fu	1
+弩炮	nu pao	1
+林地神行靴	lin di shen xing xue	1
+三叉戟	san cha ji	1
+三元重戟	san yuan zhong ji	1
+冥灵书	ming ling shu	1
+王者之书	wang zhe zhi shu	1
+堕天斧	duo tian fu	1
+天崩	tian beng	1
+海盗帽	hai dao mao	1
+机械之心	ji xie zhi xin	1
+巨人之戒	ju ren zhi jie	1
+暗影邪典	an ying xie dian	1
+秘术师铠甲	mi shu shi kai jia	1
+不屈之眼	bu qu zhi yan	1
+中立物品附魔	zhong li wu pin fu mo	1
+中立生物附魔	zhong li sheng wu fu mo	1
+警觉	jing jue	1
+壮实	zhuang shi	1
+神秘	shen mi	1
+迅速	xun su	1
+坚强	jian qiang	1
+高远	gao yuan	1
+贪婪犀利	tan lan xi li	0
+吸血鬼	xi xue gui	0
+永恒	yong heng	1
+巨神	ju shen	1
+粗暴	cu bao	1
+无边	wu bian	1
+进化狂热	jin hua kuang re	1
+睿智	rui zhi	1
+冒险	mao xian	1
+捷足	jie zu	1
+
+中立生物名称	zhong li sheng wu ming cheng	1
+狗头人阵营	gou tou ren zhen ying	1
+狗头人士兵	gou tou ren shi bing	1
+狗头人长官	gou tou ren zhang guan	1
+魔抗光环	mo kang guang huan	1
+速度光环	su du guang huan	1
+淘金光环	tao jin guang huan	1
+偷窃武器	tou qie wu qi	1
+丘陵巨魔阵营	qiu ling ju mo zhen ying	1
+丘陵巨魔狂战士	qiu ling ju mo kuang zhan shi	1
+丘陵巨魔牧师	qiu ling ju mo mu shi	1
+黑暗巨魔召唤法师	hei an ju mo zhao huan fa shi	1
+诱捕	you bu	1
+亡灵复生	wang ling fu sheng	1
+骷髅战士	ku lou zhan shi	1
+治疗	zhi liao	1
+魔法光环	mo fa guang huan	1
+豺狼人阵营	chai lang ren zhen ying	1
+豺狼人刺客	chai lang ren ci ke	1
+淬毒武器	cui du wu qi	1
+鬼魂阵营	gui hun zhen ying	1
+魔能之魂	mo neng zhi hun	1
+鬼魂	gui hun	1
+烦扰	fan rao	1
+寒霜攻击	han shuang gong ji	1
+鹰身女妖阵营	ying shen nv yao zhen ying	1
+鹰身女妖风暴巫师	ying shen nv yao feng bao wu shi	1
+风暴巫师	feng bao wu shi	1
+鹰身女妖侦查者	ying shen nv yao zhen cha zhe	1
+连锁闪电	lian suo shan dian	1
+半人马阵营	ban ren ma zhen ying	1
+半人马猎手	ban ren ma lie shou	1
+半人马征服者	ban ren ma zheng fu zhe	1
+战争践踏	zhan zheng jian ta	1
+狼阵营	lang zhen ying	1
+巨狼	ju lang	1
+恫吓	dong he	1
+头狼	tou lang	1
+致命一击	zhi ming yi ji	1
+萨特阵营	sa te zhen ying	1
+萨特苦难使者	sa te ku nan shi zhe	1
+冲击波	chong ji bo	1
+邪恶光环	xie e guang huan	1
+萨特放逐者	sa te fang zhu zhe	1
+净化	jing hua	1
+萨特窃神者	sa te qie shen zhe	1
+法力燃烧	fa li ran shao	1
+食人魔阵营	shi ren mo zhen ying	1
+食人魔拳手	shi ren mo quan shou	1
+食人魔重击	shi ren mo zhong ji	1
+食人魔冰霜法师	shi ren mo bing shuang fa shi	1
+寒冰盔甲	han bing kui jia	1
+傀儡阵营	kui lei zhen ying	1
+泥土傀儡	ni tu kui lei	1
+破碎	po sui	1
+碎土傀儡	sui tu kui lei	1
+投石	tou shi	1
+远古岩石傀儡	yuan gu yan shi kui lei	1
+虚弱光环	xu ruo guang huan	1
+远古花岗岩傀儡	yuan gu hua gang yan kui lei	1
+磐石光环	pan shi guang huan	1
+磐石光环	pan shi guang huan	1
+熊怪阵营	xiong guai zhen ying	1
+夺命双熊	duo ming shuang xiong	1
+雷霆一击	lei ting yi ji	1
+迅捷光环	xun jie guang huan	1
+地狱熊怪	di yu xiong guai	1
+临死之痛	lin si zhi tong	1
+地狱熊怪粉碎者	di yu xiong guai fen sui zhe	1
+枭兽阵营	xiao shou zhen ying	1
+枭兽	xiao shou	1
+风飑	feng biao	1
+枭兽撕裂者	xiao shou si lie zhe	1
+飓风	ju feng	1
+黑龙阵营	hei long zhen ying	1
+远古黑蜉蝣	yuan gu hei fu you	1
+魔法加深光环	mo fa jia shen guang huan	1
+远古黑龙	yuan gu hei long	1
+大黑龙	da hei long	1
+火球	huo qiu	1
+溅射攻击	jian she gong ji	1
+龙肤光环	long fu guang huan	1
+雷肤兽阵营	lei fu shou zhen ying	1
+远古岚肤兽	yuan gu lan fu shou	1
+战鼓光环	zhan gu guang huan	1
+远古雷肤兽	yuan gu lei fu shou	1
+猛击	meng ji	1
+暴怒	bao nu	1
+远古萨满潜行者	yuan gu sa man qian xing zhe	1
+大萨特	da sa te	1
+亵渎	xie du	1
+停滞	ting zhi	1
+远古侍僧潜行者	yuan gu shi seng qian xing zhe	1
+潜行光环	qian xing guang huan	1
+斗松掠夺者	dou song lue duo zhe	1
+松果出击	song guo chu ji	1
+远古寒冰萨满	yuan gu han bing sa man	1
+冰火炸弹	bing huo zha dan	1
+远古霜害傀儡	yuan gu shuang hai kui lei	1
+时间扭曲光环	shi jian niu qu guang huan	1
+奔流营地	ben liu ying di	1
+蝌蚪	ke dou	1
+河生光环	he sheng guang huan	1
+沼蛙	zhao wa	1
+深水武器	shen shui wu qi	1
+沼蛙法师学徒	zhao wa fa shi xue tu	1
+水泡泡	shui pao pao	1
+长须蛙	chang xu wa	1
+深水触须	shen shui chu xu	1
+沼蛙法师	zhao wa fa shi	1
+远古长须蛙	yuan gu chang xu wa	1
+深水鱼群	shen shui yu qun	1
+远古沼蛙法师	yuan gu zhao wa fa shi	1
+肉山	rou shan	1
+奶酪	nai lao	1
+奶酪块	nai lao kuai	1
+不朽之守护	bu xiu zhi shou hu	1
+打盾	da dun	1
+肉山盾	rou shan dun	1
+盾刷了	dun shua le	1
+刷盾了	shua dun le	1
+肉山团	rou shan tuan	1
+刷新球碎片	shua xin qiu sui pian	1
+阿哈利姆福佑	a ha li mu fu you	1
+法术抵挡	fa shu di dang	1
+重击	zhong ji	1
+震击	zhen ji	1
+不朽之力	bu xiu zhi li	1
+肉山的战旗	rou shan de zhan qi	1
+
+英雄	ying xiong	1
+力量英雄	li liang ying xiong	1
+上古巨神	shang gu ju shen	1
+牛头人酋长	niu tou ren qiu zhang	1
+大牛	da niu	1
+回音重踏	hui yin zhong ta	1
+先祖之魂	xian zu zhi hun	1
+星体游魂	xing ti you hun	1
+灵体游魂	ling ti you hun	1
+自然秩序	zi ran zhi xu	1
+裂地沟壑	lie di gou he	1
+解构	jie gou	1
+动量	dong liang	1
+
+
+不朽尸王	bu xiu shi wang	1
+尸王	shi wang	1
+吟葬者德兹	yin zang zhe de zi	1
+腐朽	fu xiu	1
+噬魂	shi hun	1
+墓碑	mu bei	1
+血肉傀儡	xue rou kui lei	1
+僵尸	jiang shi	1
+挽歌犹唱	wan ge you chang	1
+腐朽之拳	fu xiu zhi quan	1
+共噬	gong shi	1
+
+地狱领主	di yu ling zhu	1
+亚巴顿	ya ba dun	1
+死亡骑士	si wang qi shi	1
+魔霭家族	mo ai jia zu	1
+死亡缠绕	si wang chan rao	1
+迷雾缠绕	mi wu chan rao	1
+无光之盾	wu guang zhi dun	1
+霜之哀伤	shuang zhi ai shang	1
+魔霭诅咒	mo ai zu zhou	1
+回光返照	hui guang fan zhao	1
+魔霭	mo ai	1
+魔霭圣池	mo ai sheng chi	1
+毒雾护罩	du wu hu zhao	1
+
+地精撕裂者	di jing si lie zhe	1
+瑞兹拉克	rui zi la ke	1
+伐木机	fa mu ji	1
+花母鸡	hua mu ji	1
+死亡旋风	si wang xuan feng	1
+伐木锯链	fa mu ju lian	1
+活性护甲	huo xing hu jia	1
+锯齿飞轮	ju chi fei lun	1
+锯齿飞轮二	ju chi fei lun er	1
+喷火装置	pen huo zhuang zhi	1
+暴露疗法	bao lu liao fa	1
+碎木机	sui mu ji	1
+锯齿轮旋	ju chi lun xuan	1
+
+全能骑士	quan neng qi shi	1
+全能	quan neng	1
+普利斯特雷霆	pu li si te lei ting	1
+洗礼	xi li	1
+驱逐	qu zhu	1
+天国恩赐	tian guo en ci	1
+退化光环	tui hua guang huan	1
+守护天使	shou hu tian shi	1
+纯洁之锤	chun jie zhi chui	1
+疗伤之锤	liao shang zhi chui	1
+全能之存在	quan neng zhi cun zai	1
+
+兽王	shou wang	1
+卡洛克	ka luo ke	1
+斯洛姆	si luo mu	1
+野性之斧	ye xing zhi fu	1
+野性呼唤	ye xing hu huan	1
+豪猪	hao zhu	1
+战鹰	zhan ying	1
+野性之心	ye xing zhi xin	1
+原始咆哮	yuan shi pao xiao	1
+俯冲炸弹	fu chong zha dan	1
+斯洛姆战鼓	si luo mu zhan gu	1
+狂猎	kuang lie	1
+
+军团指挥官	jun tuan zhi hui guan	1
+军团	jun tuan	1
+特蕾斯汀	te lei si ting	1
+压倒性优势	ya dao xing you shi	1
+强攻	qiang gong	1
+勇气之霎	yong qi zhi sha	1
+决斗	jue dou	1
+石堂城	shi tang cheng	1
+石堂城甲胄	shi tang cheng jia zhou	1
+战争恩赐	zhan zheng en ci	1
+
+冥魂大帝	ming hun da di	1
+骷髅王	ku lou wang	1
+奥斯塔里昂大帝	ao si ta li ang da di	1
+冥火爆击	ming huo bao ji	1
+吸血光环	xi xue guang huan	1
+白骨护卫	bai gu hu wei	1
+殊死一搏	shu si yi bo	1
+致命一击	zhi ming yi ji	1
+本命一击	ben ming yi ji	1
+幽魂之剑	you hun zhi jian	1
+重生	chong sheng	1
+吸血之魂	xi xue zhi hun	1
+冥魂	ming hun	1
+绝冥再生	jue ming zai sheng	1
+
+凤凰	feng huang	1
+伊卡洛斯	yi ka luo si	1
+凤凰冲击	feng huang chong ji	1
+烈焰精灵	lie yan jing ling	1
+烈火炙烤	lie huo zhi kao	1
+烈日炙烤	lie ri zhi kao	1
+切换移动状态	qie huan yi dong zhuang tai	1
+超新星	chao xin xing	1
+变蛋	bian dan	1
+阳光猛烈	yang guang meng lie	1
+消逝之光	xiao shi zhi guang	1
+热点	re dian	1
+
+半人马战行者	ban ren ma zhan xing zhe	1
+人马	ren ma	1
+半人马酋长	ban ren ma qiu zhang	1
+布兰德瓦登	bu lan de wa deng	1
+马蹄践踏	ma ti jian ta	1
+双刃剑	shuang ren jian	1
+反击	fan ji	1
+反伤	fan shang	1
+反伤光环	fan shang guang huan	1
+奔袭冲撞	ben xi chong zhuang	1
+便车	bian che	1
+反击精英	fan ji jing ying	1
+开足马力	kai zu ma li	1
+
+发条技师	fa tiao ji shi	1
+发条	fa tiao	1
+瑞托崔普	rui tuo cui pu	1
+发条地精	fa tiao di jing	1
+弹幕冲击	dan mu chong ji	1
+能量齿轮	neng liang chi lun	1
+照明火箭	zhao ming huo jian	1
+超速运转	chao su yun zhuan	1
+发射钩爪	fa she gou zhao	1
+喷气背包	pen qi bei bao	1
+装甲力量	zhuang jia li liang	1
+钩结	gou jie	1
+电枢扩展	dian shu kuo zhan	1
+
+神灵武士	shen ling wu shi	1
+哈斯卡	ha si ka	1
+单车武士	dan che wu shi	1
+活血术	huo xue shu	1
+心炎	xin yan	1
+沸血之矛	fei xue zhi mao	1
+狂战士之血	kuang zhan shi zhi xue	1
+牺牲	xi sheng	1
+血魔法	xue mo fa	1
+血洗	xue xi	1
+虚无输血	xu wu shu xue	1
+灸疗	jiu liao	1
+
+噬魂鬼	shi hun gui	1
+食尸鬼	shi shi gui	1
+噬尸鬼	shi shi gui	1
+奈克斯	nai ke si	1
+狂暴	kuang bao	1
+肆意狂怒	si yi kuang nu	1
+盛宴	sheng yan	1
+撕裂伤口	si lie shang kou	1
+感染	gan ran	1
+吞噬	tun shi	1
+尸鬼狂怒	shi gui kuang nu	1
+血肉盛宴	xue rou sheng yan	1
+喋血风暴	die xue feng bao	1
+
+大地之灵	da di zhi ling	1
+考林	kao lin	1
+土猫	tu mao	1
+残石	can shi	1
+残岩	can yan	1
+巨石冲击	ju shi chong ji	1
+巨石翻滚	ju shi fan gun	1
+地磁之握	di ci zhi wo	1
+磁化	ci hua	1
+共振	gong zhen	1
+垫脚石	dian jiao shi	1
+地灵人杰	di ling ren jie	1
+
+深渊领主	shen yuan ling zhu	1
+阿兹加洛	a zi jia luo	1
+孽主	nie zhu	1
+火焰风暴	huo yan feng bao	1
+怨念深渊	yuan nian shen yuan	1
+衰退光环	shuai tui guang huan	1
+黑暗之门	hei an zhi men	1
+恶魔之扉	e mo zhi fei	1
+恶魔之势	e mo zhi shi	1
+深渊大军	shen yuan da jun	1
+
+山岭巨人	shan ling ju ren	1
+小小	xiao xiao	1
+山岭	shan ling	1
+山崩	shan beng	1
+投掷	tou zhi	1
+抓树	zhua shu	1
+扔树	reng shu	1
+树木连掷	shu mu lian zhi	1
+崎岖外表	qi qu wai biao	1
+长大	zhang da	1
+紧急着陆	jin ji zhuo lu	1
+不可逾越	bu ke yu yue	1
+
+巨牙海民	ju ya hai min	1
+尤弥尔	you mi er	1
+海民	hai min	1
+巨牙	ju ya	1
+寒冰碎片	han bing sui pian	1
+雪球	xue qiu	1
+冰封魔印	bing feng mo yin	1
+摔角行家	shuai jiao hang jia	1
+海象飞踢	hai xiang fei ti	1
+海象挥击	hai xiang hui ji	1
+海象神拳	hai xiang shen quan	1
+酒友	jiu you	1
+
+屠夫	tu fu	1
+帕吉	pa ji	1
+肉钩	rou gou	1
+挡钩	dang gou	1
+别挡钩	bie dang gou	1
+钩一个	gou yi ge	1
+腐烂	fu lan	1
+腐肉堆积	fu rou dui ji	1
+肢解	zhi jie	1
+小鲜肉	xiao xian rou	1
+剥皮长钩	bo pi chang gou	1
+肉盾	rou dun	1
+腐烂之核	fu lan zhi he	1
+
+撼地神牛	han di shen niu	1
+撼地者	han di zhe	1
+雷格石蹄	lei ge shi ti	1
+神牛	shen niu	1
+小牛	xiao niu	1
+沟壑	gou he	1
+板他	ban ta	1
+强化图腾	qiang hua tu teng	1
+余震	yu zhen	1
+回音击	hui yin ji	1
+地壳积累	di qiao ji lei	1
+强击图腾	qiang ji tu teng	1
+
+斧王	fu wang	1
+蒙哥可汗	meng ge ke han	1
+斧子	fu zi	1
+斧头	fu tou	1
+狂战士之吼	kuang zhan shi zhi hou	1
+狂战士的怒吼	kuang zhan shi de nu hou	1
+战斗饥渴	zhan dou ji ke	1
+反击螺旋	fan ji luo xuan	1
+淘汰之刃	tao tai zhi ren	1
+血色外衣	xue se wai yi	1
+一人之军	yi ren zhi jun	1
+吼声震天	hou sheng zhen tian	1
+
+鱼人守卫	yu ren shou wei	1
+斯拉达	si la da	1
+大鱼	da yu	1
+大鱼人	da yu ren	1
+守卫冲刺	shou wei chong ci	1
+鱼人碎击	yu ren sui ji	1
+重击	zhong ji	1
+深海重击	shen hai zhong ji	1
+侵蚀雾霭	qin shi wu ai	1
+汪洋前哨	wang yang qian shao	1
+腿部力量	tui bu li liang	1
+苍洋守卫	cang yang shou wei	1
+
+流浪剑客	liu lang jian ke	1
+流浪	liu lang	1
+斯温	si wen	1
+风暴之锤	feng bao zhi chui	1
+风暴之拳	feng bao zhi quan	1
+巨力挥舞	ju li hui wu	1
+战吼	zhan hou	1
+神之力量	shen zhi li liang	1
+强势征服	qiang shi zheng fu	1
+重甲	zhong jia	1
+神之愤怒	shen zhi fen nu	1
+
+海军上将	hai jun shang jiang	1
+舰队统帅	jian dui tong shuai	1
+船长	chuan zhang	1
+昆卡	kun ka	1
+洪流	hong liu	1
+潮汐使者	chao xi shi zhe	1
+水刀	shui dao	1
+标记	biao ji	1
+幽灵船	you ling chuan	1
+洪流浪潮	hong liu lang chao	1
+潮汐波	chao xi bo	1
+高潮涨起	gao chao zhang qi	1
+喷洒烈酒	pen sa lie jiu	1
+
+暗夜魔王	an ye mo wang	1
+夜魔	ye mo	1
+巴拉那	ba la na	1
+虚空	xu kong	1
+伤残恐惧	shang can kong ju	1
+夜晚中的狩猎者	ye wan zhong de shou lie zhe	1
+暗夜猎影	an ye lie ying	1
+黑暗飞升	hei an fei sheng	1
+黑暗时间	hei an shi jian	1
+黑暗之心	hei an zhi xin	1
+失明虚空	shi ming xu kong	1
+长夜之治	chang ye zhi zhi	1
+虚空使者	xu kong shi zhe	1
+
+末日使者	mo ri shi zhe	1
+路西法	lu xi fa	1
+末日爸爸	mo ri ba ba	1
+爸爸	ba ba	1
+吞噬	tun shi	1
+焦土	jiao tu	1
+死亡	si wang	1
+阎刃	yan ren	1
+末日	mo ri	1
+痛苦	tong ku	1
+暴食	bao shi	1
+恶魔的交易	e mo de jiao yi	1
+
+树精卫士	shu jing wei shi	1
+大树	da shu	1
+老树	lao shu	1
+树人	shu ren	1
+鲁夫特仑	lu fu te lun	1
+大自然的掩护	da zi ran de yan hu	1
+自然庇护	zi ran bi hu	1
+丛林斥候	cong lin chi hou	1
+自然卷握	zi ran juan wo	1
+寄生种子	ji sheng zhong zi	1
+活体护甲	huo ti hu jia	1
+疯狂生长	feng kuang sheng zhang	1
+原生力量	yuan sheng li liang	1
+树苗	shu miao	1
+
+沙王	sha wang	1
+克里瑟历斯	ke li se li si	1
+掘地穿刺	jue di chuan ci	1
+沙尘暴	sha chen bao	1
+腐尸毒	fu shi du	1
+地震	di zhen	1
+黄沙漫天	huang sha man tian	1
+尘卷旋风	chen juan xuan feng	1
+尾刺	wei ci	1
+
+混沌骑士	hun dun qi shi	1
+耐萨基	nai sa ji	1
+混沌	hun dun	1
+混乱之箭	hun luan zhi jian	1
+实相裂隙	shi xiang lie xi	1
+混沌一击	hun dun yi ji	1
+混沌之军	hun dun zhi jun	1
+混沌称霸	hun dun cheng ba	1
+千变幻景	qian bian huan jing	1
+无理	wu li	1
+混沌分化	hun dun fen hua	1
+基本法则锻造	ji ben fa ze duan zao	1
+
+潮汐猎人	chao xi lie ren	1
+潮汐	chao xi	1
+利维坦	li wei tan	1
+巨浪	ju lang	1
+海妖外壳	hai yao wai ke	1
+海妖坚壳	hai yao jian ke	1
+锚击	mao ji	1
+毁灭	hui mie	1
+深海触须	shen hai chu xu	1
+
+炼金术士	lian jin shu shi	1
+炼金	lian jin	1
+拉泽尔黑酿	la ze er hei niang	1
+酸性喷雾	suan xing pen wu	1
+酸雾	suan wu	1
+不稳定化合物	bu wen ding hua he wu	1
+炸弹	zha dan	1
+摇摇乐	yao yao le	1
+地精的贪婪	di jing de tan lan	1
+贪魔的贪婪	tan mo de tan lan	1
+化学狂暴	hua xue kuang bao	1
+狂暴药剂	kuang bao yao ji	1
+腐蚀兵械	fu shi bing xie	1
+本钱	ben qian	1
+调酒师	tiao jiu shi	1
+分红	fen hong	1
+
+狼人	lang ren	1
+贝恩霍勒	bei en huo le	1
+召狼	zhao lang	1
+嗥叫	hao jiao	1
+野性驱使	ye xing qu shi	1
+恶狼撕咬	e lang si yao	1
+变形	bian xing	1
+顶级掠食者	ding ji lüe shi zhe	1
+狼群头领	lang qun tou ling	1
+幽灵狼	you ling lang	1
+精灵狼	jing ling lang	1
+
+玛尔斯	ma er si	1
+战神迅矛	zhan shen xun mao	1
+神之谴戒	shen zhi qian jie	1
+护身甲盾	hu shen jia dun	1
+热血竞技场	re xue jing ji chang	1
+无畏	wu wei	1
+庆功宴	qing gong yan	1
+热血运动	re xue yun dong	1
+
+电炎绝手	dian yan jue shou	1
+碧翠丝	bi cui si	1
+莫迪	mo di	1
+电光石火	dian guang shi huo	1
+龙炎饼干	long yan bing gan	1
+霹雳铁手	pi li tie shou	1
+蜥蜴绝吻	xi yi jue wen	1
+炎洼	yan wa	1
+血盆大口	xue pen da kou	1
+铅弹	qian dan	1
+跳弹	tiao dan	1
+全口径	quan kou jing	1
+
+精灵守卫	jing ling shou wei	1
+小精灵	xiao jing ling	1
+埃欧	ai ou	1
+艾欧	ai ou	1
+闪电之链	shan dian zhi lian	1
+羁绊	ji ban	1
+幽魂	you hun	1
+幽光之魂	you guang zhi hun	1
+过载	guo zai	1
+守卫降临	shou wei jiang lin	1
+拉近	la jin	1
+拉远	la yuan	1
+视野先知	shi ye xian zhi	1
+医疗枪	yi liao qiang	1
+
+裂魂人	lie hun ren	1
+巴拉森	ba la sen	1
+幽冥行者	you ming xing zhe	1
+白牛	bai niu	1
+暗影冲刺	an ying chong ci	1
+神行太保	shen xing tai bao	1
+威吓	wei he	1
+巨力重击	ju li zhong ji	1
+幽冥一击	you ming yi ji	1
+位面空洞	wei mian kong dong	1
+从众心理	cong zhong xin li	1
+
+酒仙	jiu xian	1
+熊猫酒仙	xiong mao jiu xian	1
+酒仙熊猫	jiu xian xiong mao	1
+曼吉克斯	man ji ke si	1
+雷霆一击	lei ting yi ji	1
+醉酒云雾	zui jiu yun wu	1
+余烬佳酿	yu jin jia niang	1
+醉拳	zui quan	1
+元素分离	yuan su fen li	1
+元素伙伴	yuan su huo ban	1
+大地拳法	da di quan fa	1
+狂风拳法	kuang feng quan fa	1
+烈酒拳法	lie jiu quan fa	1
+太虚拳法	tai xu quan fa	1
+大放异桶	da fang yi tong	1
+醉拳大师	zui quan da shi	1
+醉酒大师	zui jiu da shi	1
+大地	da di	1
+投掷巨石	tou zhi ju shi	1
+粉碎击	fen sui ji	1
+烈火	lie huo	1
+永久献祭	yong jiu xian ji	1
+狂风	kuang feng	1
+驱散魔法	qu san mo fa	1
+龙卷风	long juan feng	1
+疾风步	ji feng bu	1
+虚无	xu wu	1
+虚无战士	xu wu zhan shi	1
+灵体脉冲	ling ti mai chong	1
+灵体牵引	ling ti qian yin	1
+
+钢背兽	gang bei shou	1
+黎格沃	li ge wo	1
+钢背猪	gang bei zhu	1
+钢背	gang bei	1
+刚被兽	gang bei shou	1
+粘稠鼻涕	nian chou bi ti	1
+针刺扫射	zhen ci sao she	1
+刚毛后背	gang mao hou bei	1
+战意	zhan yi	1
+毛团	mao tuan	1
+鼻涕火箭	bi ti huo jian	1
+
+半人猛犸	ban ren meng ma	1
+半人犀牛	ban ren xi niu	1
+马格纳斯	ma ge na si	1
+震荡波	zhen dang bo	1
+授予力量	shou yu li liang	1
+巨角冲撞	ju jiao chong zhuang	1
+獠牙冲刺	liao ya chong ci	1
+两级反转	liang ji fan zhuan	1
+长角抛物	zhang jiao pao wu	1
+坚固核心	jian gu he xin	1
+略高一筹	lue gao yi chou	1
+收益递减	shou yi di jian	1
+永恒力量	yong heng li liang	1
+
+龙骑士	long qi shi	1
+龙骑	long qi	1
+戴维安	dai wei an	1
+达维安	da wei an	1
+火焰气息	huo yan qi xi	1
+神龙摆尾	shen long bai wei	1
+龙族血统	long zu xue tong	1
+真龙形态	zhen long xing tai	1
+古龙形态	gu long xing tai	1
+火球	huo qiu	1
+碧龙	bi long	1
+赤龙	chi long	1
+火龙	huo long	1
+腐蚀吐息	fu shi tu xi	1
+苍龙	cang long	1
+霜龙	shuang long	1
+冰霜吐息	bing shuang tu xi	1
+黑龙	hei long	1
+神龙之血	shen long zhi xue	1
+飞龙之怒	fei long zhi nu	1
+
+破晓辰星	po xiao chen xing	1
+维罗拉	wei luo la	1
+星破天惊	xing po tian jing	1
+熠熠生辉	yi yi sheng hui	1
+上界重锤	shang jie zhong chui	1
+天光现世	tian guang xian shi	1
+太阳能充电	tai yang neng chong dian	1
+闪光重锤	shan guang zhong chui	1
+开路先锋	kai lu xian feng	1
+
+玛西	ma xi	1
+过肩摔	guo jian shuai	1
+回身踢	hui shen ti	1
+健体术	jian ti shu	1
+怒拳破	nu quan po	1
+狂怒连技	kuang nu lian ji	1
+特快专递	te kuai zhuan di	1
+护卫术	hu wei shu	1
+好友系统	hao you xi tong	1
+接送服务	jie song fu wu	1
+怒拳一现	nu quan yi xian	1
+
+食人魔魔法师	shi ren mo mo fa shi	1
+蓝胖子	lan pang zi	1
+蓝胖	lan pang	1
+火焰爆轰	huo yan bao hong	1
+引燃	yin ran	1
+嗜血术	shi xue shu	1
+多重施法	duo chong shi fa	1
+未精通的火焰爆轰	wei jing tong de huo yan bao hong	1
+烈火护盾	lie huo hu dun	1
+狗屎运	gou shi yun	1
+傻福	sha fu	1
+大有希望	da you xi wanag	1
+曲线学习	qu xian xue xi	1
+
+敏捷英雄	min jie ying xiong	1
+恐怖利刃	kong bu li ren	1
+灵魂守卫	ling hun shou wei	1
+魂守	hun shou	1
+倒影	dao ying	1
+惑幻	huo huan	1
+魔法镜像	mo fa jing xiang	1
+魔化	mo hua	1
+魂断	hun duan	1
+灵魂隔断	ling hun ge duan	1
+恐怖心潮	kong bu xin chao	1
+恶魔狂热	e mo kuang re	1
+暗黑团结	an hei tuan jie	1
+万劫不复	wan jie bu fu	1
+灵魂碎片	ling hun sui pian	1
+
+天穹守望者	tian qiong shou wang zhe	1
+弧光守望者	hu guang shou wang zhe	1
+泽特	ze te	1
+乱流	luan liu	1
+电流	dian liu	1
+磁场	ci chang	1
+闪光幽魂	shan guang you hun	1
+风暴双雄	feng bao shuang xiong	1
+神符灌注	shen fu guan zhu	1
+神符复制	shen fu fu zhi	1
+磁能捕获	ci neng bu huo	1
+
+灰烬之灵	hui jin zhi ling	1
+火猫	huo mao	1
+火熊猫	huo xiong mao	1
+炎阳索	yan yang suo	1
+无影拳	wu ying quan	1
+烈火罩	lie huo zhao	1
+残焰	can yan	1
+激活残焰	ji huo can yan	1
+祸不单行	huo bu dan xing	1
+上下求索	shang xia qiu suo	1
+
+巨魔战将	ju mo zhan jiang	1
+巨魔	ju mo	1
+巨馍蘸酱	ju mo zhan jiang	1
+狂战士之怒	kuang zhan shi zhi nu	1
+旋风飞斧	xuan feng fei fu	1
+热血战魂	re xue zhan hun	1
+战斗专注	zhan dou zhuan zhu	1
+横行无忌	heng xing wu ji	1
+麻木不仁	ma mu bu ren	1
+不良影响	bu liang ying xiang	1
+
+蛇发女妖	she fa nv yao	1
+美杜莎	mei du sha	1
+大娜迦	da na jia	1
+一姐	yi jie	1
+分裂箭	fen lie jian	1
+秘术异蛇	mi shu yi she	1
+魔法护盾	mo fa hu dun	1
+石化凝视	shi hua ning shi	1
+冷血动物	leng xue dong wu	1
+魔力充盈	mo li chong ying	1
+魔法之契	mo fa zhi qi	1
+不动如蛇	bu dong ru she	1
+
+赏金猎人	shang jin lie ren	1
+刚铎	gang duo	1
+投掷飞镖	tou zhi fei biao	1
+忍术	ren shu	1
+暗影步	an ying bu	1
+追踪术	zhui zong shu	1
+职业猎人	zhi ye lie ren	1
+穿针引线	chuan zhen yin xian	1
+妙手空空	miao shou kong kong	1
+暗影情谊	an ying qing yi	1
+
+复仇之魂	fu chou zhi hun	1
+仙德尔莎	xian de er sha	1
+魔法箭	mo fa jian	1
+恐怖波动	kong bu bo dong	1
+复仇光环	fu chou guang huan	1
+移形换位	yi xing huan wei	1
+恶有恶报	e you e bao	1
+复仇之箭	fu chou zhi jian	1
+灵魂打击	ling hun da ji	1
+
+熊战士	xiong zhan shi	1
+拍拍熊	pai pai xiong	1
+拍拍	pai pai	1
+乌尔萨	wu er sa	1
+震撼大地	zhen han da di	1
+超强力量	chao qiang li liang	1
+怒意狂击	nu yi kuang ji	1
+激怒	ji nu	1
+熊心勃勃	xiong xin bo bo	1
+熊心豹胆	xiong xin bao dan	1
+暴烈之爪	bao lie zhi zhao	1
+
+圣堂刺客	sheng tang ci ke	1
+圣堂	sheng tang	1
+拉娜娅	la na ya	1
+折光	zhe guang	1
+隐匿	yin ni	1
+灵能之刃	ling neng zhi ren	1
+灵能陷阱	ling neng xian jing	1
+触发陷阱	chu fa xian jing	1
+太虚之刃	tai xu zhi ren	1
+折光镜	zhe guang jing	1
+灵能投射	ling neng tou she	1
+天隐之触	tian yin zhi chu	1
+
+卓尔游侠	zhuo er you xia	1
+黑暗游侠	hei an you xia	1
+小黑	xiao hei	1
+崔希丝	cui xi si	1
+霜冻之箭	shuang dong zhi jian	1
+冰箭	bing jian	1
+狂风	kuang feng	1
+强击光环	qiang ji guang huan	1
+射手天赋	she shou tian fu	1
+冰川	bing chuan	1
+精准光环	jing zhun guang huan	1
+数箭齐发	shu jian qi fa	1
+侧身回避	ce shen hui bi	1
+
+矮人直升机	ai ren zhi sheng ji	1
+飞机	fei ji	1
+火箭弹幕	huo jian dan mu	1
+追踪导弹	zhui zong dao dan	1
+高射火炮	gao she huo pao	1
+召唤飞弹	zhao huan fei dan	1
+拆东补西	chai dong bu xi	1
+二次打击	er ci da ji	1
+加力燃烧器	jia li ran shao qi	1
+
+隐形刺客	yin xing ci ke	1
+力丸	li wan	1
+隐刺	yin ci	1
+烟幕	yan mu	1
+永久隐身	yong jiu yin shen	1
+背刺	bei ci	1
+闪烁突袭	shan shuo tu xi	1
+绝杀秘技	jue sha mi ji	1
+刀光谍影	dao guang die ying	1
+昏睡飞镖	hun shui fei biao	1
+契约杀手	qi yue sha shou	1
+
+月之女祭司	yue zhi nv ji si	1
+月之公主	yue zhi gong zhu	1
+米拉娜	mi la na	1
+白虎	bai hu	1
+虎妞	hu niu	1
+月女	yue nv	1
+群星陨落	qun xing yun luo	1
+流星	liu xing	1
+群星风暴	qun xing feng bao	1
+月神之箭	yue shen zhi jian	1
+神箭	shen jian	1
+跳跃	tiao yue	1
+月之暗面	yue zhi an mian	1
+太阳金辉	tai yang jin hui	1
+赛莉蒙妮的信使	sai li meng ni de xin shi	1
+虎跃缠扰	hu yue chan rao	1
+流星赶月	liu xing gan yue	1
+
+幻影长矛手	huan ying chang mao shou	1
+猴子	hou zi	1
+阿兹瑞斯	a zi rui si	1
+灵魂之矛	ling hun zhi mao	1
+神行百变	shen xing bai bian	1
+幻影冲锋	huan ying chong feng	1
+并列	bing lie	1
+汇聚	hui ju	1
+离散	li san	1
+石鳞剑士	shi lin jian shi	1
+虚张声势	xu zhang sheng shi	1
+甲盾冲击	jia dun chong ji	1
+幸运一击	xing yun yi ji	1
+地雷滚滚	di lei gun gun	1
+停止滚动	ting zhi gun dong	1
+卷土重来	juan tu chong lai	1
+天佑勇者	tian you yong zhe	1
+雷霆万钧	lei ting wan jun	1
+二段跳	er duan tiao	1
+众矛之的	zhong mao zhi di	1
+
+娜迦海妖	na jia hai yao	1
+小娜迦	xiao na jia	1
+镜像	jing xiang	1
+诱捕	you bu	1
+激流	ji liu	1
+海妖之歌	hai yao zhi ge	1
+捕捞	bu lao	1
+鳗鱼皮	man yu pi	1
+激流	ji liu	1
+洪水	hong shui	1
+
+变体精灵	bian ti jing ling	1
+水人	shui ren	1
+波浪形态	bo lang xing tai	1
+变体攻击	bian ti gong ji	1
+变体打击	bian ti da ji	1
+获取属性	huo qu shu xing	1
+复制	fu zhi	1
+替换复制品	ti huan fu zhi pin	1
+替换复制体	ti huan fu zhi ti	1
+混源	hun yuan	1
+积少成多	ji shao cheng duo	1
+潮涨	chao zhang	1
+潮落	chao luo	1
+
+德鲁伊	de lu yi	1
+熊德	xiong de	1
+熊灵伙伴	xiong ling huo ban	1
+粉碎击	fen sui ji	1
+回归	hui gui	1
+缠扰之爪	chan rao zhi zhao	1
+灵魂链接	ling hun lian jie	1
+野蛮咆哮	ye man pao xiao	1
+狂猛	kuang meng	1
+协同	xie tong	1
+战斗嚎叫	zhan dou hao jiao	1
+变形术	bian xing shu	1
+人形态	ren xing tai	1
+真熊形态	zhen xiong xing tai	1
+熊姿英发	xiong zi ying fa	1
+一世之熊	yi shi zhi xiong	1
+熊亦求精	xiong yi qiu jing	1
+英熊好礼	ying xiong hao li	1
+
+主宰	zhu zai	1
+尤涅若	you nie ruo	1
+剑圣	jian sheng	1
+剑刃风暴	jian ren feng bao	1
+治疗守卫	zhi liao shou wei	1
+剑舞	jian wu	1
+无敌斩	wu di zhan	1
+决斗达人	jue dou da ren	1
+刀剑风暴	dao jian feng bao	1
+剑心犹在	jian xin you zai	1
+
+虚空假面	xu kong jia mian	1
+时间漫游	shi jian man you	1
+回到过去	hui dao guo qu	1
+时间锁定	shi jian suo ding	1
+时间结界	shi jian jie jie	1
+时间膨胀	shi jian peng zhang	1
+逆转时空	ni zhuan shi kong	1
+一时之秀	yi shi zhi xiu	1
+扭曲力场	niu qu li chang	1
+
+鱼人夜行者	yu ren ye xing zhe	1
+斯拉克	si la ke	1
+小鱼人	xiao yu ren	1
+小鱼	xiao yu	1
+黑暗契约	hei an qi yue	1
+突袭	tu xi	1
+能量转移	neng liang zhuan yi	1
+暗影之舞	an ying zhi wu	1
+鱼饵	yu er	1
+深海护罩	shen hai hu zhao	1
+抽吸突袭	chou xi tu xi	1
+暗黑之礁	an hei zhi jiao	1
+暗黑之礁叛徒	an hei zhi jiao pan tu	1
+
+冥界亚龙	ming jie ya long	1
+蝮蛇	fu she	1
+毒龙	du long	1
+毒性攻击	du xing gong ji	1
+幽冥剧毒	you ming ju du	1
+腐蚀皮肤	fu shi pi fu	1
+蝮蛇突袭	fu she tu xi	1
+极恶俯冲	ji e fu chong	1
+毒爆	du bao	1
+腐蚀之浴	fu shi zhi yu	1
+
+闪电幽魂	shan dian you hun	1
+剃刀	ti dao	1
+雷泽	lei ze	1
+电棍	dian gun	1
+电魂	dian hun	1
+等离子场	deng li zi chang	1
+静电连接	jing dian lian jie	1
+不稳定电流	bu wen ding dian liu	1
+风暴涌动	feng bao yong dong	1
+风暴之眼	feng bao zhi yan	1
+雷暴云	lei bao yun	1
+雷电交加	lei dian jiao jia	1
+
+地卜师	di bu shi	1
+米波	mi bo	1
+地卜	di bu	1
+地之束缚	di zhi shu fu	1
+忽悠	hu you	1
+地之突袭	di zhi tu xi	1
+分则能成	fen ze neng cheng	1
+掘地	jue di	1
+囤积狂鼠	tun ji kuang shu	1
+超大米波	chao da mi bo	1
+三只手	san zhi shou	1
+更多米波	geng duo mi bo	1
+囤积狂鼠	tun ji kuang shu	1
+相依为命	xiang yi wei ming	1
+
+剧毒术士	ju du shu shi	1
+剧毒	ju du	1
+瘴气	zhang qi	1
+毒刺	du ci	1
+瘟疫守卫	wen yi shou wei	1
+蛇棒	she bang	1
+剧毒新星	ju du xin xing	1
+蛰毒	zhe du	1
+恶性瘟疫	e xing wen yi	1
+零号病人	ling hao bing ren	1
+恶疫傍身	e yi bang shen	1
+
+幽鬼	you gui	1
+墨丘利	mo qiu li	1
+幽鬼之刃	you gui zhi ren	1
+荒芜	huang wu	1
+折射	zhe she	1
+降临	jiang lin	1
+鬼影重重	gui ying chong chong	1
+独来独往	du lai du wang	1
+趁人之危	chen ren zhi wei	1
+空降	kong jiang	1
+
+影魔	ying mo	1
+奈文摩尔	nai wen mo er	1
+毁灭阴影	hui mie yin ying	1
+支配死灵	zhi pei si ling	1
+灵魂盛宴	ling hun sheng yan	1
+魔王降临	mo wang jiang lin	1
+魂之挽歌	hun zhi wan ge	1
+经久不衰	jing jiu bu shuai	1
+阴影泥沼	yin ying ni zhao	1
+
+幻影刺客	huan ying ci ke	1
+幻刺	huan ci	1
+茉崔蒂	mo cui di	1
+窒息之刃	zhi xi zhi ren	1
+窒碍短匕	zhi ai duan bi	1
+幻影突袭	huan ying tu xi	1
+模糊	mo hu	1
+魅影无形	mei ying wu xing	1
+恩赐解脱	en ci jie tuo	1
+刀阵旋风	dao zhen xuan feng	1
+魅影之纱	mei ying zhi sha	1
+飘忽不定	piao hu bu ding	1
+有条不紊	you tiao bu wen	1
+甜蜜释放	tian mi shi fang	1
+
+编织者	bian zhi zhe	1
+斯吉茨格尔	si ji ci ge er	1
+虫群	chong qun	1
+蝗虫	huang chong	1
+缩地	suo di	1
+连击	lian ji	1
+时光倒流	shi guang dao liu	1
+虫巢思维	chong chao si wei	1
+
+司夜刺客	si ye ci ke	1
+小强	xiao qiang	1
+穿刺	chuan ci	1
+法力燃烧	fa li ran shao	1
+神智爆裂	shen zhi bao lie	1
+尖刺外壳	jian ci wai ke	1
+复仇	fu chou	1
+钻地	zuan di	1
+地堡	di bao	1
+夜之感知	ye zhi gan zhi	1
+疾行	ji xing	1
+
+育母蜘蛛	yu mu zhi zhu	1
+孵化蜘蛛	fu hua zhi zhu	1
+织网	zhi wang	1
+麻痹之咬	ma bi zhi yao	1
+丝质重器	si zhi zhong qi	1
+极度饥渴	ji du ji ke	1
+蛛纱陷阱	zhu sha xian jing	1
+蜘蛛奶	zhi zhu nai	1
+坏死之网	huai si zhi wang	1
+疯狂喂食	feng kuang wei shi	1
+
+骷髅射手	ku lou she shou	1
+骷髅弓箭手	ku lou gong jian shou	1
+克林克兹	ke lin ke zi	1
+霍文林地	huo wen lin di	1
+小骷髅	xiao ku lou	1
+骨弓	gu gong	1
+扫射	sao she	1
+灼热之箭	zhuo re zhi jian	1
+火箭	huo jian	1
+骨隐步	gu yin bu	1
+死亡契约	si wang qi yue	1
+吞噬骷髅	tun shi ku lou	1
+炽烈火雨	chi lie huo yu	1
+燃烧之军	ran shao zhi jun	1
+焦油炸弹	jiao you zha dan	1
+骨头和箭头	gu tou he jian tou	1
+吞灭之步	tun mie zhi bu	1
+
+嗜血狂魔	shi xue kuang mo	1
+血魔	xue mo	1
+史德利古尔	shi de li gu er	1
+血之狂暴	xue zhi kuang bao	1
+血怒	xue nu	1
+血之祭祀	xue zhi ji si	1
+血祭	xue ji	1
+嗜血渴望	shi xue ke wang	1
+焦渴	jiao ke	1
+割裂	ge lie	1
+食血动物	shi xue dong wu	1
+动脉偾张	dong mai fen zhang	1
+血色冲锋	xue se chong feng	1
+血雾	xue wu	1
+
+齐天大圣	qi tian da sheng	1
+棒击大地	bang ji da di	1
+丛林之舞	cong lin zhi wu	1
+乾坤之跃	qian kun zhi yue	1
+如意棒法	ru yi bang fa	1
+七十二变	qi shi er bian	1
+猴子猴孙	hou zi hou sun	1
+大圣坚阵	da sheng jian zhen	1
+猿猴步法	yuan hou bu fa	1
+
+月之骑士	yue zhi qi shi	1
+月骑	yue qi	1
+露娜	lu na	1
+月光	yue guang	1
+月刃	yue ren	1
+月之祝福	yue zhi zhu fu	1
+月蚀	yue shi	1
+环月	huan yue	1
+月盾	yue dun	1
+
+狙击手	ju ji shou	1
+火枪	huo qiang	1
+矮人火枪手	ai ren huo qiang shou	1
+矮人狙击手	ai ren ju ji shou	1
+传说哥	chuan shuo ge	1
+卡德尔鹰眼	ka de er ying yan	1
+榴霰弹	liu xian dan	1
+爆头	bao tou	1
+瞄准	miao zhun	1
+暗杀	an sha	1
+震荡手雷	zhen dang shou lei	1
+基恩	ji en	1
+基恩瞄准镜	ji en miao zhun jing	1
+散弹	san dan	1
+
+敌法师	di fa shi	1
+玛吉纳	ma ji na	1
+法力损毁	fa li sun hui	1
+闪烁	shan shuo	1
+法术护盾	fa shu hu dun	1
+法力虚空	fa li xu kong	1
+闪烁碎片	shan shuo sui pian	1
+法术反制	fa shu fan zhi	1
+友军法术反制	you jun fa shu fan zhi	1
+灭发之镜	mie fa zhi jing	1
+法力渴望	fa li ke wang	1
+
+森海飞霞	sen hai fei xia	1
+爆栗出击	bao li chu ji	1
+野地奇袭	ye di qi xi	1
+密林奔走	mi lin ben zou	1
+一箭穿心	yi jian chuan xin	1
+伪装迷彩	wei zhuang mi cai	1
+诱敌奇术	you di qi shu	1
+猎手旋镖	lie shou xuan biao	1
+林渊旅人	lin yuan lü ren	1
+大显身手	da xian shen shou	1
+弹木特效	dan mu te xiao	1
+腰射	yao she	1
+
+鸟骑士	niao qi shi	1
+英佩瑞雅女王	ying pei rui ya nv wang	1
+陆行族英雄	lu xing zu ying xiong	1
+回音重斩	hui yin zhong zhan	1
+制敌爪钩	zhi di zhua gou	1
+影武长刀	ying wu chang dao	1
+猛禽之舞	meng qin zhi wu	1
+天隼冲击	tian sun chong ji	1
+利爪飞掷	li zhua fei zhi	1
+翔影之钗	xiang ying zhi chai	1
+渡鸦之纱	du ya zhi sha	1
+影武长刀	ying wu chang dao	1
+流派变换	liu pai bian huan	1
+振翼	zhen yi	1
+隼影	sun ying	1
+翔影之钗	xiang ying zhi chai	1
+
+智力英雄	zhi li ying xiong	1
+神谕者	shen yu zhe	1
+气运之末	qi yun zhi mo	1
+命运敕令	ming yun chi ling	1
+涤罪之焰	di zui zhi yan	1
+虚妄之诺	xu wang zhi nuo	1
+天命之雨	tian ming zhi yu	1
+预言家诅咒	yu yan jia zu zhou	1
+预言家疗伤	yu yan jia liao shang	1
+
+寒冬飞龙	han dong fei long	1
+冰龙	bing long	1
+严寒烧灼	yan han shao zhuo	1
+碎裂冲击	sui lie chong ji	1
+极寒之拥	ji han zhi yong	1
+寒冬诅咒	han dong zu zhou	1
+古龙学者	gu long xue zhe	1
+蓝心精华	lan xin jing hua	1
+飞龙视野	fei long shi ye	1
+抗寒	kang han	1
+递归	di gui	1
+
+工程师	gong cheng shi	1
+地精工程师	di jing gong cheng shi	1
+团队工程师	tuan dui gong cheng shi	1
+炸弹人	zha dan ren	1
+拉登	la deng	1
+斯奎	si kui	1
+斯奎的瞄准镜	si kui de miao zhun jing	1
+斯布林	si bu lin	1
+斯布林的秘密武器	si bu lin de mi mi wu qi	1
+斯布恩	si bu en	1
+斯布恩的藏品	si bu en de cang pin	1
+埋布地雷	mai bu di lei	1
+感应地雷	gan ying di lei	1
+麻痹陷阱	ma bi xian jing	1
+静止陷阱	jing zhi xian jing	1
+静滞陷阱	jing zhi xian jing	1
+爆破起飞	bao po qi fei	1
+自杀攻击	zi sha gong ji	1
+集中引爆	ji zhong yin bao	1
+雷区标识	lei qu biao zhi	1
+遥控炸弹	yao kong zha dan	1
+粘性炸弹	nian xing zha dan	1
+活性电击	huo xing dian ji	1
+
+天怒法师	tian nu fa shi	1
+扎贡纳斯	zha gong na si	1
+龙鹰	long ying	1
+秘法箭	mi fa jian	1
+震荡光弹	zhen dang guang dan	1
+上古封印	shang gu feng yin	1
+神秘之耀	shen mi zhi yao	1
+天裔之盾	tian yi zhi dun	1
+天裔之杖	tian yi zhi zhang	1
+拨乱反正	bo luan fan zheng	1
+
+双头龙	shuang tou long	1
+杰奇洛	jie qi luo	1
+冰火交加	bing huo jiao jia	1
+冰封路径	bing feng lu jing	1
+液态火	ye tai huo	1
+烈焰焚身	lie yan fen shen	1
+液态冰	ye tai bing	1
+天生一对	tian sheng yi dui	1
+双生恐怖	shuang sheng kong bu	1
+破冰行动	po bing xing dong	1
+
+魅惑魔女	mei huo mo nv	1
+小鹿	xiao lu	1
+不可侵犯	bu ke qin fan	1
+魅惑	mei huo	1
+自然之助	zi ran zhi zhu	1
+推进	tui jin	1
+彩虹镖	cai hong biao	1
+跃动	yue dong	1
+密友	mi you	1
+过度保护的小精灵	guo du bao hu de xiao jing ling	1
+着迷	zhao mi	1
+煽动野怪	shan dong ye guai	1
+
+先知	xian zhi	1
+自然先知	zi ran xian zhi	1
+发芽	fa ya	1
+传送	chuan song	1
+自然的呼唤	zi ran de hu huan	1
+召唤树人	zhao huan shu ren	1
+自然之怒	zi ran zhi nu	1
+小树人	xiao shu ren	1
+青森诅咒	qing sen zu zhou	1
+丛林之魂	cong lin zhi hun	1
+铁树树人	tie shu shu ren	1
+舒缓之苗	shu huan zhi miao	1
+
+死灵飞龙	si ling fei long	1
+维萨吉	wei sa ji	1
+灰鸟	hui niao	1
+黄泉颤抖	huang quan chan dou	1
+灵魂超度	ling hun chao du	1
+陵卫斗篷	ling wei dou peng	1
+召唤佣兽	zhao huan yong shou	1
+石像鬼	shi xiang gui	1
+静如古墓	jing ru gu mu	1
+圣龛	sheng kan	1
+忠实部下	zhong shi bu xia	1
+
+修补匠	xiu bu jiang	1
+地精修补匠	di jing xiu bu jiang	1
+激光	ji guang	1
+热导飞弹	re dao fei dan	1
+机器人的进军	ji qi ren de jin jun	1
+机械行军	ji xie xing jun	1
+再装填	zai zhuang tian	1
+缩小射线	suo xiao she xian	1
+防御矩阵	fang yu ju zhen	1
+折跃耀光	zhe yue yao guang	1
+
+暗影恶魔	an ying e mo	1
+艾瑞达	ai rui da	1
+毒狗	du gou	1
+崩裂禁锢	beng lie jin gu	1
+散播	san bo	1
+灵魂猎手	ling hun lie shou	1
+暗影剧毒	an ying ju du	1
+释放暗影毒	shi fang an ying du	1
+邪恶净化	xie e jing hua	1
+传播	chuan bo	1
+暗影仆从	an ying pu cong	1
+
+暗影萨满	an ying sa man	1
+小歪	xiao wai	1
+苍穹震击	cang qiong zhen ji	1
+妖术	yao shu	1
+枷锁	jia suo	1
+群蛇守卫	qun she shou wei	1
+禽戏	qin xi	1
+咕咕鸡群	gu gu ji qun	1
+巨蛇守卫	ju she shou wei	1
+鸡手指	ji shou zhi	1
+
+沉默术士	chen mo shu shi	1
+诺崇	nuo chong	1
+静默诅咒	jing mo zu zhou	1
+智慧之刃	zhi hui zhi ren	1
+最后遗言	zui hou yi yan	1
+全领域沉默	quan ling yu chen mo	1
+智力外流	zhi li wai liu	1
+无法抑制	wu fa yi zhi	1
+寂静回荡	ji jing hui dang	1
+
+祈求者	qi qiu zhe	1
+卡尔	ka er	1
+召唤	zhao huan	1
+急速冷却	ji su leng que	1
+幽灵漫步	you ling man bu	1
+强袭飓风	qiang xi ju feng	1
+吹风	chui feng	1
+电磁脉冲	dian ci mai chong	1
+磁暴	ci bao	1
+灵动迅捷	ling dong xun jie	1
+混沌陨石	hun dun yun shi	1
+砸陨石	za yun shi	1
+阳炎冲击	yang yan chong ji	1
+熔炉精灵	rong lu jing ling	1
+小火人	xiao huo ren	1
+寒冰之墙	han bing zhi qiang	1
+冰墙	bing qiang	1
+超震声波	chao zhen sheng bo	1
+刀片	dao pian	1
+吹风磁暴帮帮我	chui feng ci bao bang bang wo	1
+帮帮我	bang bang wo	1
+不可知论	bu ke zhi lun	1
+精英主义	jing ying zhu yi	1
+科瑞克斯学者	ke rui ke si xue zhe	1
+科瑞克斯	ke rui ke si	1
+托纳鲁斯心智	tuo na lu si xin zhi	1
+托纳鲁斯	tuo na lu si	1
+加拉隆党羽	jia la long dang yu	1
+加拉隆	jia la long	1
+
+圣骑士	sheng qi shi	1
+赎罪	shu zui	1
+忠诚考验	zhong cheng kao yan	1
+神圣劝化	shen sheng quan hua	1
+神力恩泽	shen li en ze	1
+上帝之手	shang di zhi shou	1
+殉道	xun dao	1
+召唤信徒	zhao huan xin tu	1
+
+光之守卫	guang zhi shou wei	1
+光法	guang fa	1
+冲击波	chong ji bo	1
+光波	guang bo	1
+法力流失	fa li liu shi	1
+查克拉魔法	cha ke la mo fa	1
+灵魂形态	ling hun xing tai	1
+召回	zhao hui	1
+致盲之光	zhi mang zhi guang	1
+释放冲击波	shi fang chong ji bo	1
+灵光	ling guang	1
+炎阳之缚	yan yang zhi fu	1
+预兆象征	yu zhao xiang zheng	1
+特别储备	te bie chu bei	1
+
+干扰者	gan rao zhe	1
+萨尔	sa er	1
+雷霆之击	lei ting zhi ji	1
+风雷之击	feng lei zhi ji	1
+恶念瞥视	e nian pie shi	1
+动能立场	dong neng li chang	1
+静态风暴	jing tai feng bao	1
+电磁排斥	dian ci pai chi	1
+动能栅栏	dong neng zha lan	1
+大魔导师	da mo dao shi	1
+
+拉比克	la bi ke	1
+隔空取物	ge kong qu wu	1
+隔空取物着陆	ge kong qu wu zhuo lu	1
+弱化能流	ruo hua neng liu	1
+失效立场	shi xiao li chang	1
+技能窃取	ji neng qie qu	1
+力量与魔法	li liang yu mo fa	1
+节俭窃贼	jie jian qie zei	1
+奥术积累	ao shu ji lei	1
+
+黑暗贤者	hei an xian zhe	1
+兔子	tu zi	1
+黑贤	hei xian	1
+依什卡菲尔	yi shen ka fei er	1
+真空	zhen kong	1
+离子外壳	li zi wai ke	1
+离子盾	li zi dun	1
+奔腾	ben teng	1
+复制之墙	fu zhi zhi qiang	1
+普通一拳	pu tong yi quan	1
+神志刚毅	shen zhi gang yi	1
+才思敏捷	cai si min jie	1
+战斗之心	zhan dou zhi xin	1
+精进不休	jing jin bu xiu	1
+
+殁境神蚀者	mo jing shen shi zhe	1
+黑鸟	hei niao	1
+黑曜毁灭者	hei yao hui mie zhe	1
+奥术天球	ao shu tian qiu	1
+星体禁锢	xing ti jin gu	1
+精华变迁	jing hua bian qian	1
+精气光环	jing qi guang huan	1
+衡势	heng shi	1
+神智之蚀	shen zhi zhi shi	1
+殁境	mo jing	1
+殁境神力	mo jing shen li	1
+殁世神灭	mo shi shen mie	1
+殁势神蚀	mo shi shen shi	1
+
+受折磨的灵魂	shou zhe mo de ling hun	1
+拉席克	la xi ke	1
+老鹿	lao lu	1
+光鹿	guang lu	1
+撕裂大地	si lie da di	1
+恶魔赦令	e mo she ling	1
+闪电风暴	shan dian feng bao	1
+脉冲新星	mai chong xin xing	1
+虚无主义	xu wu zhu yi	1
+大肆污染	da si wu ran	1
+时光滋养	shi guang zi yang	1
+厌世	yan shi	1
+
+蝙蝠骑士	bian fu qi shi	1
+粘性燃油	nian xing ran you	1
+烈焰破击	lie yan po ji	1
+火焰飞行	huo yan fei xing	1
+燃烧枷锁	ran shao jia suo	1
+闷烧树脂	men shao shu zhi	1
+
+极寒幽魂	ji han you hun	1
+远古冰魂	yuan gu bing hun	1
+冰魂	bing hun	1
+寒霜之足	han shuang zhi zu	1
+冰霜漩涡	bing shuang xuan wo	1
+极寒之触	ji han zhi chu	1
+冰晶爆轰	bing jing bao hong	1
+死亡霜雾	si wang shuang wu	1
+刺骨严寒	ci gu yan han	1
+
+暗影牧师	an ying mu shi	1
+戴泽	dai ze	1
+暗牧	an mu	1
+剧毒之触	ju du zhi chu	1
+薄葬	bo zang	1
+暗影波	an ying bo	1
+逆暗影波	ni an ying bo	1
+编织	bian zhi	1
+邪能	xie neng	1
+虚无之恩	xu wu zhi en	1
+剧毒之花	ju du zhi hua	1
+
+秀逗魔导士	xiu dou mo dao shi	1
+莉娜	li na	1
+火女	huo nv	1
+龙破斩	long po zhan	1
+光击阵	guang ji zhen	1
+炽魂	chi hun	1
+神灭斩	shen mie zhan	1
+腾焰斗篷	teng yan dou peng	1
+热力失控	re li shi kong	1
+顶峰状态	ding feng zhuang tai	1
+
+众神之王	zhong shen zhi wang	1
+宙斯	zhou si	1
+神王	shen wang	1
+弧形闪电	hu xing shan dian	1
+雷击	lei ji	1
+静电场	jing dian chang	1
+雷神之怒	lei shen zhi nu	1
+神圣一跳	shen sheng yi tiao	1
+欢声雷动	huan sheng lei dong	1
+神圣之怒	shen sheng zhi nu	1
+霹雳之手	pi li zhi shou	1
+
+风行者	feng xing zhe	1
+束缚击	shu fu ji	1
+双捆	shuang kun	1
+强力击	qiang li ji	1
+风行	feng xing	1
+风步	feng bu	1
+集中火力	ji zhong huo li	1
+举步生风	ju bu sheng feng	1
+一路顺风	yi lu shun feng	1
+前赴后继	qian fu hou ji	1
+致命一箭	zhi ming yi jian	1
+
+风暴之灵	feng bao zhi ling	1
+蓝猫	lan mao	1
+残影	can ying	1
+电子涡流	dian zi wo liu	1
+超负荷	chao fu he	1
+球状闪电	qiu zhuang shan dian	1
+电击项圈	dian ji xiang quan	1
+滑行之影	hua xing zhi ying	1
+
+仙女龙	xian nv long	1
+帕克	pa ke	1
+精灵龙	jing ling long	1
+幻象法球	huan xiang fa qiu	1
+新月之痕	xin yue zhi hen	1
+相位转移	xiang wei zhuan yi	1
+灵动之翼	ling dong zhi yi	1
+梦境缠绕	meng jing chan rao	1
+顽皮克敌	wan pi ke di	1
+推撞之痕	tui zhuang zhi hen	1
+曲线法球	qu xian fa qiu	1
+
+湮灭法师	yan mie fa shi	1
+遗忘法师	yi wang fa shi	1
+帕格纳	pa ge na	1
+骨法	gu fa	1
+幽冥爆轰	you ming bao hong	1
+衰老	shuai lao	1
+幽冥守卫	you ming shou wei	1
+生命汲取	sheng ming ji qu	1
+湮灭专家	yan mie zhuan jia	1
+虹吸守卫	hong xi shou wei	1
+毁灭之赏	hui mie zhi shang	1
+
+水晶室女	shui jing shi nv	1
+冰女	bing nv	1
+小冰冰	xiao bing bing	1
+冰霜新星	bing shuang xin xing	1
+冰封禁制	bing feng jin zhi	1
+奥术光环	ao shu guang huan	1
+蓝心浮冰	lan xin fu bing	1
+雪中送冰	xue zhong song bing	1
+冰晶克隆	bing jing ke long	1
+极寒领域	ji han ling yu	1
+奥术外溢	ao shu wai yi	1
+冰川护体	bing chuan hu ti	1
+
+死亡先知	si wang xian zhi	1
+地穴虫群	di xue chong qun	1
+沉默魔法	chen mo mo fa	1
+巫术精研	wu shu jing yan	1
+吸魂巫术	xi hun wu shu	1
+驱使恶灵	qu shi e ling	1
+封锁	feng suo	1
+灵魂收集	ling hun shou ji	1
+痛苦女王	tong ku nv wang	1
+暗影突袭	an ying tu xi	1
+痛苦尖叫	tong ku jian jiao	1
+超声冲击波	chao sheng chong ji bo	1
+超声音爆	chao sheng yin bao	1
+魅魔	mei mo	1
+受虐成狂	shou nüe cheng kuang	1
+灵魂收集	ling hun shou ji	1
+
+术士	shu shi	1
+致命连接	zhi ming lian jie	1
+暗言术	an yan shu	1
+剧变	ju bian	1
+魔童	mo tong	1
+魔异爆炸	mo yi bao zha	1
+混乱之祭	hun luan zhi ji	1
+邪术召唤	xie shu zhao huan	1
+格罗斯	ge luo si	1
+格罗斯勇士	ge luo si yong shi	1
+黑暗魔典	hei an mo dian	1
+
+瘟疫法师	wen yi fa shi	1
+死灵法	si ling fa	1
+死灵法师	si ling fa shi	1
+死亡脉冲	si wang mai chong	1
+竭心光环	jie xin guang huan	1
+施虐之心	shi nue zhi xin	1
+死神镰刀	si shen lian dao	1
+幽魂护罩	you hun hu zhao	1
+死亡搜寻	si wang sou xun	1
+快速腐朽	kuai su fu xiu	1
+亵渎之力	xie du zhi li	1
+
+虚无之灵	xu wu zhi ling	1
+紫猫	zi mao	1
+无玄	wu xuan	1
+残阴	can yin	1
+异化	yi hua	1
+共鸣脉冲	gong ming mai chong	1
+太虚之径	tai xu zhi jing	1
+太虚印记	tai xu yin ji	1
+内在优势	nei zai you shi	1
+
+谜团	mi tuan	1
+憎恶	zeng wu	1
+恶魔转化	e mo zhuan hua	1
+午夜凋零	wu ye diao ling	1
+黑洞	hei dong	1
+小谜团	xiao mi tuan	1
+次级精神体	ci ji jing shen ti	1
+虚灵体	xu ling ti	1
+重力井	zhong li jing	1
+事件视界	shi jian shi jie	1
+分割图像	fen ge tu xiang	1
+
+巫医	wu yi	1
+麻痹药剂	ma bi yao ji	1
+巫毒回复术	wu du hui fu shu	1
+诅咒	zu zhou	1
+巫蛊咒术	wu gu zhou shu	1
+死亡守卫	si wang shou wei	1
+巫毒变身术	wu du bian shen shu	1
+驱邪护符	qu xie hu fu	1
+赶尽杀绝	gan jin sha jue	1
+巫毒咒法	wu du zhou fa	1
+巫毒疗法	wu du liao fa	1
+死亡分裂	si wang fen lie	1
+
+恶魔巫师	e mo wu shi	1
+莱恩	lai en	1
+裂地尖刺	lie di jian ci	1
+巫术	wu shu	1
+法力吸取	fa li xi qu	1
+死亡之指	si wang zhi zhi	1
+下地狱再上来	xia di yu zai shang lai	1
+吞食精华	tun shi jing hua	1
+死亡之拳	si wang zhi quan	1
+
+巫妖	wu yao	1
+寒霜暴发	han shuang bao fa	1
+霜冻护甲	shuang dong hu jia	1
+阴邪凝视	yin xie ning shi	1
+连环霜冻	lian huan shuang dong	1
+寒冰尖柱	han bing jian zhu	1
+死亡充能	si wang chong neng	1
+冰霜之缚	bing shuang zhi fu	1
+寒意渐增	han yi jian zeng	1
+
+祸乱之源	huo luan zhi yuan	1
+痛苦之源	tong ku zhi yuan	1
+祸乱	huo luan	1
+虚弱	xu ruo	1
+蚀脑	shi nao	1
+噩梦	e meng	1
+魔爪	mo zhao	1
+噩梦终止	e meng zhong zhi	1
+妮塔莎	ni ta sha	1
+妮塔莎脓血	ni ta sha nong xue	1
+梦中潜行者	meng zhong qian xing zhe	1
+
+邪影芳灵	xie ying fang ling	1
+米瑞斯嘉	mi rui si jia	1
+米瑞斯嘉晴风	mi rui si jia qing feng	1
+瑞文特尔	rui wen te er	1
+杰克斯	jie ke si	1
+荆棘迷宫	jing ji mi gong	1
+暗影之境	an ying zhi jing	1
+诅咒王冠	zu zhou wang guan	1
+作祟	zuo sui	1
+恐吓	kong he	1
+仙灵粉尘	xian ling fen chen	1
+切肤之影	qie fu zhi ying	1
+荆棘丛生	jing ji cong sheng	1
+破碎之冠	po sui zhi guan	1
+
+天涯墨客	tian ya mo ke	1
+命运之笔	ming yun zhi bi	1
+幻影之拥	huan ying zhi yong	1
+墨涌	mo yong	1
+暗绘	an hui	1
+浓墨重彩	nong mo zhong cai	1
+缚魂	fu hun	1
+磋磨之纪	cuo mo zhi ji	1
+望尘墨及	wang chen mo ji	1
+绝美艺术	jue mei yi shu	1
+
+琼英碧灵	qiong ying bi ling	1
+琼碧	qiong bi	1
+奶绿	nai lv	1
+仁慈与恩泽	ren ci yu en ze	1
+弹无虚发	dan wu xu fa	1
+唤魂	huan hun	1
+神枪在手	shen qiang zai shou	1
+越界	yue jie	1
+临别一枪	lin bie yi qiang	1
+超自然	chao zi ran	1
+亡灵之舞	wang ling zhi wu	1
+祭台	ji tai	1
+
+百戏大王	bai xi da wang	1
+科里奥斯特罗	ke li ao si luo te	1
+卡特尔	ka te er	1
+暗黑狂欢主持	an hei kuang huan zhu chi	1
+驯兽术	xun shou shu	1
+逃生技	tao sheng ji	1
+尖刀戏	jian dao xi	1
+奇观轮	qi guan lun	1
+哈哈镜	ha ha jing	1
+比例失真	bi li shi zhen	1
+强力水	qiang li shui	1
+强力吸收	qiang li xi shou	1
+整蛊垫	zheng gu dian	1
+水晶球	shui jing qiu	1
+独轮车	du lun che	1
+超重派	chao zhong pai	1
+聚光灯	ju guang deng	1
+舞台中央	wu tai zhong yang	1
+狂欢经典	kuang huan jing dian	1
+杂耍奥秘	za shua hao mi	1
+
+全才英雄	quan cai ying xiong	1
+
+聊天轮盘	liao tian lun pan	1
+官方轮盘	guan fang lun pan	1
+DotA2	dota	1
+DotAPlus	dotaplus	1
+刀塔Plus	dotaplus	1
+悲伤长号	bei shang chang hao	1
+笑翠鸟笑声	xiao cui niao xiao sheng	1
+肥猩猩飞吻	fei xing xing fei wen	1
+蚊子嗡嗡声	wen zi weng weng sheng	1
+人群叹息	ren qun tan xi	1
+头部撞击	tou bu zhuang ji	1
+唱片刮擦	chang pian gua ca	1
+打团	da tuan	1
+抓人	zhua ren	1
+拆塔	chai ta	1
+守塔	shou ta	1
+守高地	shou gao di	1
+守高	shou gao	1
+二塔放了	er ta fang le	1
+打野	da ye	1
+正补	zheng bu	1
+补兵	bu bing	1
+反补	fan bu	1
+反补我	fan bu wo	1
+一拳超人	yi quan chao ren	1
+神之一钩	shen zhi yi gou	1
+梦魇噪声	meng yan zao sheng	1
+小提琴尖声	xiao ti qin jian sheng	1
+
+喷绘	pen hui	1
+小小航空	xiao xiao hang kong	1
+明确的疯狂	ming que de feng kuang	1
+爪爪鬼	zhua zhua gui	1
+原始盛宴	yuan shi sheng yan	1
+大哥吃咖喱	da ge chi ga li	1
+小鸡猛击	xiao ji meng ji	1
+神行帮	shen xing bang	1
+迪斯科轰隆	di si ke hong long	1
+肉酱	rou jiang	1
+朋友那是你的	peng you na shi ni de	1
+
+常用语音	chang yong yu yin	1
+英雄失踪	ying xiong shi zong	1
+人没了	ren mei le	1
+人不见了	ren bu jian le	1
+上路英雄失踪	shang lu ying xiong shi zong	1
+上路失踪	shang lu shi zong	1
+上路不见了	shang lu bu jian le	1
+上路没人了	shang lu mei ren le	1
+上路没了	shang lu mei le	1
+上路人没了	shang lu ren mei le	1
+中路英雄失踪	zhong lu ying xiong shi zong	1
+中路失踪	zhong lu shi zong	1
+中路不见了	zhong lu bu jian le	1
+中路没人了	zhong lu mei ren le	1
+中路没了	zhong lu mei le	1
+下路英雄失踪	xia lu ying xiong shi zong	1
+下路失踪	xia lu shi zong	1
+下路不见了	xia lu bu jian le	1
+下路没人了	xia lu mei ren le	1
+下路没了	xia lu mei le	1
+加固	jia gu	1
+塔防	ta fang	1
+开塔防	kai ta fang	1
+天辉建筑	tian hui jian zhu	1
+夜魇建筑	ye yan jian zhu	1
+全面加固	quan mian jia gu	1
+
+常见梗	chang jian geng	1
+拿头打呀	na tou da ya	1
+主一副二	zhu yi fu er	1
+主一副三	zhu yi fu san	1
+主三副一	zhu san fu yi	1
+主二副一	zhu er fu yi	1
+主二副三	zhu er fu san	1
+主二副一	zhu er fu yi	1
+有大学大	you da xue da	1
+有大点大	you da dian da	1
+三黄对点	san huang dui dian	1
+黄点	huang dian	1
+黄点流	huang dian liu	1
+帮忙暂停	bang mang zan ting	1
+灌瓶	guan ping	1
+帮我灌瓶	bang wo guan ping	1
+两个吃树谢谢	liang ge chi shu xie xie	1
+吹跳绿隐推	chui tiao lv yin tui	1
+浪逼五件套	lang bi wu jian tao	1 
+
+阵营与活动	zhen ying yu huo dong	1
+阵营	zhen ying	1
+天辉	tian hui	1
+夜魇	ye yan	1
+神杖二	shen zhang er	1
+版本更新	ban ben geng xin	1
+勇士联赛	yong shi lian meng	1
+世外之争	shi wai zhi zheng	1
+边路商店	bian lu shang dian	1
+西泽尔	xi ze er	1
+柯特	ke te	1
+刀塔霸业	dao ta ba ye	1
+神圣纹章	shen sheng wen zhang	1
+永雾林渊	yong wu lin yuan	1
+阿哈利姆天地迷宫	a ha li mu tian di mi gong	1	
+夜魇暗潮	ye yan an chao	1
+小贪魔太妃糖	xiao tan mo tai fei tang	1
+夜魇暗潮的神圣宝藏	ye yan an chao de shen sheng bao zang	1
+夜魇暗潮的珍贵衣箱	ye yan an chao de zhen gui yi xiang	1
+好事多贪魔	hao shi duo tan mo	1
+糖果厂	tang guo chang	1
+糖果井	tang guo jing	1
+贪魔	tan mo	1
+肉山巢穴	rou shan chao xue	1
+魔法纸杯蛋糕	mo fa zhi bei dan gao	1
+太妃糖卫士	tai fei tang wei shi	1
+灵异击掌	ling yi ji zhang	1
+夜魇暗潮的珍贵衣箱	ye yan an chao de zhen gui yi xiang	1
+小布团	xiao bu tuan	1
+鸟鸟和泡泡	niao niao he pao pao	1
+凶喵	xiong miao	1
+小幽灵	xiao you ling	1
+大脑子	da nao zi	1
+饥饿肉山	ji e rou shan	1
+幸运喵咪	xing yun miao mi	1
+末日小子	mo ri xiao zi	1
+胜券在握	sheng quan zai wo	1
+愤怒小怪	fen nu xiao guai	1
+不详喵咪	bu xiang miao mi	1
+糖苹果	tang ping guo	1
+帕格纳抿嘴	pa ge na min zui	1
+育母蜘蛛毛衣	yu mu zhi zhu mao yi	1
+萌喵	meng miao	1
+不朽尸王维生素	bu xiu shi wang wei sheng su	1
+肉山宝宝	rou shan bao bao	1
+狼人和朋友	wang ren he peng you	1
+湮灭之缘	yan mie zhi yuan	1
+渊海绝影	yuan hai jue ying	1
+荒漠灼印	huang mo zhuo yin	1
+亚特兰封锁舰传说	ya te lan feng suo jian chuan shuo	1
+毁灭之源	hui mie zhi yuan	1
+飞升残迹	fei sheng can ji	1
+全能桎梏	quan neng zhi gu	1
+神之仁善	shen zhi ren shan	1
+魅影宣告	mei ying xuan gao	1
+逆转协律	ni zhuan xie lv	1
+蜥蜴束系	xi yi shu xi	1
+神圣之心捆绑包	shen sheng zhi xin kun bang bao	1
+倾天之战	qing tian zhi zhan	1
+糖果厂摊车	tang guo chang tan che	1
+
+国际邀请赛	guo ji yao qing sai	1
+勇士令状纹章	yong shi ling zhuang wen zhang	1
+求圣之路	qiu sheng zhi lu	1
+神之圣地	shen zhi sheng di	1
+勇士试炼场	yong shi shi lian chang	1
+真王	zhen wang	1
+魔廷新尊	mo ting xin zun	1
+清风环佩	qing feng huan pei	1
+灵界回音	ling jie hui yin	1
+天地擅闯者	tian di shan chuang zhe	1
+金辉崇拜时代	jin hui chong bai shi dai	1
+秘奥共振光束	mi ao gong zhen guang shu	1
+暗黑世纪夜影	an hei shi ji ye ying	1
+魔裔守望者	mo yi shou wang zhe	1
+邪喉之抑	xie hou zhi yi	1
+通天	tong tian	1
+海蟒之命	hai mang zhi ming	
+漫游嬉戏之华	man you xi xi zhi hua	1
+千劫神钩	qian jie shen gou	1
+忠实属下	zhong shi shu xia	1
+晴儿	qing er	1
+小仓	xiao cang	1
+圣光宣言防御塔	sheng guang xuan yan fang yu ta	1
+圣光宣言天辉防御塔	sheng guang xuan yan tian hui fang yu ta	1
+圣光宣言夜魇防御塔	sheng guang xuan yan ye yan fang yu ta	1
+石爪清道夫防御塔	shi zhua qing dao fu fang yu ta	1
+石爪清道夫天辉防御塔	shi zhua qing dao fu tian hui fang yu ta	1
+石爪清道夫夜魇防御塔	shi zhua qing dao fu ye yan fang yu ta	1
+战队应援团	zhan dui ying yuan tuan	1
+梦幻挑战	meng huan tiao zhan	1
+选手卡包	xuan shou ka bao	1
+康加舞	kang jia wu	1
+永恒异宝	yong heng yi bao	1
+
+赛季物品	sai ji wu pin	1
+决斗手套	jue dou shou tao	1
+信使气球	xin shi qi qiu	1
+康加舞	kang jia wu	1
+独角兽球	du jiao shou qiu	1
+
+岩洞探险	yan dong tan xian	1
+朔风战斗法师	shuo feng zhan dou fa shi	1
+石鱼变节者	shi yu bian jie zhe	1
+伏龙岛	fu long dao	1
+火墙	huo qiang	1
+熔岩河	rong yan he	1
+神秘挑战	shen mi tiao zhan	1
+带翼战靴	dai yi zhan xue	1
+元素符文	yuan su fu wen	1
+换位魔杖	huan wei mo zhang	1
+淘汰之刃	tao tai zhi ren	1
+积分小宝箱	ji fen xiao bao xiang	1
+积分大宝箱	ji fen da bao xiang	1
+款式解锁碎片	kuan shi jie suo sui pian	1
+嘲讽动作	chao feng dong zuo	1
+血腥之刃	xue xing zhi ren	1
+快起来着迷	kuai qi lai zhuo mi	1
+甜瓜大屠杀	tian gua da tu sha	1
+不快乐的愉悦	bu kuai le de yu yue	1
+巨神奔放游	ju shen ben fang you	1
+怨念深饼	yuan nian shen bing	1
+不快乐的愉悦	bu kuai le de yu yue	1
+不只是一团心智	bu zhi shi yi tuan xin zhi	1
+矮子双人组	ai zi shuang ren zu	1
+心中的黑暗	xin zhong de hei an	1
+每周任务	mei zhou ren wu	1
+点击开玩	 dian ji kai wan	1
+别人不用知道	 bie ren bu yong zhi dao	1
+两面三刀	 liang mian san dao	1
+组队巡逻	 zu dui xun luo	1
+尘缘已了	 chen yuan yi liao	1
+祝你攻城愉快	 zhu ni gong cheng yu kuai	1
+打得一直不错	 da de yi zhi bu cuo	1
+胜人一筹	 sheng ren yi chou	1
+距离只是个数字	 ju li zhi shi ge shu zi	1
+最难的部分	 zui nan de bu fen	1
+我们还没结束	 wo men hai mei jie shu	1
+优游自若	 you you zi ruo	1
+一石三鸟	 yi shi san niao	1
+医者真英雄	 yi zhe zhen ying xiong	1
+真不容易	 zhen bu rong yi	1
+迎接极限	 ying jie ji xian	1
+吓人战术	 xia ren zhan shu	1
+巅峰表演	 dian feng biao yan	1
+聪明人上分	 cong ming ren shang fen	1
+壮汉上分	 zhuang han shang fen	1
+猛男上分	 meng nan shang fen	1
+安全巡逻	 an quan xun luo	1
+大人在说话	 da ren zai shuo hua	1
+玩出风采	 wan chu feng cai	1
+伐木狂魔	 fa mu kuang mo	1
+身处秘术团伙	 shen chu mi shu tuan huo	1
+让他们静静	 rang ta men jing jing	1
+前哨站长	 qian shao zhan zhang	1
+仁心仁树	 ren xin ren shu	1
+饰品	shi pin	1
+身心	shen xin	1
+蓝心来使	lan xin lai shi	1
+漂泊绝影	piao bo jue ying	1
+太虚风暴玄宇	tai xu feng bao xuan yu	1
+超维逆族	chao wei ni zu	1
+高徒正道	gao tu zheng dao	1
+失落奇艺侍祭	shi luo qi yi shi ji	1
+重温旧日	chong wen jiu ri	1
+昔日暗黑奇艺	xi ri an hei qi yi	1
+魔星后裔	mo xing hou yi	1
+心嗔天使	xin chen tian shi	1
+至宝	zhi bao	1
+剑心之遗	jian xin zhi yi	1
+银影天仇	yin ying tian chou	1
+坚冰之心	jian bing zhi xin	1
+疯魔之境	feng mo zhi jing	1
+沉舰豚炮	chen jian tun pao	1
+无双鬼魅	wu shuang gui mei	1
+鬼幽现世	gui you xian shi	1
+鬼幽丹辉	gui you dan hui	1
+噬魔之王	shi mo zhi wang	1
+心渊魔角	xin yuan mo jiao	1
+魔导师密钥	mo dao shi mi yao	1
+天外飞星	tian wai fei xing	1
+魔导师炽魂	mo dao shi chi hun	1
+战鬼双刃	zhan gui shuang ren	1
+坍塌雪裘	tan ta xue qiu	1
+雷霆神盔	lei ting shen kui	1
+擎天大圣	qing tian da sheng	1
+仁爱之友	ren ai zhi you	1
+千劫神屠	qian jie shen tu	1
+金鹏之幸	jin peng zhi xing	1
+真王降临	zhen wang jiang lin	1
+魔延新尊	mo yan xin zun	1
+清风环佩	qing feng huan pei	1
+信使	xin shi	1
+玉兔美萱	yu tu mei xuan	1
+
+游戏赛事	you xi sai shi	1
+冬季职业巡回赛	dong ji zhi ye xun hui sai	1
+英特尔世界公开赛	ying te er shi jie gong kai sai	1
+游戏公会	you xi gong hui	1
+公会旗帜	gong hui qi zhi	1
+契约栏位	qi yue lan wei	1
+暴世骑士的战盔	bao shi qi shi de zhan kui	1
+天命无常武器	tian ming wu chang wu qi	1
+黑门哨卫背部	hei men shao wei bei bu	1
