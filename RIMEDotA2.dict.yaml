@@ -13,7 +13,7 @@
 ## 阵营与活动
 ---
 name: RIMEDotA2 # 词库名
-version: "V7.38"  # 词库版本，2025-03-20
+version: "V7.38-2"  # 词库版本，2025-02-21
 sort: original # 排序依据：按照权重
 ...
 属性	shu xing	1
@@ -108,6 +108,7 @@ sort: original # 排序依据：按照权重
 先天技能	xian tian ji neng	1
 命石	ming shi	1
 狂石	kuang shi	1
+捆缚	kun fu	1
 
 技能	ji neng	1
 魔法抗性	mo fa kang xing	1
@@ -559,6 +560,7 @@ sort: original # 排序依据：按照权重
 中立代币	zhong li dai bi	1
 中立生物物品	zhong li sheng wu wu pin	1
 中立物品	zhong li wu pin	1
+
 第一级	di yi ji	1
 万灵药水	wan ling yao shui	1
 基恩镜片	ji en jing pian	1
@@ -592,6 +594,11 @@ sort: original # 排序依据：按照权重
 蝌蚪护符	ke dou hu fu	1
 撕裂之鞭	si lie zhi bian	1
 可靠铁铲	ke kao tie chan	1
+休眠珍品	xiu mian zhen pin	1
+隐藏潜能	yin cang qian neng	1
+魅影之衣	mei ying zhi yi	1
+蒙纱	meng sha	1
+
 第二级	di er ji	1
 林野长弓	lin ye chang gong	1
 吸血鬼獠牙	xi xue gui liao ya	1
@@ -623,8 +630,9 @@ sort: original # 排序依据：按照权重
 飓风护盾	ju feng hu dun	1
 火药手套	huo yao shou tao	1
 殴击人群	ou ji ren qun	1
+基迪花粉袋	ji di hua fen dai	1
+
 第三级	di san ji	1
-不朽尸王的头盔	bu xiu shi wang de tou kui	1
 维修器具	wei xiu qi ju	1
 崎岖外衣	qi qu wai yi	1
 情趣外衣	qing qu wai yi	1
@@ -653,6 +661,12 @@ sort: original # 排序依据：按照权重
 锯齿刀	ju chi dao	1
 悍劲	han jin	1
 致残之弩	zhi can zhi nu	1
+德尊血式	de zun xue shi	1
+巨人之槌	ju ren zhi chui	1
+灭顶一击	mie ding yi ji	1
+殁境法杖	mo jing fa zhang	1
+自我放逐	zi wo fang zhu	1
+
 
 第四级	di si ji	1
 无知小帽	wu zhi xiao mao	1
@@ -675,7 +689,9 @@ sort: original # 排序依据：按照权重
 烈士鳞甲	lie shi lin jia	1
 殉道	xun dao	1
 皮洛士斗篷	pi luo shi dou peng	1
+
 第五级	di wu ji	1
+不朽尸王的头盔	bu xiu shi wang de tou kui	1
 原力鞋	yuan li xie	1
 凤凰余烬	feng huang yu jin	1
 先哲之石	xian zhe zhi shi	1
@@ -695,6 +711,10 @@ sort: original # 排序依据：按照权重
 暗影邪典	an ying xie dian	1
 秘术师铠甲	mi shu shi kai jia	1
 不屈之眼	bu qu zhi yan	1
+天赐华冠	tian ci hua guan	1
+失节华冠	shi jie hua guan	1
+
+
 中立物品附魔	zhong li wu pin fu mo	1
 中立生物附魔	zhong li sheng wu fu mo	1
 警觉	jing jue	1
@@ -934,6 +954,7 @@ sort: original # 排序依据：按照权重
 石堂城	shi tang cheng	1
 石堂城甲胄	shi tang cheng jia zhou	1
 战争恩赐	zhan zheng en ci	1
+迎难而战	ying nan er zhan	1
 
 冥魂大帝	ming hun da di	1
 骷髅王	ku lou wang	1
@@ -990,6 +1011,7 @@ sort: original # 排序依据：按照权重
 装甲力量	zhuang jia li liang	1
 钩结	gou jie	1
 电枢扩展	dian shu kuo zhan	1
+人形锁子甲	ren xing suo zi jia	1
 
 神灵武士	shen ling wu shi	1
 哈斯卡	ha si ka	1
@@ -1094,6 +1116,7 @@ sort: original # 排序依据：按照权重
 回音击	hui yin ji	1
 地壳积累	di qiao ji lei	1
 强击图腾	qiang ji tu teng	1
+岩脊共鸣	yan ji gong ming	1
 
 斧王	fu wang	1
 蒙哥可汗	meng ge ke han	1
@@ -1194,10 +1217,12 @@ sort: original # 排序依据：按照权重
 掘地穿刺	jue di chuan ci	1
 沙尘暴	sha chen bao	1
 腐尸毒	fu shi du	1
+尾刺	wei ci	1
 地震	di zhen	1
 黄沙漫天	huang sha man tian	1
 尘卷旋风	chen juan xuan feng	1
-尾刺	wei ci	1
+喷砂	pen sha	1
+腐尸刺	fu shi ci	1
 
 混沌骑士	hun dun qi shi	1
 耐萨基	nai sa ji	1
@@ -1287,6 +1312,7 @@ sort: original # 排序依据：按照权重
 拉远	la yuan	1
 视野先知	shi ye xian zhi	1
 医疗枪	yi liao qiang	1
+源泉	yuan quan	1
 
 裂魂人	lie hun ren	1
 巴拉森	ba la sen	1
@@ -1387,6 +1413,7 @@ sort: original # 排序依据：按照权重
 太阳能充电	tai yang neng chong dian	1
 闪光重锤	shan guang zhong chui	1
 开路先锋	kai lu xian feng	1
+星光汹涌	xing guang xiong yong	1
 
 玛西	ma xi	1
 过肩摔	guo jian shuai	1
@@ -1471,6 +1498,7 @@ sort: original # 排序依据：按照权重
 分裂箭	fen lie jian	1
 秘术异蛇	mi shu yi she	1
 魔法护盾	mo fa hu dun	1
+罗网箭阵	luo wang jian zhen	1
 石化凝视	shi hua ning shi	1
 冷血动物	leng xue dong wu	1
 魔力充盈	mo li chong ying	1
@@ -1828,6 +1856,7 @@ sort: original # 排序依据：按照权重
 动脉偾张	dong mai fen zhang	1
 血色冲锋	xue se chong feng	1
 血雾	xue wu	1
+老血	lao xue	1
 
 齐天大圣	qi tian da sheng	1
 棒击大地	bang ji da di	1
@@ -1838,6 +1867,7 @@ sort: original # 排序依据：按照权重
 猴子猴孙	hou zi hou sun	1
 大圣坚阵	da sheng jian zhen	1
 猿猴步法	yuan hou bu fa	1
+出神入化	chu shen ru hua	1
 
 月之骑士	yue zhi qi shi	1
 月骑	yue qi	1
@@ -1999,6 +2029,7 @@ sort: original # 排序依据：按照权重
 丛林之魂	cong lin zhi hun	1
 铁树树人	tie shu shu ren	1
 舒缓之苗	shu huan zhi miao	1
+自然先富	zi ran xian fu	1
 
 死灵飞龙	si ling fei long	1
 维萨吉	wei sa ji	1
@@ -2055,6 +2086,8 @@ sort: original # 排序依据：按照权重
 智力外流	zhi li wai liu	1
 无法抑制	wu fa yi zhi	1
 寂静回荡	ji jing hui dang	1
+突触分裂	tu chu fen lie	1
+默默受苦	mo mo shou ku	1
 
 祈求者	qi qiu zhe	1
 卡尔	ka er	1
@@ -2119,8 +2152,9 @@ sort: original # 排序依据：按照权重
 静态风暴	jing tai feng bao	1
 电磁排斥	dian ci pai chi	1
 动能栅栏	dong neng zha lan	1
-大魔导师	da mo dao shi	1
+转移	zhuan yi	1
 
+大魔导师	da mo dao shi	1
 拉比克	la bi ke	1
 隔空取物	ge kong qu wu	1
 隔空取物着陆	ge kong qu wu zhuo lu	1
@@ -2156,9 +2190,17 @@ sort: original # 排序依据：按照权重
 衡势	heng shi	1
 神智之蚀	shen zhi zhi shi	1
 殁境	mo jing	1
+殁世	mo shi	1
+殁界	mo jie	1
+殁界心神	mo jie xin shen	1
+殁界神智	mo jie shen zhi	1
 殁境神力	mo jing shen li	1
 殁世神灭	mo shi shen mie	1
-殁势神蚀	mo shi shen shi	1
+殁世神识	mo shi shen shi	1
+殁世神蚀	mo shi shen shi	1
+殁世神元	mo shi shen yuan	1
+殁宇吞蚀	mo yu tun shi	1
+
 
 受折磨的灵魂	shou zhe mo de ling hun	1
 拉席克	la xi ke	1
@@ -2358,6 +2400,7 @@ sort: original # 排序依据：按照权重
 巫毒咒法	wu du zhou fa	1
 巫毒疗法	wu du liao fa	1
 死亡分裂	si wang fen lie	1
+巫蛊爆炸	wu gu bao zha	1
 
 恶魔巫师	e mo wu shi	1
 莱恩	lai en	1
@@ -2378,6 +2421,7 @@ sort: original # 排序依据：按照权重
 死亡充能	si wang chong neng	1
 冰霜之缚	bing shuang zhi fu	1
 寒意渐增	han yi jian zeng	1
+邪眼	xie yan	1
 
 祸乱之源	huo luan zhi yuan	1
 痛苦之源	tong ku zhi yuan	1
@@ -2407,6 +2451,7 @@ sort: original # 排序依据：按照权重
 破碎之冠	po sui zhi guan	1
 
 天涯墨客	tian ya mo ke	1
+绝笔	jue bi	1
 命运之笔	ming yun zhi bi	1
 幻影之拥	huan ying zhi yong	1
 墨涌	mo yong	1
@@ -2429,6 +2474,7 @@ sort: original # 排序依据：按照权重
 超自然	chao zi ran	1
 亡灵之舞	wang ling zhi wu	1
 祭台	ji tai	1
+快枪手	kuai qiang shou	1
 
 百戏大王	bai xi da wang	1
 科里奥斯特罗	ke li ao si luo te	1
@@ -2599,9 +2645,6 @@ DotAPlus	dotaplus	1
 逆转协律	ni zhuan xie lv	1
 蜥蜴束系	xi yi shu xi	1
 神圣之心捆绑包	shen sheng zhi xin kun bang bao	1
-倾天之战	qing tian zhi zhan	1
-糖果厂摊车	tang guo chang tan che	1
-
 国际邀请赛	guo ji yao qing sai	1
 勇士令状纹章	yong shi ling zhuang wen zhang	1
 求圣之路	qiu sheng zhi lu	1
@@ -2697,7 +2740,7 @@ DotAPlus	dotaplus	1
 让他们静静	 rang ta men jing jing	1
 前哨站长	 qian shao zhan zhang	1
 仁心仁树	 ren xin ren shu	1
-饰品	shi pin	1
+
 身心	shen xin	1
 蓝心来使	lan xin lai shi	1
 漂泊绝影	piao bo jue ying	1
@@ -2733,9 +2776,6 @@ DotAPlus	dotaplus	1
 真王降临	zhen wang jiang lin	1
 魔延新尊	mo yan xin zun	1
 清风环佩	qing feng huan pei	1
-信使	xin shi	1
-玉兔美萱	yu tu mei xuan	1
-
 游戏赛事	you xi sai shi	1
 冬季职业巡回赛	dong ji zhi ye xun hui sai	1
 英特尔世界公开赛	ying te er shi jie gong kai sai	1
