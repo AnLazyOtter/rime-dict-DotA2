@@ -13,7 +13,7 @@
 ## 阵营与活动
 ---
 name: RIMEDotA2 # 词库名
-version: "V7.38-2"  # 词库版本，2025-02-21
+version: "V7.39"  # 词库版本，2025-06-07
 sort: original # 排序依据：按照权重
 ...
 属性	shu xing	1
@@ -2586,15 +2586,22 @@ DotAPlus	dotaplus	1
 两个吃树谢谢	liang ge chi shu xie xie	1
 吹跳绿隐推	chui tiao lv yin tui	1
 浪逼五件套	lang bi wu jian tao	1 
+反眼	fan yan	1
+排眼	pai yan	1
 
 阵营与活动	zhen ying yu huo dong	1
 阵营	zhen ying	1
 天辉	tian hui	1
 夜魇	ye yan	1
 神杖二	shen zhang er	1
+
 版本更新	ban ben geng xin	1
 勇士联赛	yong shi lian meng	1
 世外之争	shi wai zhi zheng	1
+大展宏图	da zhan hong tu	1
+春华正茂	chun hua zheng mao	1
+
+
 边路商店	bian lu shang dian	1
 西泽尔	xi ze er	1
 柯特	ke te	1
