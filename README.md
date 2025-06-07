@@ -1,11 +1,12 @@
-# rime-dict-DotA2
-面向rime的游戏词库
+# rime-dict-Otter
+面向rime的游戏词库，目前包含DotA2、原神（Genshin Impact）、绝区零（Zenless Zone Zero）。
 *来是只有DotA2的，后来索性把玩的游戏都给放上来好了。*
 
 ## 背景
 
 个人喜爱DotA2这款游戏，但是网络上似乎没有一款及时更新的简体中文DotA2词库。所以就充分利用个人空闲时间，制作了这份DotA2词库，供RIME输入法的朋友们使用。
 另外，此词库目前会同步更新到搜狗拼音输入法的词库「[DotA2词库、刀塔2](https://pinyin.sogou.com/dict/detail/index/109151)」中。
+原神和绝区零实在是懒得更新上去了，有需求的可以通过深蓝词库转换工具自行转换。
 
 ## 使用方法
 ### 首次使用：
