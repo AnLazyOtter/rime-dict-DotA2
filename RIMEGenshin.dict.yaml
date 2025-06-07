@@ -20,9 +20,11 @@
 
 ---
 name: RIMEGenshin #词库名
-version: "V5.5"	#词库版本，2025-03-30
+version: "V5.7-1"	#词库版本，2025-06-07
 sort: original #排序依据：按照权重
 ...
+原神	yuan shen	1
+Genshin Impact	yuan shen	1
 阿丑	a chou	1
 阿德菲	a de fei	1
 阿尔邦	a er bang	1
@@ -37,11 +39,9 @@ sort: original #排序依据：按照权重
 阿山婆	a shan po	1
 阿斯托洛吉斯	a si tuo luo ji si	1
 阿索斯物质	a suo si wu zhi	1
-阿陀河谷	a tuo he gu	1
 阿亚德瓦	a ya de wa	1
 爱贝尔	ai bei er	1
 埃德	ai de	1
-艾尔卡萨扎莱宫	ai er ka sa zha lai gong	1
 艾莉丝	ai li si	1
 艾伊丝	ai yi si	1
 暗藏柔顺的叶纹	an cang rou shun de ye wen	1
@@ -324,7 +324,6 @@ sort: original #排序依据：按照权重
 踩踏蹦跳	cai ta beng tiao	1
 踩踏蹦跳的禁区	cai ta beng tiao de jin qu	1
 猜先有方	cai xian you fang	1
-裁叶萃光	cai ye cui guang	1
 裁雨留虹	cai yu liu hong	1
 残毁的横脊	can hui de heng ji	1
 参量质变仪	can liang zhi bian yi	1
@@ -704,7 +703,6 @@ sort: original #排序依据：按照权重
 抵力松茶	di li song cha	1
 地灵龛	di ling kan	1
 地灵龛之钥	di ling kan zhi yao	1
-迪卢克	di lu ke	1
 蒂玛乌斯	di ma wu si	1
 地脉的旧枝	di mai de jiu zhi	1
 地脉的枯叶	di mai de ku ye	1
@@ -1417,7 +1415,6 @@ sort: original #排序依据：按照权重
 花色躯干	hua se qu gan	1
 化神	hua shen	1
 花神	hua shen	1
-花时来信	hua shi lai xin	1
 华饰之兜	hua shi zhi dou	1
 椛狩	hua shou	1
 花坛	hua tan	1
@@ -1653,7 +1650,6 @@ sort: original #排序依据：按照权重
 将帅兜鍪	jiang shuai dou mou	1
 将一切美好献给你	jiang yi qie mei hao xian gei ni	1
 降众天华	jiang zhong tian hua	1
-降诛魔山	jiang zhu mo shan	1
 交叉火力	jiao cha huo li	1
 交错放置	jiao cuo fang zhi	1
 交错放置的杉木货箱	jiao cuo fang zhi de sha mu huo xiang	1
@@ -1983,7 +1979,6 @@ sort: original #排序依据：按照权重
 腊肉窝窝头	la rou wo wo tou	1
 辣味时蔬烩肉	la wei shi shu hui rou	1
 来复知时	lai fu zhi shi	1
-莱艮芬德	lai gen fen de	1
 来来菜	lai lai cai	1
 来自何处	lai zi he chu	1
 兰巴德酒馆	lan ba de jiu guan	1
@@ -2542,7 +2537,6 @@ sort: original #排序依据：按照权重
 魔女破灭之时	mo nv po mie zhi shi	1
 魔女套	mo nv tao	1
 魔偶机心	mo ou ji xin	1
-魔偶剑鬼	mo ou jian gui	1
 魔瓶镇灵	mo ping zhen ling	1
 魔杀绝技	mo sha jue ji	1
 末途真眼	mo tu zhen yan	1
@@ -2860,7 +2854,6 @@ sort: original #排序依据：按照权重
 禽肉	qin rou	1
 侵蚀	qin shi	1
 琴师的箭羽	qin shi de jian yu	1
-琴团长	qin tuan zhang	1
 寝息之光	qin xi zhi guang	1
 侵霞石	qin xia shi	1
 情报交易员	qing bao jiao yi yuan	1
@@ -3068,7 +3061,6 @@ sort: original #排序依据：按照权重
 森林的瑞佑	sen lin de rui you	1
 森林居民	sen lin ju min	1
 森林书	sen lin shu	1
-森林王器	sen lin wang qi	1
 森林之歌	sen lin zhi ge	1
 森罗万象	sen luo wan xiang	1
 森郁花繁之翼	sen yu hua fan zhi yi	1
@@ -4256,7 +4248,6 @@ sort: original #排序依据：按照权重
 岩王爷	yan wang ye	1
 炎威	yan wei	1
 炎舞	yan wu	1
-演武传心	yan wu chuan xin	1
 烟霞入梦阁	yan xia ru meng ge	1
 烟霞云梦榻	yan xia yun meng ta	1
 焰硝	yan xiao	1
@@ -4323,7 +4314,6 @@ sort: original #排序依据：按照权重
 夜行暗火	ye xing an huo	1
 夜巡影翼	ye xun ying yi	1
 椰羊	ye yang	1
-叶隐芳名	ye yin fang ming	1
 夜莺座	ye ying zuo	1
 一瓣荫凉	yi ban yin liang	1
 异邦草翦	yi bang cao jian	1
@@ -4631,7 +4621,6 @@ sort: original #排序依据：按照权重
 元气迸发	yuan qi beng fa	1
 渊青宝珠	yuan qing bao zhu	1
 渊色黑翼	yuan se hei yi	1
-原神	yuan shen	1
 原石	yuan shi	1
 原始胎海	yuan shi tai hai	1
 原始胎海之水	yuan shi tai hai zhi shui	1
@@ -4910,8 +4899,6 @@ sort: original #排序依据：按照权重
 注能之针	zhu neng zhi zhen	1
 朱漆圆桌	zhu qi yuan zhuo	1
 祝圣交响乐	zhu sheng jiao xiang yue	1
-祝圣精华	zhu sheng jing hua	1
-祝圣油膏	zhu sheng you gao	1
 竺生御纳户	zhu sheng yu na hu	1
 铸石地基	zhu shi di ji	1
 瞩视无遗	zhu shi wu yi	1
@@ -5005,6 +4992,7 @@ sort: original #排序依据：按照权重
 深境螺旋	shen jing luo xuan	1
 渊月祝福	yuan yue zhu fu	1
 合溯之刻	he su zhi ke	1
+深境回廊	shen jing hui lang	1
 渊月螺旋	yuan yue luo xuan	1
 
 #剧诗
@@ -5027,6 +5015,15 @@ sort: original #排序依据：按照权重
 岩晶强袭	yan jing qiang xi	1
 碎冰迸石	sui bing beng shi	1
 
+幽境危战	you jing wei zhan	10
+危战嘉奖	wei zhan jia jiang	1
+赋光之人	fu guang zhi ren	1
+辉世之眷	hui shi zhi juan	1
+至危挑战	zhi wei tiao zhan	1
+辉光	hui guang	1
+恒昼辉光	heng zhou hui guang	1
+
+
 毗乃昆尼末法世记	pi nai kun ni mo fa shi ji	1
 
 
@@ -5045,6 +5042,10 @@ sort: original #排序依据：按照权重
 常驻祈愿	chang zhu qi yuan	1
 活动祈愿	huo dong qi yuan	1
 集录祈愿	ji lu qi yuan	1
+晨风之诗	chen feng zhi shi	1
+玉岩之愿	yu yan zhi yuan	1
+鸣雷贯天原	ming lei guan tian yuan	1
+
 常驻池	chang zhu chi	1
 限定池	xian ding chi	1
 混池	hun chi	1
@@ -5056,6 +5057,16 @@ sort: original #排序依据：按照权重
 
 十连双金	shi lian shuang jin	1
 十连三金	shi lian san jin	1
+##5.7版本活动
+蛇之七变	she zhi qi bian	1
+阵列推想大作战	zhen lie tui xiang da zuo zhan	1
+伙伴冒险大战记	huo ban mao xian da zhan ji	1
+茹果食补大调研	ru guo shi bu da diao yan	1
+轰隆轰隆缤纷火力	hong long hong long bin fen huo li	1
+追想练行	zhui xiang lian xing	1
+豪斗之星	hao dou zhi xing	1
+鎏溢之章	liu yi zhi zhang	1
+
 
 ##5.6版本活动
 和旋舞剧	he xuan wu ju	1
@@ -5065,6 +5076,17 @@ sort: original #排序依据：按照权重
 阿让托	a rang tuo	1
 一切代价的回旋	yi qie dai jia de hui xuan	1
 安格尔望	an ge er wang	1
+一帆风顺的美愿	yi fan feng shun de mei yuan	1
+
+伙伴奇遇	huo ban qi yu	1
+远道而来的活力水果	yuan dao er lai de huo li shui guo	1
+映影机	ying ying ji	1
+护士长与映影机	hu shi zhang yu ying ying ji	1
+佣兵们的银幕征战	yong bing men de yin mu zheng zhan	1
+佣兵	yong bing	1
+炽光武器小站	chi guang wu qi xiao zhan	1
+惊险表情和恐怖桥段	jing xian biao qing he kong bu qiao duan	1
+人气明星的新桥段	ren qi ming xing de xin qiao duan	1
 
 海薇玛映影欢乐城	hai wei ma ying ying huan le cheng	1
 缤纷蹈险奇行	bin fen dao xian qi xing	1
@@ -5076,11 +5098,19 @@ sort: original #排序依据：按照权重
 朱斯蒂娜	zhu si di na	1
 邦邦滚石	bang bang gun shi	1
 
-
-
-
 雨阵奔流之述演	yu zhen ben liu zhi shu yan	1
 昂吉安妮	ang ji an ni	1
+
+机谋变策战记	ji mou bian ce zhan ji	1
+炽烈传说	chi lie chuan shuo	1
+跨界乱斗	kua jie luan dou	1
+互动织卷	hu dong zhi juan	1
+维热	wei re	1
+小松果	xiao song guo	1
+燃爆木头人	ran bao mu tou ren	1
+珍币之争	zhen bi zhi zheng	1
+龙之攻势	long zhi gong shi	1
+黑曜石的曳光迹	hei yao shi de ye guang jie	1
 
 ##5.5版本活动
 空月之歌	kong yue zhi ge	1
@@ -5153,7 +5183,6 @@ sort: original #排序依据：按照权重
 凶魁巨怪觇候录	xiong kui ju guai chan hou lu	1
 
 
-神工天巧	shen gong tian qiao	1
 三川花祭	san chuan hua ji	1
 三川游艺绮梦谭	san chuan you yi qi meng tan	1
 如入幻梦	ru ru huan meng	1
@@ -5192,16 +5221,36 @@ sort: original #排序依据：按照权重
 爆炸式狙击	bao zha shi ju ji	1
 投壶喝彩大会	tou hu he cai da hui	1
 
+
+##5.1版本
+彩糖与蔷薇的幻色颂	cai tang yu qiang wei de huan se song	1
+彩糖	cai tang	1
+##3.7版本
+决斗！召唤之巅	zhao huan zhi dian	1
+召唤之巅	zhao huan zhi dian	1
+
 ##3.6版本活动
 合剂演进	he ji yan jin	1
 哈贾娜德	ha ji na de	1
 震沸装置	zhen fei zhuang zhi	1
+##3.5版本
+风花的呼吸	feng hua de hu xi	1
 
-##联动活动
-颂花盈皎宴	song hua ying jiao yan	1
+##3.4版本
+磐弦奏华夜	pan xian zou hua ye	1
+演武传心	yan wu chuan xin	1
+蔷薇再开时	qiang wei zai kai shi	1
+祥应九达	xiang ying jiu da	1
+海灯音乐节	hai deng yin yue jie	1
+##3.3版本
+六入尽明，诸相皆无	liu ru jin ming zhu xiang jie wu	1
 
+安闲露营	an xian lu ying	1
+尘星旅梦	chen xing lv meng	1
+留影叙佳期	liu ying xu jia qi	1
 羽花节	yu hua jie	1
 羽球	yu qiu	1
+神工天巧	shen gong tian qiao	1
 
 
 斗虫	dou chong	1
@@ -5215,6 +5264,32 @@ sort: original #排序依据：按照权重
 漱玉工奇斗虫大玄境	shu yu gong qi dou chong da xuan jing	1
 花羽叶月神机	hua yu ye yue shen ji	1
 辉翼型	hui yi xing	1
+
+
+##周边系列
+映影趣拍	ying ying qu pai	1
+星路拾忆	xing lu shi yi	1
+尘世掠影	chen shi lve ying	1
+尘世戏话	chen shi xi hua	1
+命定之日	ming ding zhi ri	1
+嘉年相聚	jia nian xiang ju	1
+馥郁幻想	fu yu huan xiang	1
+此世之忆	ci shi zhi yi	1
+喵呜速达	miao wu su da	1
+燃动纳塔	ran dong na ta	1
+谧海漫行	mi hai man xing	1
+璀夜华宴	cui ye hua yan	1
+
+##联动活动
+颂花盈皎宴	song hua ying jiao yan	1
+风味之旅	feng wei zhi lv	1
+尘世华章	chen shi hua zhang	1
+美味派对	mei wei pai dui	1
+无尽奏鸣	wu jin zou ming	1
+尘间星旅	chen jian xing lv	1
+夺堡奇兵	duo bao qi bing	1
+新式终端浮叶型	xin shi zhong duan fu ye xing	1
+浮叶型	fu ye xing	1
 
 
 精通移涌	jing tong yi yong	1
@@ -5450,7 +5525,10 @@ sort: original #排序依据：按照权重
 给旅行者的小蛋糕	gei lv xing zhe de xiao dan gao	1
 新名撰聿	xin ming zhuan yu	1
 重立名约之契	chong li ming yue zhi qi	1
+祝圣精华	zhu sheng jing hua	1
+祝圣油膏	zhu sheng you gao	1
 祝圣之霜	zhu sheng zhi shuang	1
+启圣之尘	qi sheng zhi chen	1
 灼赤曜石断片	zhuo chi yao shi duan pian	1
 灼赤曜石环	zhuo chi yao shi huan	1
 翠青曜石断片	cui qing yao shi duan pian	1
@@ -5499,6 +5577,10 @@ sort: original #排序依据：按照权重
 #成就
 天地万象	tian di wan xiang	1
 
+如孩童的躁动般	ru hai tong de zao dong ban	1
+瓦尔普吉斯的游戏	wa er pu ji si de you xi	1
+瓦尔普吉斯	wa er pu ji si	1
+
 梦醒时分	meng xing shi fen	1
 至少是个开始	zhi shao shi ge kai shi	1
 音乐不灭	yin yue bu mie	1
@@ -5527,6 +5609,7 @@ sort: original #排序依据：按照权重
 并不怎么窄的门	bing bu zen me zhai de men	1
 
 ###稻妻天地万象
+堂堂正正的决斗	tang tang zheng zheng de jue dou	1
 智圆行方	zhi yuan xing fang	1
 「智圆行方」小锦旗	zhi yuan xing fang	1
 明察冬鳗	ming cha dong man	1
@@ -5576,6 +5659,7 @@ sort: original #排序依据：按照权重
 渴盼已久之时	ke pan yi jiu zhi shi	1
 只有我消失的村落	zhi you wo xiao shi de cun luo	1
 存在的证明	cun zai de zheng ming	1
+圆滚滚的创化论	yuan gun gun de chuang hua lun	1
 
 
 ###纳塔天地万象
@@ -5610,6 +5694,8 @@ sort: original #排序依据：按照权重
 创造朝向所想之路	chuang zao chao xiang suo xiang zhi lu	1
 杜麦尼的诗篇	du mai ni de shi pian	1
 往后你可自由地	wang hou ni ke zi you de	1
+极品飞龙	ji pin fei long	1
+
 
 ###至冬天地万象
 
@@ -5959,6 +6045,15 @@ sort: original #排序依据：按照权重
 直到有人点燃了自我	zhi dao you ren dian ran le zi wo	1
 宇宙才拥有最初的光	yu zhou cai yong you zui chu de guang	1
 
+##间章悖理
+悖理	bei li	1
+第一及第二罪行	di yi ji di er zui xing	1
+汉瑟曼	hai se man	1
+众生的渴求	zhong sheng de ke qiu	1
+纳贝里士	na bei li shi	1
+
+##旅人之章你存在的时空
+你存在的时空	ni cun zai de shi kong	1
 
 世界任务	shi jie ren wu	1
 ##蒙德世界任务
@@ -6036,6 +6131,8 @@ sort: original #排序依据：按照权重
 蒸气鸟	zheng qi niao	1
 蒸气鸟报社	zheng qi niao bao she	1
 烦恼杀手	fan nao sha shou	1
+图形对抗学	tu xing dui kang xue	1
+早早失败的「图形对抗学」	zao zao shi bai de tu xing dui kang xue	1
 冒险就要朝着远方	mao xian jiu yao chao zhe yuan fang	1
 问题美露莘与答案机器人	wen ti mei lu xin yu da an ji qi ren	1
 流浪汉与小屁孩	liu lang han yu xiao pi hai	1
@@ -6184,6 +6281,10 @@ sort: original #排序依据：按照权重
 
 
 传说任务	chuan shuo ren wu	1
+##蒙德角色传说任务
+白垩之章	bai e zhi zhang	1
+皑尘与雪影	ai chen yu xue ying	1
+
 ##璃月角色传说任务
 仙麟之章	xian lin zhi zhang	1
 云之海，人之海	yun zhi hai ren zhi hai	1
@@ -6250,7 +6351,7 @@ sort: original #排序依据：按照权重
 以炽焰炙烤	yi chi yan zhi kao	1
 爱洛依丝	ai luo yi si	1
 以冰霜粉饰	yi bing shuang fen shi	1
-
+昔日欢宴之境	xi ri huan yan zhi jing	1
 
 ##纳塔角色传说任务
 不败阳焰之章	bu bai yang yan zhi zhang	1
@@ -6271,6 +6372,8 @@ sort: original #排序依据：按照权重
 海风中的相会	hai feng zhong de xiang hui	1
 困于笼中之鸟	kun yu long zhong zhi niao	1
 步入阳光之下	bu ru yang guang zhi xia	1
+
+磷星之章	lin xing zhi zhang	1
 
 
 部族纪闻	bu zu ji wen	1
@@ -6409,6 +6512,10 @@ sort: original #排序依据：按照权重
 祖拜尔剧场	zu bai er ju chang	1
 
 维摩庄	wei mo zhuang	1
+
+阿陀河谷	e tuo he gu	1
+降诸魔山	jiang zhu mo shan	1
+艾尔卡萨扎莱宫	ai er ka sa zha lai gong	1
 
 桓那兰那	huan na lan na	1
 往昔的桓那兰那	wang xi de huan na lan na	1
@@ -6899,7 +7006,8 @@ Nod-Krai	nuo de ka lai	1
 
 炉壳山鼬	lu ke shan you	1
 
-
+##至冬原魔
+狂猎之影	kuang lie zhi ying	1
 
 
 首领原魔
@@ -6928,6 +7036,9 @@ Nod-Krai	nuo de ka lai	1
 隐山猊兽	yin shan ni shou	1
 
 ###稻妻首领原魔
+魔偶剑鬼	mo ou jian gui	1
+枉死之面	wang si zhi mian	1
+
 黄金王兽	huang jin wang shou	1
 王狼直击	wang lang zhi ji	1
 兽境轰召	shou jing hong zhao	1
@@ -7359,7 +7470,13 @@ Nod-Krai	nuo de ka lai	1
 岩王帝姬	yan wang di ji	1
 支援就交给我吧	zhi yuan jiu jiao gei wo ba	1
 
+迪卢克	di lu ke	1
+莱艮芬德	lai gen fen de	1
+
 ###琴
+琴团长	qin tuan zhang	1
+琴・古恩希尔德	qin tuan zhang	1
+古恩希尔德	gu en xi er de	1
 蒲公英的国土	pu gong ying de guo tu	1
 蒲公英领域	pu gong ying ling yu	1
 蒲公英骑士	pu gong ying qi shi	1
@@ -7387,12 +7504,19 @@ Nod-Krai	nuo de ka lai	1
 
 可莉	ke li	1
 火花骑士	huo hua qi shi	1
+嘟嘟通讯仪	du du tong xun yi	1
+
 丽莎	li sha	1
 
 罗莎莉亚	luo sha li ya	1
 
 米卡	mi ka	1
 晴霜的标绘	qing shuang de biao hui	1
+
+塔利雅	ta li ya	1
+颂礼祝祭	song li zhu ji	1
+祝颂	zhu song	1
+雾雨秘迹	wu yu mi ji	1
 
 璃月角色	li yue jue se	1
 夜兰	ye lan	1
@@ -8146,8 +8270,15 @@ VARESA	wa lei sha	1
 潜怀暇梦	qian huai xia meng	1
 
 丝柯克	si ke ke	1
+虚渊暗星	xu yuan an xing	1
+蛇之狡谋	she zhi jiao mou	1
+七相一闪	qi xiang yi shan	1
+虚境裂隙	xu jing lie xi	1
+
 
 衣装	yi zhuang	1
+叶隐芳名	ye yin fang ming	1
+花时来信	hua shi lai xin	1
 风之翼	feng zhi yi	1
 苍天清风之翼	cang tian qing feng zhi yi	1
 
@@ -8224,8 +8355,13 @@ VARESA	wa lei sha	1
 
 
 须弥武器	xu mi wu qi	1
+###须弥五星武器
 圣显之钥	sheng xian zhi yao	1
 千叶浮梦	qian ye fu meng	1
+裁叶萃光	cai ye cui guang	1
+
+###须弥四星武器
+森林王器	sen lin wang qi	1
 
 枫丹武器	feng dan wu qi	1
 ###枫丹五星武器
@@ -8336,6 +8472,10 @@ VARESA	wa lei sha	1
 落虹之愿	luo hong zhi yuan	1
 初霞之彩	chu xia zhi cai	1
 苍暮之辉	cang mu zhi hui	1
+
+##至冬武器
+苍耀	cang yao	1
+
 
 圣遗物	sheng yi wu	1
 生之花	sheng zhi hua	1
@@ -8502,8 +8642,10 @@ VARESA	wa lei sha	1
 杂菇荟萃	za gu hui cui	1
 玛萨拉芝士球	ma sa la zhi shi qiu	1
 帕蒂沙兰布丁	pa di sha lan bu ding	1
+蜜金泡果	mi jin pao guo	1
 
 ##枫丹料理
+生肉塔塔	sheng rou ta ta	1
 香烤肋排	xiang kao lei pai	1
 咖啡芭芭露	ka fei ba ba lu	1
 羊杂哈吉斯	yang za ha ji si	1
@@ -8527,10 +8669,12 @@ VARESA	wa lei sha	1
 蒜香面包棍	suan xiang mian bao gun	1
 塔塞斯杂烩	ta sai si za hui	1
 韦西鸡	wei xi ji	1
+德波	de bo	1
+德波大蛋糕	de bo da dan gao	1
+德波小蛋糕	de bo xiao dan gao	1
+德波小蛋糕・改良型	de bo xiao dan gao	1
 
 蜜汁腌鱼	mi zhi yan yu	1
-雾道日出	wu dao ri chu	1
-云顶酣睡	yun ding han shui	1
 
 ##纳塔料理
 歇止一刻	xie zhi yi ke	1
@@ -8546,17 +8690,28 @@ VARESA	wa lei sha	1
 酪香蟹蟹锅	lao xiang xie xie guo	1
 山与海与天空	shan yu hai yu tian kong	1
 
+##联动料理
+肉肉盛宴餐	rou rou sheng yan can	1
+九果甘露饮	jiu guo gan lu yin	1
+鲜奶珠珠派	xian nai zhu zhu pai	1
+奇想爆爆派	qi xiang bao bao pai	1
 
 ##特殊料理
+炉火的往迹	lu huo de wang ji	1
 
 独门秘法	du men mi fa	1
 一梦治愈	yi meng zhi yu	1
 提神醒脑披萨	ti sheng xing nao pi sa	1
 果味奶糖	guo wei nai tang	1
+烤肉香香香卷	kao rou xiang xiang xiang juan	1
 菇菇山脉（单人份）	gu gu shan mai	1
 菇菇山脉	gu gu shan mai	1
 金牌健康餐	jin pai jian kang can	1
 鎏金殿堂	liu jin dian tang	1
+雾道日出	wu dao ri chu	1
+云顶酣睡	yun ding han shui	1
+德波大蛋糕・绚丽型	de bo da dan gao	1
+
 
 药剂	yao ji	1
 纯洁之水	chun jie zhi shui	1
@@ -8585,6 +8740,9 @@ VARESA	wa lei sha	1
 方妮雅	fang ni ya	1
 艾玛托	ai ma tuo	1
 艾琳	ai lin	1
+诺特	nuo te	1
+斯凯荣	si kai rong	1
+威拉格	wei la ge	1
 
 ##璃月人物
 子苌	zi chang	1
@@ -9231,6 +9389,9 @@ VARESA	wa lei sha	1
 辉木重型制陶架	hui mu zhong xing zhi tao jia	1
 辉木自紧酒桶	hui mu zi jin jiu tong	1
 
+##纳塔摆设
+沃陆棚屋	wo lu peng wu	1
+临时之选	lin shi zhi xuan	1
 ##赠礼套装
 言谈之前的沉思	yan tan zhi qian de chen si	1
 竞技场的欢聚胜饮	jing ji chang de huan ju sheng yin	1
@@ -9314,6 +9475,8 @@ VARESA	wa lei sha	1
 
 
 七圣召唤	qi sheng zhao huan	1
+元素八面骰	yuan su ba mian tou	1
+八面骰	ba mian tou	1
 铸境研练	zhu jing yan lian	1
 无量疾战	wu liang ji zhan	1
 
