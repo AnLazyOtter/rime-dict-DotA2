@@ -1,5 +1,6 @@
 # rime-dict-DotA2
-面向rime的DotA2词库
+面向rime的游戏词库
+*来是只有DotA2的，后来索性把玩的游戏都给放上来好了。*
 
 ## 背景
 
